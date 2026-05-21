@@ -116,7 +116,7 @@ export const LessonDetail: React.FC<LessonDetailProps> = ({
             Minna no Nihongo
           </span>
           <h2 className="font-display text-4xl md:text-5xl text-scholastic-navy mb-3 font-extrabold tracking-tight">
-            Lesson <span className="text-scholastic-sakura">{lesson.id.toString().padStart(2, '0')}</span>
+            第 <span className="text-scholastic-sakura">{lesson.id.toString().padStart(2, '0')}</span> 課
           </h2>
           <h1 className="text-xl md:text-2xl font-bold text-slate-500 mb-6">
             {lesson.title.split(': ')[1] || lesson.title} <span className="block text-sm font-medium text-slate-400 mt-1">({lesson.titleVn})</span>
