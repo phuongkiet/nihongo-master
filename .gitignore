@@ -1,0 +1,169 @@
+# =========================================================================
+# SYSTEM & OS FILES
+# =========================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon\r
+._*
+.DocumentRevisions-V100
+.Spotlight-V100
+.Trashes
+NihongoMaster.html
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.trash
+.nfs*
+
+# =========================================================================
+# DEPENDENCIES & PACKAGES
+# =========================================================================
+node_modules/
+jspm_packages/
+web_modules/
+
+# Package manager lockfile overrides or local configs (keep standard package-lock.json)
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+npm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# =========================================================================
+# PRODUCTION BUILDS & CACHES
+# =========================================================================
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.nuxt/
+.docusaurus/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.parcel-cache/
+.turbo/
+
+# Vite, ESLint, Prettier, TypeScript build caches
+.vite/
+.eslintcache
+.prettiercache
+*.tsbuildinfo
+.eslintcache.json
+.eslintcache.js
+
+# =========================================================================
+# ENVIRONMENT VARIABLES & SECRETS (CRITICAL SECURITY)
+# =========================================================================
+# Exclude all environment variable files that contain API keys, credentials, and passwords
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+*.env
+*.env.*
+config/local.json
+config/local-*.json
+
+# Private keys, certificates, credentials
+*.pem
+*.key
+*.pub
+*.pfx
+*.p12
+*.cer
+*.crt
+*.der
+cert.pem
+key.pem
+jwt.keys
+secrets.json
+credentials.json
+google-services.json
+service-account.json
+
+# =========================================================================
+# LOGS & DIAGNOSTICS
+# =========================================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+*.log.*
+crash_report.log
+
+# =========================================================================
+# IDEs, EDITORS & TOOLS
+# =========================================================================
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+*.code-workspace
+.history/
+
+# IntelliJ IDEA (WebStorm, PhpStorm, PyCharm, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Eclipse / NetBeans
+.metadata/
+bin/
+tmp/
+.tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# =========================================================================
+# TESTING & COVERAGE
+# =========================================================================
+coverage/
+.nyc_output/
+.cypress/
+cypress/videos/
+cypress/screenshots/
+.playwright/
+playwright-report/
+test-results/
+
+# =========================================================================
+# DOCKER & LOCAL DEPLOYMENTS
+# =========================================================================
+.docker/
+docker-compose.override.yml
