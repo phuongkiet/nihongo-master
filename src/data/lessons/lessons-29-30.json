@@ -1,0 +1,88 @@
+[
+  {
+    "id": 29,
+    "title": "第29課: 自動詞 và 状態描写",
+    "titleVn": "Tự động từ & Mô tả trạng thái",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "29-1",
+        "point": "Grammar Point Lesson 29",
+        "formula": "Formula 29",
+        "jpExplain": "Explanation in Japanese for lesson 29.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 29.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "29-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "第30課: 他動詞 và 準備行動",
+    "titleVn": "Tha động từ & Hành động chuẩn bị sẵn",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "30-1",
+        "point": "Grammar Point Lesson 30",
+        "formula": "Formula 30",
+        "jpExplain": "Explanation in Japanese for lesson 30.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 30.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "30-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

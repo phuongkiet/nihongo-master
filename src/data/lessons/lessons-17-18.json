@@ -1,0 +1,88 @@
+[
+  {
+    "id": 17,
+    "title": "第17課: 否定の依頼 và ない形",
+    "titleVn": "Yêu cầu phủ định & Thể Nai",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "17-1",
+        "point": "Grammar Point Lesson 17",
+        "formula": "Formula 17",
+        "jpExplain": "Explanation in Japanese for lesson 17.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 17.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "17-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "第18課: 能力、趣味 và 辞書形",
+    "titleVn": "Khả năng, Sở thích & Thể từ điển",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "18-1",
+        "point": "Grammar Point Lesson 18",
+        "formula": "Formula 18",
+        "jpExplain": "Explanation in Japanese for lesson 18.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 18.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "18-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

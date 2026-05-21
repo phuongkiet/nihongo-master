@@ -1,0 +1,88 @@
+[
+  {
+    "id": 47,
+    "title": "第47課: 伝聞、報告 và 兆候",
+    "titleVn": "Tin đồn, Báo cáo & Dấu hiệu",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "47-1",
+        "point": "Grammar Point Lesson 47",
+        "formula": "Formula 47",
+        "jpExplain": "Explanation in Japanese for lesson 47.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 47.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "47-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "第48課: 使役動詞",
+    "titleVn": "Động từ thể sai khiến",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "48-1",
+        "point": "Grammar Point Lesson 48",
+        "formula": "Formula 48",
+        "jpExplain": "Explanation in Japanese for lesson 48.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 48.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "48-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

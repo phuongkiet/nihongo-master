@@ -1,0 +1,88 @@
+[
+  {
+    "id": 15,
+    "title": "第15課: 許可、禁止と現在の状態",
+    "titleVn": "Cho phép, Cấm đoán & Trạng thái hiện tại",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "15-1",
+        "point": "Grammar Point Lesson 15",
+        "formula": "Formula 15",
+        "jpExplain": "Explanation in Japanese for lesson 15.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 15.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "15-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "第16課: 文の結合 và 順序",
+    "titleVn": "Kết hợp câu & Trình tự hành động",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "16-1",
+        "point": "Grammar Point Lesson 16",
+        "formula": "Formula 16",
+        "jpExplain": "Explanation in Japanese for lesson 16.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 16.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "16-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

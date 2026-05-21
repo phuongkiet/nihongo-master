@@ -1,0 +1,88 @@
+[
+  {
+    "id": 11,
+    "title": "第11課: 助数詞、数量と期間",
+    "titleVn": "Lượng từ, Số đếm & Thời gian học",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "11-1",
+        "point": "Grammar Point Lesson 11",
+        "formula": "Formula 11",
+        "jpExplain": "Explanation in Japanese for lesson 11.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 11.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "11-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "第12課: 形容詞と名詞の過去形",
+    "titleVn": "Quá khứ của Tính từ & Danh từ",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "12-1",
+        "point": "Grammar Point Lesson 12",
+        "formula": "Formula 12",
+        "jpExplain": "Explanation in Japanese for lesson 12.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 12.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "12-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

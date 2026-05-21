@@ -1,0 +1,88 @@
+[
+  {
+    "id": 19,
+    "title": "第19課: 経験 và た形",
+    "titleVn": "Kinh nghiệm & Thể Ta",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "19-1",
+        "point": "Grammar Point Lesson 19",
+        "formula": "Formula 19",
+        "jpExplain": "Explanation in Japanese for lesson 19.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 19.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "19-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "第20課: 丁寧体 và 普通体",
+    "titleVn": "Thể lịch sự & Thể thông thường",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "20-1",
+        "point": "Grammar Point Lesson 20",
+        "formula": "Formula 20",
+        "jpExplain": "Explanation in Japanese for lesson 20.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 20.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "20-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

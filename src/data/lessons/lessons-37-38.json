@@ -1,0 +1,88 @@
+[
+  {
+    "id": 37,
+    "title": "第37課: 受身動詞",
+    "titleVn": "Động từ thể bị động",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "37-1",
+        "point": "Grammar Point Lesson 37",
+        "formula": "Formula 37",
+        "jpExplain": "Explanation in Japanese for lesson 37.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 37.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "37-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "第38課: 名詞化節（の・こと）",
+    "titleVn": "Danh từ hóa mệnh đề (No & Koto)",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "38-1",
+        "point": "Grammar Point Lesson 38",
+        "formula": "Formula 38",
+        "jpExplain": "Explanation in Japanese for lesson 38.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 38.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "38-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

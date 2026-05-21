@@ -1,0 +1,88 @@
+[
+  {
+    "id": 21,
+    "title": "第21課: 意見、思考 và 引用",
+    "titleVn": "Ý kiến, Suy nghĩ & Trích dẫn",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "21-1",
+        "point": "Grammar Point Lesson 21",
+        "formula": "Formula 21",
+        "jpExplain": "Explanation in Japanese for lesson 21.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 21.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "21-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "第22課: 名詞修飾節",
+    "titleVn": "Mệnh đề bổ nghĩa danh từ",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "22-1",
+        "point": "Grammar Point Lesson 22",
+        "formula": "Formula 22",
+        "jpExplain": "Explanation in Japanese for lesson 22.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 22.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "22-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

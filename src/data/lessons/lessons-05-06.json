@@ -1,0 +1,656 @@
+[
+  {
+    "id": 5,
+    "title": "第5課: 移動、交通手段と同行者",
+    "titleVn": "Bài 5: Sự di chuyển, Phương tiện & Bạn đồng hành",
+    "vocabulary": [
+      {
+        "jp": "行きます",
+        "kana": "いきます",
+        "romaji": "ikimasu",
+        "vn": "Đi"
+      },
+      {
+        "jp": "来ます",
+        "kana": "きます",
+        "romaji": "kimasu",
+        "vn": "Đến"
+      },
+      {
+        "jp": "帰ります",
+        "kana": "かえります",
+        "romaji": "kaerimasu",
+        "vn": "Về, trở về"
+      },
+      {
+        "jp": "学校",
+        "kana": "がっこう",
+        "romaji": "gakkou",
+        "vn": "Trường học"
+      },
+      {
+        "jp": "スーパー",
+        "kana": "スーパー",
+        "romaji": "su-pa-",
+        "vn": "Siêu thị"
+      },
+      {
+        "jp": "駅",
+        "kana": "えき",
+        "romaji": "eki",
+        "vn": "Nhà ga"
+      },
+      {
+        "jp": "飛行機",
+        "kana": "ひこうき",
+        "romaji": "hikouki",
+        "vn": "Máy bay"
+      },
+      {
+        "jp": "船",
+        "kana": "ふね",
+        "romaji": "fune",
+        "vn": "Thuyền, tàu thủy"
+      },
+      {
+        "jp": "電車",
+        "kana": "でんしゃ",
+        "romaji": "densha",
+        "vn": "Tàu điện"
+      },
+      {
+        "jp": "地下鉄",
+        "kana": "ちかてつ",
+        "romaji": "chikatetsu",
+        "vn": "Tàu điện ngầm"
+      },
+      {
+        "jp": "新幹線",
+        "kana": "しんかんせん",
+        "romaji": "shinkansen",
+        "vn": "Tàu cao tốc Shinkansen"
+      },
+      {
+        "jp": "バス",
+        "kana": "バス",
+        "romaji": "basu",
+        "vn": "Xe buýt"
+      },
+      {
+        "jp": "タクシー",
+        "kana": "タクシー",
+        "romaji": "takushi-",
+        "vn": "Xe taxi"
+      },
+      {
+        "jp": "自転車",
+        "kana": "じてんしゃ",
+        "romaji": "jitensha",
+        "vn": "Xe đạp"
+      },
+      {
+        "jp": "歩いて",
+        "kana": "あるいて",
+        "romaji": "aruite",
+        "vn": "Đi bộ (trạng từ)"
+      },
+      {
+        "jp": "人",
+        "kana": "ひと",
+        "romaji": "hito",
+        "vn": "Người"
+      },
+      {
+        "jp": "友達",
+        "kana": "ともだち",
+        "romaji": "tomodachi",
+        "vn": "Bạn bè"
+      },
+      {
+        "jp": "彼",
+        "kana": "かれ",
+        "romaji": "kare",
+        "vn": "Anh ấy, bạn trai"
+      },
+      {
+        "jp": "彼女",
+        "kana": "かのじょ",
+        "romaji": "kanojo",
+        "vn": "Cô ấy, bạn gái"
+      },
+      {
+        "jp": "家族",
+        "kana": "かぞく",
+        "romaji": "kazoku",
+        "vn": "Gia đình"
+      },
+      {
+        "jp": "一人で",
+        "kana": "ひとりで",
+        "romaji": "hitoride",
+        "vn": "Một mình"
+      },
+      {
+        "jp": "先週",
+        "kana": "せんしゅう",
+        "romaji": "senshuu",
+        "vn": "Tuần trước"
+      },
+      {
+        "jp": "今週",
+        "kana": "こんしゅう",
+        "romaji": "konshuu",
+        "vn": "Tuần này"
+      },
+      {
+        "jp": "来週",
+        "kana": "らいしゅう",
+        "romaji": "raishuu",
+        "vn": "Tuần sau"
+      },
+      {
+        "jp": "先月",
+        "kana": "せんげつ",
+        "romaji": "sengetsu",
+        "vn": "Tháng trước"
+      },
+      {
+        "jp": "今月",
+        "kana": "こんげつ",
+        "romaji": "kongetsu",
+        "vn": "Tháng này"
+      },
+      {
+        "jp": "来月",
+        "kana": "らいげつ",
+        "romaji": "raigetsu",
+        "vn": "Tháng sau"
+      },
+      {
+        "jp": "去年",
+        "kana": "きょねん",
+        "romaji": "kyonen",
+        "vn": "Năm ngoái"
+      },
+      {
+        "jp": "今年",
+        "kana": "ことし",
+        "romaji": "kotoshi",
+        "vn": "Năm nay"
+      },
+      {
+        "jp": "来年",
+        "kana": "らいねん",
+        "romaji": "rainen",
+        "vn": "Năm sau"
+      },
+      {
+        "jp": "いつ",
+        "kana": "いつ",
+        "romaji": "itsu",
+        "vn": "Khi nào"
+      },
+      {
+        "jp": "誕生日",
+        "kana": "たんじょうび",
+        "romaji": "tanjoubi",
+        "vn": "Sinh nhật"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "5-1",
+        "point": "N (địa điểm) へ 行きます/来ます/帰ります",
+        "formula": "[Noun (Place)] へ 行きます / 来ます / 帰ります。",
+        "jpExplain": "移動の目的地や方向を示すとき、場所名詞の後に助詞「へ」を使います。発音は「え」です。",
+        "vnExplain": "Đi / Đến / Về một địa điểm nào đó. Trợ từ 'he' (phát âm là 'e') đứng sau danh từ chỉ nơi chốn để biểu thị phương hướng, đích đến của hành động di chuyển.",
+        "exampleJp": "私は来月日本へ行きます。",
+        "exampleVn": "Tháng sau tôi sẽ đi Nhật Bản.",
+        "exerciseQuestion": "明日どこ___行きますか。...スーパーへ行きます。",
+        "exerciseAnswer": "へ",
+        "exerciseHint": "Trợ từ chỉ hướng di chuyển hướng tới địa điểm"
+      },
+      {
+        "id": "5-2",
+        "point": "どこ [へ] も 行きません/行きませんでした (Phủ định hoàn toàn)",
+        "formula": "どこ [へ] も 行きません / 行きませんでした。",
+        "jpExplain": "疑問詞＋助詞「も」＋動詞の否定形で、その対象や範囲を全面的に否定します。移動の目的地を全否定する場合、「へ」は省略可能です。",
+        "vnExplain": "Không đi đâu cả. Cấu trúc phủ định hoàn toàn: Từ để hỏi (Doko) + trợ từ 'he' (có thể lược bỏ) + 'mo' + động từ thể phủ định.",
+        "exampleJp": "日曜日どこへも行きませんでした。",
+        "exampleVn": "Chủ nhật tôi đã không đi đâu cả.",
+        "exerciseQuestion": "何時に関係なく、どこへ___行きません。",
+        "exerciseAnswer": "も",
+        "exerciseHint": "Trợ từ đi sau đại từ nghi vấn nơi chốn để tạo ý nghĩa phủ định tuyệt đối"
+      },
+      {
+        "id": "5-3",
+        "point": "N (phương tiện) で 行きます/来ます/帰ります",
+        "formula": "[Noun (Vehicle)] で 行きます / 来ます / 帰ります。",
+        "jpExplain": "移動に使用する交通手段や道具を示すとき、名詞の後ろに助詞「で」をつけます。ただし、徒歩の場合は「歩いて」という副詞的表現を使い、「で」はつきません。",
+        "vnExplain": "Đi / Đến / Về bằng phương tiện gì. Trợ từ 'de' biểu thị phương tiện, công cụ giao thông di chuyển. Nếu đi bộ thì dùng cụm 'aruite' (không kèm 'de').",
+        "exampleJp": "タクシーで駅へ行きます。駅から学校へ歩いて帰ります。",
+        "exampleVn": "Tôi đi đến ga bằng xe taxi. Từ ga tôi đi bộ về trường.",
+        "exerciseQuestion": "何___京都へ行きますか。...新幹線で行きます。",
+        "exerciseAnswer": "で",
+        "exerciseHint": "Từ để hỏi đi kèm trợ từ hỏi về phương thức, phương tiện di chuyển"
+      },
+      {
+        "id": "5-4",
+        "point": "N (người/động vật) と 行きます/来ます/帰ります",
+        "formula": "[Noun (Person/Animal)] と 行きます / 来ます / 帰ります。",
+        "jpExplain": "動作を一緒に行う相手（人や動物）を示すとき、助詞「と」を使います。一人の場合は「一人で」を使い、助詞「と」は不要です。",
+        "vnExplain": "Đi / Đến / Về cùng với ai. Trợ từ 'to' dùng để kết nối với đối tượng cùng thực hiện hành động di chuyển. Trường hợp đi một mình dùng 'hitoride' (không dùng trợ từ 'to').",
+        "exampleJp": "友達と病院へ来ました。一人で帰ります。",
+        "exampleVn": "Tôi đã đến bệnh viện cùng với bạn. Tôi sẽ về một mình.",
+        "exerciseQuestion": "だれ___日本へ来ましたか。...家族と来ました。",
+        "exerciseAnswer": "と",
+        "exerciseHint": "Trợ từ dùng để hỏi người cùng tham gia thực hiện hành trình"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "5-p1",
+        "jp": "いつ日本へ来ましたか。...今年の３月に来ました。",
+        "vn": "Bạn đã đến Nhật Bản khi nào? ...Tôi đã đến vào tháng 3 năm nay."
+      },
+      {
+        "id": "5-p2",
+        "jp": "この電車は甲子園へ行きますか。...いいえ、行きません。次の普通電車ですよ。",
+        "vn": "Chuyến tàu điện này có đi đến Koshien không? ...Không, không đi đâu. Chuyến tàu thường tiếp theo mới đi đấy nhé."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "第6課: 動詞、行動と目的語",
+    "titleVn": "Bài 6: Động từ, Hành động & Tân ngữ",
+    "vocabulary": [
+      {
+        "jp": "食べます",
+        "kana": "たべます",
+        "romaji": "tabemasu",
+        "vn": "Ăn"
+      },
+      {
+        "jp": "飲みます",
+        "kana": "のみます",
+        "romaji": "nomimasu",
+        "vn": "Uống"
+      },
+      {
+        "jp": "吸います[たばこを～]",
+        "kana": "すいます[たばこを～]",
+        "romaji": "suimasu [tabako wo~]",
+        "vn": "Hút [thuốc lá]"
+      },
+      {
+        "jp": "見ます",
+        "kana": "みます",
+        "romaji": "mimasu",
+        "vn": "Xem, nhìn"
+      },
+      {
+        "jp": "聞きます",
+        "kana": "ききます",
+        "romaji": "kikimasu",
+        "vn": "Nghe"
+      },
+      {
+        "jp": "読みます",
+        "kana": "よみます",
+        "romaji": "yomimasu",
+        "vn": "Đọc"
+      },
+      {
+        "jp": "書きます",
+        "kana": "かきます",
+        "romaji": "kakimasu",
+        "vn": "Viết, vẽ"
+      },
+      {
+        "jp": "買います",
+        "kana": "かいます",
+        "romaji": "kaimasu",
+        "vn": "Mua"
+      },
+      {
+        "jp": "撮ります[写真を～]",
+        "kana": "とります[しゃしんを～]",
+        "romaji": "torimasu [shashin wo~]",
+        "vn": "Chụp [ảnh]"
+      },
+      {
+        "jp": "します",
+        "kana": "します",
+        "romaji": "shimasu",
+        "vn": "Làm, chơi"
+      },
+      {
+        "jp": "会います[友達に～]",
+        "kana": "あいます[ともだちに～]",
+        "romaji": "aimasu [tomodachi ni~]",
+        "vn": "Gặp [bạn]"
+      },
+      {
+        "jp": "ごはん",
+        "kana": "ごはん",
+        "romaji": "gohan",
+        "vn": "Cơm, bữa ăn"
+      },
+      {
+        "jp": "朝ごはん",
+        "kana": "あさごはん",
+        "romaji": "asagohan",
+        "vn": "Bữa ăn sáng, cơm sáng"
+      },
+      {
+        "jp": "昼ごはん",
+        "kana": "ひるごはん",
+        "romaji": "hirugohan",
+        "vn": "Bữa ăn trưa, cơm trưa"
+      },
+      {
+        "jp": "晩ごはん",
+        "kana": "ばんごはん",
+        "romaji": "bangohan",
+        "vn": "Bữa ăn tối, cơm tối"
+      },
+      {
+        "jp": "パン",
+        "kana": "パン",
+        "romaji": "pan",
+        "vn": "Bánh mì"
+      },
+      {
+        "jp": "卵",
+        "kana": "たまご",
+        "romaji": "tamago",
+        "vn": "Trứng"
+      },
+      {
+        "jp": "肉",
+        "kana": "にく",
+        "romaji": "niku",
+        "vn": "Thịt"
+      },
+      {
+        "jp": "魚",
+        "kana": "さかな",
+        "romaji": "sakana",
+        "vn": "Cá"
+      },
+      {
+        "jp": "野菜",
+        "kana": "やさい",
+        "romaji": "yasai",
+        "vn": "Rau"
+      },
+      {
+        "jp": "果物",
+        "kana": "くだもの",
+        "romaji": "kudamono",
+        "vn": "Hoa quả, trái cây"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      },
+      {
+        "jp": "お茶",
+        "kana": "おちゃ",
+        "romaji": "ocha",
+        "vn": "Trà, nước chè"
+      },
+      {
+        "jp": "紅茶",
+        "kana": "こうちゃ",
+        "romaji": "koucha",
+        "vn": "Trà hồng, hồng trà"
+      },
+      {
+        "jp": "牛乳[ミルク]",
+        "kana": "ぎゅうにゅう[ミルク]",
+        "romaji": "gyuunyuu [miruku]",
+        "vn": "Sữa bò"
+      },
+      {
+        "jp": "ジュース",
+        "kana": "ジュース",
+        "romaji": "ju-su",
+        "vn": "Nước hoa quả"
+      },
+      {
+        "jp": "ビール",
+        "kana": "ビール",
+        "romaji": "bi-ru",
+        "vn": "Bia"
+      },
+      {
+        "jp": "お酒",
+        "kana": "おさけ",
+        "romaji": "osake",
+        "vn": "Rượu, rượu Sake"
+      },
+      {
+        "jp": "ビデオ",
+        "kana": "ビデオ",
+        "romaji": "bideo",
+        "vn": "Video, băng video"
+      },
+      {
+        "jp": "映画",
+        "kana": "えいが",
+        "romaji": "eiga",
+        "vn": "Phim, điện ảnh"
+      },
+      {
+        "jp": "ＣＤ",
+        "kana": "シーディー",
+        "romaji": "shi-di-",
+        "vn": "Đĩa CD"
+      },
+      {
+        "jp": "手紙",
+        "kana": "てがみ",
+        "romaji": "tegami",
+        "vn": "Thư"
+      },
+      {
+        "jp": "レポート",
+        "kana": "レポート",
+        "romaji": "repo-to",
+        "vn": "Báo cáo"
+      },
+      {
+        "jp": "写真",
+        "kana": "しゃしん",
+        "romaji": "shashin",
+        "vn": "Ảnh"
+      },
+      {
+        "jp": "店",
+        "kana": "みせ",
+        "romaji": "mise",
+        "vn": "Cửa hàng, tiệm"
+      },
+      {
+        "jp": "レストラン",
+        "kana": "レストラン",
+        "romaji": "resutoran",
+        "vn": "Nhà hàng"
+      },
+      {
+        "jp": "庭",
+        "kana": "にわ",
+        "romaji": "niwa",
+        "vn": "Sân, vườn"
+      },
+      {
+        "jp": "宿題",
+        "kana": "しゅくだい",
+        "romaji": "shukudai",
+        "vn": "Bài tập về nhà (～をします: làm bài tập)"
+      },
+      {
+        "jp": "テニス",
+        "kana": "テニス",
+        "romaji": "tenisu",
+        "vn": "Quần vợt, Tennis"
+      },
+      {
+        "jp": "サッカー",
+        "kana": "サッカー",
+        "romaji": "sakka-",
+        "vn": "Bóng đá (～をします: chơi bóng đá)"
+      },
+      {
+        "jp": "お花見",
+        "kana": "おはなみ",
+        "romaji": "ohanami",
+        "vn": "Việc ngắm hoa anh đào (～をします: ngắm hoa)"
+      },
+      {
+        "jp": "何",
+        "kana": "なに",
+        "romaji": "nani",
+        "vn": "Cái gì"
+      },
+      {
+        "jp": "一緒に",
+        "kana": "いっしょに",
+        "romaji": "isshoni",
+        "vn": "Cùng nhau"
+      },
+      {
+        "jp": "ちょっと",
+        "kana": "ちょっと",
+        "romaji": "chotto",
+        "vn": "Một chút, một lát"
+      },
+      {
+        "jp": "いつも",
+        "kana": "いつも",
+        "romaji": "itsumo",
+        "vn": "Luôn luôn, lúc nào cũng"
+      },
+      {
+        "jp": "時々",
+        "kana": "ときどき",
+        "romaji": "tokidoki",
+        "vn": "Thỉnh thoảng"
+      },
+      {
+        "jp": "それから",
+        "kana": "それから",
+        "romaji": "sorekara",
+        "vn": "Sau đó, tiếp theo"
+      },
+      {
+        "jp": "ええ",
+        "kana": "ええ",
+        "romaji": "ee",
+        "vn": "Vâng, được (cách nói thân mật của はい)"
+      },
+      {
+        "jp": "いいですね",
+        "kana": "いいですね",
+        "romaji": "ii desu ne",
+        "vn": "Được đấy nhỉ / Hay quá nhỉ"
+      },
+      {
+        "jp": "わかりました",
+        "kana": "わかりました",
+        "romaji": "wakarimashita",
+        "vn": "Tôi đã hiểu rồi / Vâng ạ"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "6-1",
+        "point": "N を V (Hành động tác động lên tân ngữ)",
+        "formula": "[Noun] を [Verb (transitive)]。",
+        "jpExplain": "他動詞の目的語（動作の対象）を示すとき、名詞の後ろに助詞「を」を使います。発音は「お」です。",
+        "vnExplain": "Trợ từ 「を」 đứng sau danh từ chỉ đối tượng trực tiếp chịu sự tác động của tha động từ.",
+        "exampleJp": "私はジュースを飲みます。",
+        "exampleVn": "Tôi uống nước trái cây.",
+        "exerciseQuestion": "毎朝パン___食べます。",
+        "exerciseAnswer": "を",
+        "exerciseHint": "Trợ từ chỉ tân ngữ bị tác động trực tiếp bởi hành động ăn"
+      },
+      {
+        "id": "6-2",
+        "point": "N を します (Thực hiện hành động)",
+        "formula": "[Noun] を します。",
+        "jpExplain": "仕事やスポーツ、イベントなどを行うことを表します。",
+        "vnExplain": "Được dùng khi thực hiện một hành động mang tính chất hành vi như chơi thể thao, làm bài tập, làm việc hoặc tổ chức sự kiện.",
+        "exampleJp": "サッカーをします。宿題をします。",
+        "exampleVn": "Chơi bóng đá. Làm bài tập về nhà.",
+        "exerciseQuestion": "来週の日曜日に友達とお花見___します。",
+        "exerciseAnswer": "を",
+        "exerciseHint": "Trợ từ nối danh từ hành động ngắm hoa với động từ 'shimasu'"
+      },
+      {
+        "id": "6-3",
+        "point": "何 を しますか (Hỏi làm cái gì)",
+        "formula": "何 を しますか。",
+        "jpExplain": "相手の行動を尋ねる疑問文です。目的語を尋ねる場合は「なに」と発音します。",
+        "vnExplain": "Câu hỏi dùng để hỏi xem đối phương làm hành động gì. Khi đi liền trước trợ từ 「を」, chữ 何 phát âm là 'nani'.",
+        "exampleJp": "土曜日 何をしますか。...日本語を勉強します。",
+        "exampleVn": "Thứ Bảy bạn làm gì? ...Tôi học tiếng Nhật.",
+        "exerciseQuestion": "昨日___をしましたか。...映画を見ました。",
+        "exerciseAnswer": "何",
+        "exerciseHint": "Từ nghi vấn hỏi về hành động đã thực hiện"
+      },
+      {
+        "id": "6-4",
+        "point": "N (địa điểm) で V (Nơi diễn ra hành động)",
+        "formula": "[Noun (Place)] で [Verb]。",
+        "jpExplain": "動作が行われる場所を示すとき、場所名詞の後ろに助詞「で」を使います。",
+        "vnExplain": "Trợ từ 「で」 đứng sau danh từ chỉ địa điểm, nơi chốn diễn ra hành động.",
+        "exampleJp": "駅で新聞を買いました。",
+        "exampleVn": "Tôi đã mua báo ở nhà ga.",
+        "exerciseQuestion": "どこ___写真を撮りましたか。...庭で撮りました。",
+        "exerciseAnswer": "で",
+        "exerciseHint": "Trợ từ chỉ địa điểm xảy ra hành động chụp ảnh"
+      },
+      {
+        "id": "6-5",
+        "point": "Vませんか (Mời mọc, rủ rê)",
+        "formula": "[Verb-ます] ませんか Corté。",
+        "jpExplain": "聞き手を動作に誘う表現です。相手に配慮した丁寧な勧誘です。",
+        "vnExplain": "Dùng khi muốn mời hoặc rủ rê người nghe cùng làm một việc gì đó. Thể hiện sự lịch sự và tôn trọng người nghe.",
+        "exampleJp": "一緒に神戸へ行きませんか。...ええ、いいですね。",
+        "exampleVn": "Cùng đi Kobe với tôi không? ...Vâng, được đấy nhỉ.",
+        "exerciseQuestion": "ちょっとお茶を飲み___か。...ええ、飲みましょう。",
+        "exerciseAnswer": "ません",
+        "exerciseHint": "Chia động từ đuôi rủ rê phủ định để mời đối phương"
+      },
+      {
+        "id": "6-6",
+        "point": "Vましょう (Đề nghị cùng làm)",
+        "formula": "[Verb-ます] ましょう。",
+        "jpExplain": "積極的な提案や、相手の誘いに対する同意を表します。",
+        "vnExplain": "Dùng khi người nói chủ động đề xuất hoặc đáp lại lời mời rủ rê với thái độ đồng ý một cách tích cực (Cùng làm... thôi!).",
+        "exampleJp": "ちょっと休みましょう。",
+        "exampleVn": "Chúng ta cùng nghỉ ngơi một lát nào.",
+        "exerciseQuestion": "じゃ、１２時に駅で会い___。",
+        "exerciseAnswer": "ましょう",
+        "exerciseHint": "Đuôi động từ biểu thị sự nhất trí cùng thực hiện hành động"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "6-p1",
+        "jp": "一緒に映画を見ませんか。...すみません、ちょっと...",
+        "vn": "Cùng đi xem phim với tôi không? ...Xin lỗi, tôi có chút việc mất rồi... (Cách từ chối khéo)"
+      },
+      {
+        "id": "6-p2",
+        "jp": "じゃ、明日また会いましょう。",
+        "vn": "Vậy thì, ngày mai lại gặp nhau nhé."
+      }
+    ]
+  }
+]

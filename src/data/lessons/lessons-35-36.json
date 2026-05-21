@@ -1,0 +1,88 @@
+[
+  {
+    "id": 35,
+    "title": "第35課: 条件形（ば形）",
+    "titleVn": "Thể điều kiện (Thể Ba)",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "35-1",
+        "point": "Grammar Point Lesson 35",
+        "formula": "Formula 35",
+        "jpExplain": "Explanation in Japanese for lesson 35.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 35.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "35-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "第36課: 目的、目標 và 習慣の変化",
+    "titleVn": "Mục tiêu, Mục đích & Thay đổi thói quen",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "36-1",
+        "point": "Grammar Point Lesson 36",
+        "formula": "Formula 36",
+        "jpExplain": "Explanation in Japanese for lesson 36.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 36.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "36-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

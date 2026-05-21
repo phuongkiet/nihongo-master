@@ -176,12 +176,12 @@ export const LessonDetail: React.FC<LessonDetailProps> = ({
                     <span className="japanese-text text-lg">{item.jp}</span>
                     <span className="text-xs text-slate-400 font-medium">{item.kana}</span>
                   </div>
-                  <span className="text-[10px] text-indigo-400 font-bold uppercase tracking-tight mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  <span className="text-xs text-indigo-400 font-bold uppercase tracking-tight mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
                     {item.romaji}
                   </span>
                 </div>
 
-                <div className="text-right flex flex-col items-end gap-1.5">
+                <div className="text-right flex flex-col items-end gap-1.5 max-w-[55%] shrink-0">
                   <span 
                     onClick={() => hideMeanings && toggleVocabReveal(idx)}
                     className={`text-sm font-semibold text-slate-600 transition-all duration-300 ${

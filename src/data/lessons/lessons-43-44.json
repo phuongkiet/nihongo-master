@@ -1,0 +1,88 @@
+[
+  {
+    "id": 43,
+    "title": "第43課: 外見 và 直前の行動",
+    "titleVn": "Vẻ bề ngoài & Hoạt động sắp diễn ra",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "43-1",
+        "point": "Grammar Point Lesson 43",
+        "formula": "Formula 43",
+        "jpExplain": "Explanation in Japanese for lesson 43.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 43.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "43-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "第44課: 超過 và 難易度",
+    "titleVn": "Sự quá mức & Dễ/Khó làm gì",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "44-1",
+        "point": "Grammar Point Lesson 44",
+        "formula": "Formula 44",
+        "jpExplain": "Explanation in Japanese for lesson 44.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 44.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "44-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

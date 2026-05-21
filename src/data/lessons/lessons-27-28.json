@@ -1,0 +1,88 @@
+[
+  {
+    "id": 27,
+    "title": "第27課: 能力 và 可能動詞",
+    "titleVn": "Khả năng & Động từ thể khả năng",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "27-1",
+        "point": "Grammar Point Lesson 27",
+        "formula": "Formula 27",
+        "jpExplain": "Explanation in Japanese for lesson 27.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 27.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "27-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "第28課: 同時進行 và 習慣",
+    "titleVn": "Hành động song song & Thói quen",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "28-1",
+        "point": "Grammar Point Lesson 28",
+        "formula": "Formula 28",
+        "jpExplain": "Explanation in Japanese for lesson 28.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 28.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "28-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

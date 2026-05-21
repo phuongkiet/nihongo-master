@@ -1,0 +1,88 @@
+[
+  {
+    "id": 25,
+    "title": "第25課: 条件節（たら形）",
+    "titleVn": "Mệnh đề điều kiện (Thể Tara)",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "25-1",
+        "point": "Grammar Point Lesson 25",
+        "formula": "Formula 25",
+        "jpExplain": "Explanation in Japanese for lesson 25.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 25.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "25-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "第26課: 理由の説明 và 助言の要求",
+    "titleVn": "Giải thích lý do & Xin lời khuyên",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "26-1",
+        "point": "Grammar Point Lesson 26",
+        "formula": "Formula 26",
+        "jpExplain": "Explanation in Japanese for lesson 26.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 26.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "26-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

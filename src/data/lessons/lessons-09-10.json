@@ -1,0 +1,88 @@
+[
+  {
+    "id": 9,
+    "title": "第9課: 嗜好、能力と所有",
+    "titleVn": "Sở thích, Khả năng & Sở hữu",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "9-1",
+        "point": "Grammar Point Lesson 9",
+        "formula": "Formula 9",
+        "jpExplain": "Explanation in Japanese for lesson 9.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 9.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "9-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "第10課: 人、動物、物の存在",
+    "titleVn": "Sự tồn tại của Người, Động vật & Đồ vật",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "10-1",
+        "point": "Grammar Point Lesson 10",
+        "formula": "Formula 10",
+        "jpExplain": "Explanation in Japanese for lesson 10.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 10.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "10-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

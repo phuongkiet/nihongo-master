@@ -1,0 +1,88 @@
+[
+  {
+    "id": 45,
+    "title": "第45課: 仮定状況（場合・のに）",
+    "titleVn": "Tình huống giả định (Trường hợp)",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "45-1",
+        "point": "Grammar Point Lesson 45",
+        "formula": "Formula 45",
+        "jpExplain": "Explanation in Japanese for lesson 45.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 45.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "45-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "第46課: 時間の局面 và 完了状態",
+    "titleVn": "Các khía cạnh thời gian & Trạng thái hoàn thành",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "46-1",
+        "point": "Grammar Point Lesson 46",
+        "formula": "Formula 46",
+        "jpExplain": "Explanation in Japanese for lesson 46.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 46.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "46-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

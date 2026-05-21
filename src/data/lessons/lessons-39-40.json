@@ -1,0 +1,88 @@
+[
+  {
+    "id": 39,
+    "title": "第39課: 原因、理由 và 感情の表現",
+    "titleVn": "Biểu đạt nguyên nhân, Lý do & Cảm xúc",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "39-1",
+        "point": "Grammar Point Lesson 39",
+        "formula": "Formula 39",
+        "jpExplain": "Explanation in Japanese for lesson 39.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 39.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "39-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "第40課: 疑問詞節 và 不確実性",
+    "titleVn": "Câu hỏi lồng & Sự không chắc chắn",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "40-1",
+        "point": "Grammar Point Lesson 40",
+        "formula": "Formula 40",
+        "jpExplain": "Explanation in Japanese for lesson 40.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 40.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "40-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

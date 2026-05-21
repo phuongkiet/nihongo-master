@@ -1,0 +1,88 @@
+[
+  {
+    "id": 13,
+    "title": "第13課: 願望、意図と目的",
+    "titleVn": "Mong muốn, Ý định & Mục đích",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "13-1",
+        "point": "Grammar Point Lesson 13",
+        "formula": "Formula 13",
+        "jpExplain": "Explanation in Japanese for lesson 13.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 13.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "13-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "第14課: 依頼とて形の導入",
+    "titleVn": "Yêu cầu & Giới thiệu thể Te",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "14-1",
+        "point": "Grammar Point Lesson 14",
+        "formula": "Formula 14",
+        "jpExplain": "Explanation in Japanese for lesson 14.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 14.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "14-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

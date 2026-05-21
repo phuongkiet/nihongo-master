@@ -1,0 +1,644 @@
+[
+  {
+    "id": 1,
+    "title": "第1課: 自己紹介と挨拶",
+    "titleVn": "Bài 1: Giới thiệu bản thân & Chào hỏi",
+    "vocabulary": [
+      {
+        "jp": "私",
+        "kana": "わたし",
+        "romaji": "watashi",
+        "vn": "Tôi"
+      },
+      {
+        "jp": "あなた",
+        "kana": "あなた",
+        "romaji": "anata",
+        "vn": "Bạn, anh, chị, ông, bà (ngôi thứ II số ít)"
+      },
+      {
+        "jp": "あの人",
+        "kana": "あのひと",
+        "romaji": "ano hito",
+        "vn": "Người kia, người đó, anh kia, chị kia"
+      },
+      {
+        "jp": "あの方",
+        "kana": "あのかた",
+        "romaji": "ano kata",
+        "vn": "Vị kia (là cách nói kính trọng của あの人)"
+      },
+      {
+        "jp": "～さん",
+        "kana": "～さん",
+        "romaji": "~san",
+        "vn": "Anh ~, Chị ~, Ông ~, Bà ~ (thêm vào sau tên, thể hiện sự kính trọng)"
+      },
+      {
+        "jp": "～ちゃん",
+        "kana": "～ちゃん",
+        "romaji": "~chan",
+        "vn": "Bé ~ (thêm vào sau tên của trẻ em thay cho ～さん)"
+      },
+      {
+        "jp": "～くん",
+        "kana": "～くん",
+        "romaji": "~kun",
+        "vn": "Cậu ~, Bé ~ (thêm vào sau tên của em trai hoặc nam giới ít tuổi hơn)"
+      },
+      {
+        "jp": "～人",
+        "kana": "～じん",
+        "romaji": "~jin",
+        "vn": "Người nước ~ (ví dụ: ベトナム人: Người Việt Nam)"
+      },
+      {
+        "jp": "先生",
+        "kana": "せんせい",
+        "romaji": "sensei",
+        "vn": "Thầy / Cô (không dùng khi tự xưng về nghề nghiệp của mình)"
+      },
+      {
+        "jp": "教師",
+        "kana": "きょうし",
+        "romaji": "kyoushi",
+        "vn": "Giáo viên (chỉ nghề nghiệp)"
+      },
+      {
+        "jp": "学生",
+        "kana": "がくせい",
+        "romaji": "gakusei",
+        "vn": "Học sinh, sinh viên"
+      },
+      {
+        "jp": "会社員",
+        "kana": "かいしゃいん",
+        "romaji": "kaishain",
+        "vn": "Nhân viên công ty"
+      },
+      {
+        "jp": "社員",
+        "kana": "しゃいん",
+        "romaji": "shain",
+        "vn": "Nhân viên công ty ~ (dùng kèm theo tên công ty; ví dụ: ＩＭＣの社員)"
+      },
+      {
+        "jp": "銀行員",
+        "kana": "ぎんこういん",
+        "romaji": "ginkouin",
+        "vn": "Nhân viên ngân hàng"
+      },
+      {
+        "jp": "医者",
+        "kana": "いしゃ",
+        "romaji": "isha",
+        "vn": "Bác sĩ"
+      },
+      {
+        "jp": "研究者",
+        "kana": "けんきゅうしゃ",
+        "romaji": "kenkyuusha",
+        "vn": "Nhà nghiên cứu"
+      },
+      {
+        "jp": "エンジニア",
+        "kana": "エンジニア",
+        "romaji": "enjinia",
+        "vn": "Kỹ sư"
+      },
+      {
+        "jp": "大学",
+        "kana": "だいがく",
+        "romaji": "daigaku",
+        "vn": "Trường đại học"
+      },
+      {
+        "jp": "病院",
+        "kana": "びょういん",
+        "romaji": "byouin",
+        "vn": "Bệnh viện"
+      },
+      {
+        "jp": "電気",
+        "kana": "でんき",
+        "romaji": "denki",
+        "vn": "Điện, đèn điện"
+      },
+      {
+        "jp": "だれ",
+        "kana": "だれ",
+        "romaji": "dare",
+        "vn": "Ai (hỏi người)"
+      },
+      {
+        "jp": "どなた",
+        "kana": "どなた",
+        "romaji": "donata",
+        "vn": "Vị nào, ai (cách nói kính trọng của だれ)"
+      },
+      {
+        "jp": "～歳",
+        "kana": "～さい",
+        "romaji": "~sai",
+        "vn": "～ tuổi"
+      },
+      {
+        "jp": "何歳",
+        "kana": "なんさい",
+        "romaji": "nansai",
+        "vn": "Mấy tuổi"
+      },
+      {
+        "jp": "おいくつ",
+        "kana": "おいくつ",
+        "romaji": "oikutsu",
+        "vn": "Bao nhiêu tuổi (cách nói kính trọng của 何歳)"
+      },
+      {
+        "jp": "はい",
+        "kana": "はい",
+        "romaji": "hai",
+        "vn": "Vâng, dạ"
+      },
+      {
+        "jp": "いいえ",
+        "kana": "いいえ",
+        "romaji": "iie",
+        "vn": "Không"
+      },
+      {
+        "jp": "初めまして",
+        "kana": "はじめまして",
+        "romaji": "hajimemashite",
+        "vn": "Rất vui được gặp anh/chị (đây là lời chào đầu tiên khi gặp nhau)"
+      },
+      {
+        "jp": "～から来ました",
+        "kana": "～からきました",
+        "romaji": "~kara kimashita",
+        "vn": "Tôi đến từ ~"
+      },
+      {
+        "jp": "[どうぞ]よろしく[お願いします]",
+        "kana": "[どうぞ]よろしく[おねがいします]",
+        "romaji": "[douzo] yoroshiku [onegaishimasu]",
+        "vn": "Rất mong được sự giúp đỡ / Rất vui được làm quen"
+      },
+      {
+        "jp": "失礼ですが",
+        "kana": "しつれいですが",
+        "romaji": "shitsurei desuga",
+        "vn": "Xin lỗi (khi muốn hỏi ai đó mạo muội như tên, địa chỉ)"
+      },
+      {
+        "jp": "お名前は？",
+        "kana": "おなまえは？",
+        "romaji": "onamae wa?",
+        "vn": "Tên anh/chị là gì?"
+      },
+      {
+        "jp": "こちらは～さんです",
+        "kana": "こちらは～さんです",
+        "romaji": "kochira wa ~san desu",
+        "vn": "Đây là anh/chị/ông/bài ~"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "1-1",
+        "point": "~ は ~ です (Danh từ 1 là Danh từ 2)",
+        "formula": "[Noun 1] は [Noun 2] です。",
+        "jpExplain": "「は」は提示の助詞で、主語（主題）を示します。発音は「わ」です。「です」は断定の意を表し、文末に用いて丁寧な態度を示します。",
+        "vnExplain": "Trợ từ 「は」 đứng sau danh từ 1 để biểu thị chủ đề của câu. Từ 「は」 trong trường hợp này phát âm là 'wa'. 「です」 đứng cuối câu khẳng định thể hiện sự lịch sự đối với người nghe.",
+        "exampleJp": "私はマイク・ミラーです。",
+        "exampleVn": "Tôi là Mike Miller.",
+        "exerciseQuestion": "ワンさん___医者です。",
+        "exerciseAnswer": "は",
+        "exerciseHint": "Trợ từ chỉ chủ ngữ phát âm là 'wa'"
+      },
+      {
+        "id": "1-2",
+        "point": "~ は ~ じゃありません (Danh từ 1 không phải là Danh từ 2)",
+        "formula": "[Noun 1] は [Noun 2] じゃありません / ではありません。",
+        "jpExplain": "「です」の否定形です。日常会話では「じゃありません」がよく使われ、スピーチや論文などの書き言葉では「ではありません」が使われます。",
+        "vnExplain": "Đây là dạng phủ định của 「です」. Trong hội thoại hàng ngày người ta thường dùng 「じゃありません」, còn trong văn viết hoặc các bối cảnh trang trọng sẽ dùng 「ではありません」.",
+        "exampleJp": "サントスさんは学生じゃありません。",
+        "exampleVn": "Anh Santos không phải là sinh viên.",
+        "exerciseQuestion": "私は教師___ありません。",
+        "exerciseAnswer": "じゃ",
+        "exerciseHint": "Thành phần đứng trước 'arimasen' tạo nên dạng phủ định thông thường"
+      },
+      {
+        "id": "1-3",
+        "point": "~ ですか (Câu hỏi nghi vấn)",
+        "formula": "[Noun 1] は [Noun 2] ですか。",
+        "jpExplain": "文末に終助詞「か」を付けることで疑問を表します。質問する際、文末のイントネーションは上がります。",
+        "vnExplain": "Để tạo câu hỏi, người ta thêm trợ từ 「か」 vào cuối câu. Khi hỏi, ngữ điệu ở cuối câu sẽ được đọc cao lên.",
+        "exampleJp": "ミラーさんは会社員ですか。",
+        "exampleVn": "Anh Miller là nhân viên công ty phải không?",
+        "exerciseQuestion": "あの人はどなたです___。",
+        "exerciseAnswer": "か",
+        "exerciseHint": "Trợ từ nghi vấn luôn đặt ở tận cùng của câu hỏi"
+      },
+      {
+        "id": "1-4",
+        "point": "~ も (Trợ từ 'Cũng')",
+        "formula": "[Noun] も",
+        "jpExplain": "前に述べた主 từ と同じ種類・状態であることを示すとき、助詞「は」 thay thế bằng「も」を使います。",
+        "vnExplain": "Trợ từ 「も」 được sử dụng thay thế cho trợ từ 「は」 khi chủ ngữ có cùng tính chất, đặc điểm hoặc hành động với một đối tượng đã được nhắc đến trước đó.",
+        "exampleJp": "ミラーさんは会社員です。グプタさんも会社員です。",
+        "exampleVn": "Anh Miller là nhân viên công ty. Anh Gupta cũng là nhân viên công ty.",
+        "exerciseQuestion": "タワポンさんは学生です。ワンさん___学生です。",
+        "exerciseAnswer": "も",
+        "exerciseHint": "Trợ từ mang ý nghĩa 'cũng giống như vậy'"
+      },
+      {
+        "id": "1-5",
+        "point": "~ の ~ (Danh từ 1 bổ nghĩa cho Danh từ 2)",
+        "formula": "[Noun 1] の [Noun 2]",
+        "jpExplain": "助詞「の」は名詞と名詞をつなぎます。第1課では、N2がN1（ tổ chức・thuộc về）に所属していることを示します。",
+        "vnExplain": "Trợ từ 「の」 dùng để nối hai danh từ. Trong Bài 1, trợ từ này biểu thị ý nghĩa Danh từ 2 thuộc về tổ chức hoặc cơ quan của Danh từ 1.",
+        "exampleJp": "私はＩＭＣの社員です。",
+        "exampleVn": "Tôi là nhân viên của công ty IMC.",
+        "exerciseQuestion": "カリナさんは富士大学___学生です。",
+        "exerciseAnswer": "の",
+        "exerciseHint": "Trợ từ biểu thị mối quan hệ trực thuộc một tổ chức, trường học"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "1-p1",
+        "jp": "失礼ですが、お名前は？...マイク・ミラーです。",
+        "vn": "Xin lỗi, tên anh/chị là gì ạ? ...Tôi là Mike Miller."
+      },
+      {
+        "id": "1-p2",
+        "jp": "こちらはタワポンさんです。...初めまして。タイから来ました。どうぞよろしく。",
+        "vn": "Đây là anh Thawaphon. ...Rất vui được gặp anh/chị. Tôi đến từ Thái Lan. Rất mong được sự giúp đỡ."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "第2課: 物、所有、帰属",
+    "titleVn": "Bài 2: Đồ vật, Sở hữu & Thuộc sở hữu",
+    "vocabulary": [
+      {
+        "jp": "これ",
+        "kana": "これ",
+        "romaji": "kore",
+        "vn": "Cái này, đây (vật ở gần người nói)"
+      },
+      {
+        "jp": "それ",
+        "kana": "それ",
+        "romaji": "sore",
+        "vn": "Cái đó, đó (vật ở gần người nghe)"
+      },
+      {
+        "jp": "あれ",
+        "kana": "あれ",
+        "romaji": "are",
+        "vn": "Cái kia, kia (vật ở xa cả người nói và người nghe)"
+      },
+      {
+        "jp": "この～",
+        "kana": "この",
+        "romaji": "kono",
+        "vn": "～ này (dùng kèm sau là một danh từ)"
+      },
+      {
+        "jp": "その～",
+        "kana": "その",
+        "romaji": "sono",
+        "vn": "～ đó (dùng kèm sau là một danh từ)"
+      },
+      {
+        "jp": "あの～",
+        "kana": "あの",
+        "romaji": "ano",
+        "vn": "～ kia (dùng kèm sau là một danh từ)"
+      },
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "辞書",
+        "kana": "じしょ",
+        "romaji": "jisho",
+        "vn": "Từ điển"
+      },
+      {
+        "jp": "雑誌",
+        "kana": "ざっし",
+        "romaji": "zasshi",
+        "vn": "Tạp chí"
+      },
+      {
+        "jp": "新聞",
+        "kana": "しんぶん",
+        "romaji": "shinbun",
+        "vn": "Báo"
+      },
+      {
+        "jp": "ノート",
+        "kana": "ノート",
+        "romaji": "no-to",
+        "vn": "Vở"
+      },
+      {
+        "jp": "手帳",
+        "kana": "てちょう",
+        "romaji": "techou",
+        "vn": "Sổ tay"
+      },
+      {
+        "jp": "名刺",
+        "kana": "めいし",
+        "romaji": "meishi",
+        "vn": "Danh thiếp"
+      },
+      {
+        "jp": "カード",
+        "kana": "カード",
+        "romaji": "ka-do",
+        "vn": "Thẻ, card"
+      },
+      {
+        "jp": "テレホンカード",
+        "kana": "テレホンカード",
+        "romaji": "terehon ka-do",
+        "vn": "Thẻ điện thoại"
+      },
+      {
+        "jp": "鉛筆",
+        "kana": "えんぴつ",
+        "romaji": "enpitsu",
+        "vn": "Bút chì"
+      },
+      {
+        "jp": "ボールペン",
+        "kana": "ボールペン",
+        "romaji": "bo-rupen",
+        "vn": "Bút bi"
+      },
+      {
+        "jp": "シャープペンシル",
+        "kana": "シャープペンシル",
+        "romaji": "sha-pupenshiru",
+        "vn": "Bút chì bấm"
+      },
+      {
+        "jp": "鍵",
+        "kana": "かぎ",
+        "romaji": "kagi",
+        "vn": "Chìa khóa"
+      },
+      {
+        "jp": "時計",
+        "kana": "とけい",
+        "romaji": "tokei",
+        "vn": "Đồng hồ"
+      },
+      {
+        "jp": "傘",
+        "kana": "かさ",
+        "romaji": "kasa",
+        "vn": "Ô, dù"
+      },
+      {
+        "jp": "鞄",
+        "kana": "かばん",
+        "romaji": "kaban",
+        "vn": "Cặp sách, túi xách"
+      },
+      {
+        "jp": "カセットテープ",
+        "kana": "カセットテープ",
+        "romaji": "kasetto te-pu",
+        "vn": "Băng cassette"
+      },
+      {
+        "jp": "テープレコーダー",
+        "kana": "テープレコーダー",
+        "romaji": "te-pu reko-da-",
+        "vn": "Máy ghi âm"
+      },
+      {
+        "jp": "テレビ",
+        "kana": "テレビ",
+        "romaji": "terebi",
+        "vn": "Tivi"
+      },
+      {
+        "jp": "ラジオ",
+        "kana": "ラジオ",
+        "romaji": "rajio",
+        "vn": "Đài radio"
+      },
+      {
+        "jp": "カメラ",
+        "kana": "カメラ",
+        "romaji": "kamera",
+        "vn": "Máy ảnh"
+      },
+      {
+        "jp": "コンピューター",
+        "kana": "コンピューター",
+        "romaji": "konpyu-ta-",
+        "vn": "Máy vi tính"
+      },
+      {
+        "jp": "自動車",
+        "kana": "じどうしゃ",
+        "romaji": "jidousha",
+        "vn": "Ô tô, xe hơi"
+      },
+      {
+        "jp": "机",
+        "kana": "つくえ",
+        "romaji": "tsukue",
+        "vn": "Bàn"
+      },
+      {
+        "jp": "椅子",
+        "kana": "いす",
+        "romaji": "isu",
+        "vn": "Ghế"
+      },
+      {
+        "jp": "チョコレート",
+        "kana": "チョコレート",
+        "romaji": "chokore-to",
+        "vn": "Kẹo sô-cô-la"
+      },
+      {
+        "jp": "コーヒー",
+        "kana": "コーヒー",
+        "romaji": "ko-hi-",
+        "vn": "Cà phê"
+      },
+      {
+        "jp": "お土産",
+        "kana": "おみやげ",
+        "romaji": "omiyage",
+        "vn": "Quà lưu niệm (thêm お thể hiện sự lịch sự)"
+      },
+      {
+        "jp": "英語",
+        "kana": "えいご",
+        "romaji": "eigo",
+        "vn": "Tiếng Anh"
+      },
+      {
+        "jp": "日本語",
+        "kana": "にほんご",
+        "romaji": "nihongo",
+        "vn": "Tiếng Nhật"
+      },
+      {
+        "jp": "～語",
+        "kana": "～ご",
+        "romaji": "~go",
+        "vn": "Tiếng ~"
+      },
+      {
+        "jp": "何",
+        "kana": "なん",
+        "romaji": "nan",
+        "vn": "Cái gì"
+      },
+      {
+        "jp": "そう",
+        "kana": "そう",
+        "romaji": "sou",
+        "vn": "Đúng vậy / Như thế"
+      },
+      {
+        "jp": "違います",
+        "kana": "ちがいます",
+        "romaji": "chigaimasu",
+        "vn": "Không phải / Sai rồi"
+      },
+      {
+        "jp": "そうですか",
+        "kana": "そうですか",
+        "romaji": "sou desu ka",
+        "vn": "Thế à? / Vậy à?"
+      },
+      {
+        "jp": "あのう",
+        "kana": "あのう",
+        "romaji": "anou",
+        "vn": "À... / Ờ... (ngập ngừng khi bắt đầu nói)"
+      },
+      {
+        "jp": "ほんの気持ちです",
+        "kana": "ほんのきもちです",
+        "romaji": "honno kimochi desu",
+        "vn": "Chút lòng thành (dùng khi tặng quà cho ai đó)"
+      },
+      {
+        "jp": "どうぞ",
+        "kana": "どうぞ",
+        "romaji": "douzo",
+        "vn": "Xin mời (dùng khi đưa vật gì cho ai đó)"
+      },
+      {
+        "jp": "どうも",
+        "kana": "どうも",
+        "romaji": "doumo",
+        "vn": "Cảm ơn"
+      },
+      {
+        "jp": "これからお世話になります",
+        "kana": "これからおせわになります",
+        "romaji": "korekara osewa ni narimasu",
+        "vn": "Từ nay tôi rất mong được sự giúp đỡ của anh/chị"
+      },
+      {
+        "jp": "こちらこそよろしく",
+        "kana": "こちらこそよろしく",
+        "romaji": "kochira koso yoroshiku",
+        "vn": "Chính tôi cũng mong được sự giúp đỡ của anh/chị"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "2-1",
+        "point": "これ / それ / あれ は N です",
+        "formula": "これ / それ / あれ は [Noun] です。",
+        "jpExplain": "これ、それ、あれは指示代名詞（物を指す言葉）です。話者と聞き手の物理的な距離によって使い分けます。",
+        "vnExplain": "Đây / Đó / Kia là [Danh từ]. Đây là các đại từ chỉ định dùng thay thế cho đồ vật dựa trên vị trí. これ (gần người nói), それ (gần người nghe), あれ (xa cả hai người).",
+        "exampleJp": "これは私の手帳です。",
+        "exampleVn": "Đây là sổ tay của tôi.",
+        "exerciseQuestion": "___は名刺です。(Vật ở rất xa cả người nói và người nghe)",
+        "exerciseAnswer": "あれ",
+        "exerciseHint": "Đại từ chỉ vật nằm xa cả hai phía đối thoại"
+      },
+      {
+        "id": "2-2",
+        "point": "この / その / あの N は ~ です",
+        "formula": "この / その / あの [Noun] は ~ です。",
+        "jpExplain": "名詞を直接修飾する指示詞です。単独では使えず、必ず後ろに名詞を伴います。",
+        "vnExplain": "[Danh từ] này / đó / kia... Các từ này đứng trước danh từ để bổ nghĩa trực tiếp cho danh từ đi liền phía sau nó.",
+        "exampleJp": "このカメラはサントスさんのです。",
+        "exampleVn": "Cái máy ảnh này là của anh Santos.",
+        "exerciseQuestion": "___本は私のです。(Chỉ cuốn sách ở gần người nói)",
+        "exerciseAnswer": "この",
+        "exerciseHint": "Từ chỉ định đi kèm danh từ nằm ở vị trí gần người nói"
+      },
+      {
+        "id": "2-3",
+        "point": "そうです / そうじゃありません (違います)",
+        "formula": "はい、そうです。 / いいえ、そうじゃありません (違います)。",
+        "jpExplain": "名詞述語の質問に対し、名詞を繰り返さずに肯定・否定の返答をする表現です。否定文では「ちがいます」がよく使われます。",
+        "vnExplain": "Đúng vậy / Không phải vậy (Sai rồi). Mẫu câu trả lời ngắn gọn cho câu hỏi danh từ mà không cần nhắc lại danh từ đó. Trong phủ định, người ta thường dùng 「ちがいます」 thay cho 「そうじゃありません」.",
+        "exampleJp": "それはテレホンカードですか。...はい、そうです。",
+        "exampleVn": "Đó là thẻ điện thoại phải không? ...Vâng, đúng vậy.",
+        "exerciseQuestion": "これはコンピューターですか。...いいえ、___。",
+        "exerciseAnswer": "違います",
+        "exerciseHint": "Cụm từ phủ định ngắn gọn dùng thông dụng thay thế cho 'ja arimasen'"
+      },
+      {
+        "id": "2-4",
+        "point": "S1 か、S2 か (Câu hỏi lựa chọn)",
+        "formula": "[Sentence 1] か、[Sentence 2] か。",
+        "jpExplain": "二つ以上の選択肢から聞き手に一つを選ばせる疑問文です。答えに「はい」や「いいえ」は使いません。",
+        "vnExplain": "S1 hay là S2? Đây là câu hỏi lựa chọn đưa ra các phương án để người nghe chọn lựa một. Khi trả lời, người nghe sẽ trực tiếp chọn phương án đúng chứ không dùng はい hay いいえ.",
+        "exampleJp": "これは「９」ですか、「７」ですか。...「９」です。",
+        "exampleVn": "Đây là số 9 hay số 7? ...Là số 9.",
+        "exerciseQuestion": "それはボールペンです___、シャープペンシルですか。",
+        "exerciseAnswer": "か",
+        "exerciseHint": "Trợ từ đặt ngay sau vế lựa chọn thứ nhất"
+      },
+      {
+        "id": "2-5",
+        "point": "N1 の N2 (Nội dung / Sở hữu)",
+        "formula": "[Noun 1] の [Noun 2]",
+        "jpExplain": "N1がN2の「内容」を表す（例：日本語の本）、またはN1がN2の「所有者」を表します（例：私の本）。N2が明らかな場合は省略できますが、N2が人を表す場合は省略できません。",
+        "vnExplain": "Danh từ 1 bổ nghĩa cho Danh từ 2. Trợ từ 「の」 biểu thị ý nghĩa: Danh từ 2 nói về nội dung của Danh từ 1, hoặc Danh từ 2 thuộc sở hữu của Danh từ 1. Danh từ 2 có thể lược bỏ nếu ngữ cảnh đã rõ ràng (trừ khi danh từ 2 chỉ người).",
+        "exampleJp": "これは日本語の雑誌です。あれは私の（傘）です。",
+        "exampleVn": "Đây là tạp chí tiếng Nhật. Kia là cái (ô) của tôi.",
+        "exerciseQuestion": "この鍵はだれ___ですか。...ミラーさんのです。",
+        "exerciseAnswer": "の",
+        "exerciseHint": "Trợ từ chỉ sở hữu nối giữa nghi vấn từ chỉ người và danh từ bị lược bỏ"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "2-p1",
+        "jp": "あのう、これ、ほんの気持ちです。...あ、どうも...。何ですか。...コーヒーです。どうぞ。",
+        "vn": "À ờ... cái này là chút lòng thành của tôi. ...Ôi, cảm ơn anh... Cái gì thế ạ? ...Là cà phê ạ. Xin mời anh."
+      },
+      {
+        "id": "2-p2",
+        "jp": "これからお世話になります。どうぞよろしく。 ...こちらこそよろしく。",
+        "vn": "Từ nay tôi rất mong được sự giúp đỡ của anh/chị. Rất mong được làm quen. ...Chính tôi cũng mong được sự giúp đỡ của anh/chị."
+      }
+    ]
+  }
+]

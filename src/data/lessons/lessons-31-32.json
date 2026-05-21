@@ -1,0 +1,88 @@
+[
+  {
+    "id": 31,
+    "title": "第31課: 意向形 và 未来の意図",
+    "titleVn": "Thể ý chí & Ý định tương lai",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "31-1",
+        "point": "Grammar Point Lesson 31",
+        "formula": "Formula 31",
+        "jpExplain": "Explanation in Japanese for lesson 31.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 31.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "31-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "第32課: 提案、推量 và 忠告",
+    "titleVn": "Gợi ý, Dự đoán & Khuyên bảo",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "32-1",
+        "point": "Grammar Point Lesson 32",
+        "formula": "Formula 32",
+        "jpExplain": "Explanation in Japanese for lesson 32.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 32.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "32-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

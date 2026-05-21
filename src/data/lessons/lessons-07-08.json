@@ -1,0 +1,384 @@
+[
+  {
+    "id": 7,
+    "title": "第7課: 道具、手段、授受",
+    "titleVn": "Bài 7: Công cụ, Phương tiện, Cho & Nhận",
+    "vocabulary": [
+      {
+        "jp": "切ります",
+        "kana": "きります",
+        "romaji": "kirimasu",
+        "vn": "Cắt"
+      },
+      {
+        "jp": "送ります",
+        "kana": "おくります",
+        "romaji": "okurimasu",
+        "vn": "Gửi (thư, bưu phẩm)"
+      },
+      {
+        "jp": "あげます",
+        "kana": "あげます",
+        "romaji": "agemasu",
+        "vn": "Cho, tặng"
+      },
+      {
+        "jp": "もらいます",
+        "kana": "もらいます",
+        "romaji": "moraimasu",
+        "vn": "Nhận"
+      },
+      {
+        "jp": "貸します",
+        "kana": "かします",
+        "romaji": "kashimasu",
+        "vn": "Cho mượn, cho vay"
+      },
+      {
+        "jp": "借ります",
+        "kana": "かります",
+        "romaji": "karimasu",
+        "vn": "Mượn, vay"
+      },
+      {
+        "jp": "教えます",
+        "kana": "おしえます",
+        "romaji": "oshiemasu",
+        "vn": "Dạy, hướng dẫn, cho biết"
+      },
+      {
+        "jp": "習います",
+        "kana": "ならいます",
+        "romaji": "naraimasu",
+        "vn": "Học, học tập (từ ai đó)"
+      },
+      {
+        "jp": "[電話を]かけます",
+        "kana": "[でんわを]かけます",
+        "romaji": "[denwa wo] kakemasu",
+        "vn": "Gọi [điện thoại]"
+      },
+      {
+        "jp": "手",
+        "kana": "て",
+        "romaji": "te",
+        "vn": "Tay, bàn tay"
+      },
+      {
+        "jp": "箸",
+        "kana": "はし",
+        "romaji": "hashi",
+        "vn": "Đũa"
+      },
+      {
+        "jp": "スプーン",
+        "kana": "スプーン",
+        "romaji": "supu-n",
+        "vn": "Thìa, muỗng"
+      },
+      {
+        "jp": "ナイフ",
+        "kana": "ナイフ",
+        "romaji": "naifu",
+        "vn": "Dao"
+      },
+      {
+        "jp": "フォーク",
+        "kana": "フォーク",
+        "romaji": "fo-ku",
+        "vn": "Dĩa, nĩa"
+      },
+      {
+        "jp": "はさみ",
+        "kana": "はさみ",
+        "romaji": "hasami",
+        "vn": "Kéo"
+      },
+      {
+        "jp": "パソコン",
+        "kana": "パソコン",
+        "romaji": "pasokon",
+        "vn": "Máy tính cá nhân"
+      },
+      {
+        "jp": "ケータイ",
+        "kana": "ケータイ",
+        "romaji": "ke-tai",
+        "vn": "Điện thoại di động"
+      },
+      {
+        "jp": "メール",
+        "kana": "メール",
+        "romaji": "me-ru",
+        "vn": "Thư điện tử, e-mail"
+      },
+      {
+        "jp": "年賀状",
+        "kana": "ねんがじょう",
+        "romaji": "nengajou",
+        "vn": "Thiệp chúc Tết"
+      },
+      {
+        "jp": "パンチ",
+        "kana": "パンチ",
+        "romaji": "panchi",
+        "vn": "Cái bấm lỗ"
+      },
+      {
+        "jp": "ホッチキス",
+        "kana": "ホッチキス",
+        "romaji": "hotchikisu",
+        "vn": "Cái dập ghim"
+      },
+      {
+        "jp": "セロテープ",
+        "kana": "セロテープ",
+        "romaji": "serote-pu",
+        "vn": "Băng dính"
+      },
+      {
+        "jp": "消しゴム",
+        "kana": "けしゴム",
+        "romaji": "keshigomu",
+        "vn": "Cục tẩy"
+      },
+      {
+        "jp": "紙",
+        "kana": "かみ",
+        "romaji": "kami",
+        "vn": "Giấy"
+      },
+      {
+        "jp": "花",
+        "kana": "はな",
+        "romaji": "hana",
+        "vn": "Hoa"
+      },
+      {
+        "jp": "シャツ",
+        "kana": "シャツ",
+        "romaji": "shatsu",
+        "vn": "Áo sơ mi"
+      },
+      {
+        "jp": "プレゼント",
+        "kana": "プレゼント",
+        "romaji": "purezento",
+        "vn": "Quà tặng, quà"
+      },
+      {
+        "jp": "荷物",
+        "kana": "にもつ",
+        "romaji": "nimotsu",
+        "vn": "Hành lý, bưu phẩm"
+      },
+      {
+        "jp": "お金",
+        "kana": "おかね",
+        "romaji": "okane",
+        "vn": "Tiền"
+      },
+      {
+        "jp": "切符",
+        "kana": "きっぷ",
+        "romaji": "kippu",
+        "vn": "Vé (tàu, xe)"
+      },
+      {
+        "jp": "クリスマス",
+        "kana": "クリスマス",
+        "romaji": "kurisumasu",
+        "vn": "Giáng sinh"
+      },
+      {
+        "jp": "父",
+        "kana": "ちち",
+        "romaji": "chichi",
+        "vn": "Bố, ba (dùng khi nói về bố mình)"
+      },
+      {
+        "jp": "母",
+        "kana": "ハハ",
+        "romaji": "haha",
+        "vn": "Mẹ (dùng khi nói về mẹ mình)"
+      },
+      {
+        "jp": "お父さん",
+        "kana": "おとうさん",
+        "romaji": "otousan",
+        "vn": "Bố, ba (dùng khi gọi bố người khác hoặc xưng hô gia đình)"
+      },
+      {
+        "jp": "お母さん",
+        "kana": "おかあさん",
+        "romaji": "okaasan",
+        "vn": "Mẹ (dùng khi gọi mẹ người khác hoặc xưng hô gia đình)"
+      },
+      {
+        "jp": "もう",
+        "kana": "もう",
+        "romaji": "mou",
+        "vn": "Đã, rồi"
+      },
+      {
+        "jp": "まだ",
+        "kana": "まだ",
+        "romaji": "mada",
+        "vn": "Chưa"
+      },
+      {
+        "jp": "これから",
+        "kana": "これから",
+        "romaji": "korekara",
+        "vn": "Từ bây giờ, sau đây"
+      },
+      {
+        "jp": "[～、]素敵ですね",
+        "kana": "[～、]すてきですね",
+        "romaji": "[~,] suteki desu ne",
+        "vn": "[~] đẹp nhỉ / tuyệt vời nhỉ"
+      },
+      {
+        "jp": "いらっしゃい",
+        "kana": "いらっしゃい",
+        "romaji": "irasshai",
+        "vn": "Chào mừng quý khách đã đến chơi nhà"
+      },
+      {
+        "jp": "どうぞお上がりください",
+        "kana": "どうぞおあがりください",
+        "romaji": "douzo oagari kudasai",
+        "vn": "Xin mời anh/chị vào nhà"
+      },
+      {
+        "jp": "失礼します",
+        "kana": "しつれいします",
+        "romaji": "shitsurei shimasu",
+        "vn": "Xin lỗi, tôi xin phép (khi vào nhà người khác)"
+      },
+      {
+        "jp": "[～は]いかがですか",
+        "kana": "[～は]いかがですか",
+        "romaji": "[~wa] ikaga desu ka",
+        "vn": "[~] có được không? / Anh/chị dùng [~] nhé? (mời mọc)"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "7-1",
+        "point": "N (công cụ/phương thức) で V",
+        "formula": "[Noun (Tool/Means)] で [Verb]。",
+        "jpExplain": "動作を行う際に使用する道具や手段、方法を示します。言語にも使われます。",
+        "vnExplain": "Làm việc gì bằng công cụ, phương tiện hoặc phương thức gì. Trợ từ 'de' đứng sau danh từ chỉ công cụ thực hiện hoặc ngôn ngữ diễn đạt.",
+        "exampleJp": "手でご飯を食べます。日本語でレポートを書きます。",
+        "exampleVn": "Ăn cơm bằng tay. Viết báo cáo bằng tiếng Nhật.",
+        "exerciseQuestion": "はさみ___紙を切ります。",
+        "exerciseAnswer": "で",
+        "exerciseHint": "Trợ từ biểu thị công cụ dùng để thực hiện hành động cắt giấy"
+      },
+      {
+        "id": "7-2",
+        "point": "Từ/Câu は ～語で 何ですか",
+        "formula": "「Word/Sentence」は [Language]語で 何ですか。",
+        "jpExplain": "ある言葉が他の言語でどのように表現されるかを尋ねる表現です。",
+        "vnExplain": "Một từ hoặc câu nói bằng ngôn ngữ khác là gì? Dùng để hỏi cách dịch thuật, từ tương đương giữa các ngôn ngữ.",
+        "exampleJp": "「ありがとう」は英語で何ですか。...「Thank you」です。",
+        "exampleVn": "'ありがとう' tiếng Anh là gì? ...Là 'Thank you'.",
+        "exerciseQuestion": "「ケータイ」はベトナム語___何ですか。",
+        "exerciseAnswer": "で",
+        "exerciseHint": "Trợ từ đi sau danh từ ngôn ngữ đóng vai trò phương tiện biểu đạt"
+      },
+      {
+        "id": "7-3",
+        "point": "N1 (người) に N2 を あげます / 貸します / 教えます",
+        "formula": "[Noun 1 (Person)] に [Noun 2] を あげます / 貸します / 教えます / かけます。",
+        "jpExplain": "物品や情報、行為の受け手（対象）を示すとき、その名詞の後ろに助詞「に」を使います。",
+        "vnExplain": "Cho, tặng, cho mượn, dạy cho N1 cái N2. Trợ từ 'ni' đứng sau danh từ chỉ đối tượng tiếp nhận trực tiếp từ hành động của người nói.",
+        "exampleJp": "私は母に花をあげました。友達に電話をかけます。",
+        "exampleVn": "Tôi đã tặng hoa cho mẹ. Tôi gọi điện thoại cho bạn.",
+        "exerciseQuestion": "木村さんは山田さん___英語を教えます。",
+        "exerciseAnswer": "に",
+        "exerciseHint": "Trợ từ chỉ đối tượng tiếp nhận hành động truyền đạt kiến thức"
+      },
+      {
+        "id": "7-4",
+        "point": "N1 (người) に/から N2 を もらいます / 借ります / 習います",
+        "formula": "[Noun 1 (Person/Organization)] に / から [Noun 2] を もらいます / 借ります / 習います。",
+        "jpExplain": "物品や情報などの受け取り元（起点）を提示します。相手が会社や学校などの組織の場合は「から」のみ使えます。",
+        "vnExplain": "Nhận, mượn, học được N2 từ N1. Trợ từ 'ni' hoặc 'kara' đứng sau đối tượng cung cấp. Nếu đối tượng xuất phát là tổ chức (không phải cá nhân) thì bắt buộc dùng 'kara'.",
+        "exampleJp": "私はカリナさんにCDを借りました。会社からお金をもらいました。",
+        "exampleVn": "Tôi đã mượn đĩa CD từ bạn Karina. Tôi nhận tiền từ công ty.",
+        "exerciseQuestion": "会社___パソコンを借りました。",
+        "exerciseAnswer": "から",
+        "exerciseHint": "Trợ từ chỉ xuất phát điểm từ một tổ chức (không được dùng 'ni')"
+      },
+      {
+        "id": "7-5",
+        "point": "もう Vました / いいえ、まだです",
+        "formula": "もう [Verb-ました] か。...はい、もう [Verb-ました]。 / いいえ、まだです。",
+        "jpExplain": "動作がすでに完了しているかどうかを尋ね、未完了の場合は「まだです」と答えます（「～ませんでした」は使いません）。",
+        "vnExplain": "Đã làm gì xong chưa? Câu trả lời phủ định cho hành động chưa hoàn thành bắt buộc dùng cụm 'iie, mada desu' (Chưa, tôi chưa làm), không dùng dạng quá khứ phủ định 'masendeshita'.",
+        "exampleJp": "もう昼ご飯を食べましたか。...いいえ、まだです。",
+        "exampleVn": "Bạn đã ăn trưa chưa? ...Chưa, tôi chưa ăn.",
+        "exerciseQuestion": "もう荷物を送りましたか。...いいえ、___。",
+        "exerciseAnswer": "まだです",
+        "exerciseHint": "Cụm từ cố định dùng để trả lời phủ định cho câu hỏi 'mou... mashita ka'"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "7-p1",
+        "jp": "素敵など調子ですね。どこで買いましたか。...メキシコでもらいました。",
+        "vn": "Cái cà vạt đẹp nhỉ. Bạn mua ở đâu thế? ...Tôi nhận được từ Mexico đấy."
+      },
+      {
+        "id": "7-p2",
+        "jp": "もう荷物を送りましたか。...はい、さっき送りました。",
+        "vn": "Bạn đã gửi bưu phẩm đi chưa? ...Vâng, tôi vừa mới gửi lúc nãy rồi."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "第8課: 形容詞（性質と状態）",
+    "titleVn": "Tính từ (Tính chất & Trạng thái)",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "8-1",
+        "point": "Grammar Point Lesson 8",
+        "formula": "Formula 8",
+        "jpExplain": "Explanation in Japanese for lesson 8.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 8.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "8-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

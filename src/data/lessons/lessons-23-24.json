@@ -1,0 +1,88 @@
+[
+  {
+    "id": 23,
+    "title": "第23課: 条件、道筋 và 時の節",
+    "titleVn": "Điều kiện, Đường đi & Mệnh đề thời gian",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "23-1",
+        "point": "Grammar Point Lesson 23",
+        "formula": "Formula 23",
+        "jpExplain": "Explanation in Japanese for lesson 23.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 23.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "23-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "第24課: 授受動詞（恩恵）",
+    "titleVn": "Động từ cho nhận hành động (Trợ giúp)",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "24-1",
+        "point": "Grammar Point Lesson 24",
+        "formula": "Formula 24",
+        "jpExplain": "Explanation in Japanese for lesson 24.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 24.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "24-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

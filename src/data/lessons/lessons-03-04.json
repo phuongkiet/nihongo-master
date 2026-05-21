@@ -1,0 +1,608 @@
+[
+  {
+    "id": 3,
+    "title": "第3課: 場所、方向、位置",
+    "titleVn": "Bài 3: Địa điểm, Phương hướng & Vị trí",
+    "vocabulary": [
+      {
+        "jp": "ここ",
+        "kana": "ここ",
+        "romaji": "koko",
+        "vn": "Chỗ này, đây (Gần người nói)"
+      },
+      {
+        "jp": "そこ",
+        "kana": "そこ",
+        "romaji": "soko",
+        "vn": "Chỗ đó, đó (Gần người nghe)"
+      },
+      {
+        "jp": "あそこ",
+        "kana": "あそこ",
+        "romaji": "asoko",
+        "vn": "Chỗ kia, kia (Xa cả hai người)"
+      },
+      {
+        "jp": "どこ",
+        "kana": "どこ",
+        "romaji": "doko",
+        "vn": "Chỗ nào, đâu"
+      },
+      {
+        "jp": "こちら",
+        "kana": "こちら",
+        "romaji": "kochira",
+        "vn": "Phía này, hướng này (Lịch sự của ここ)"
+      },
+      {
+        "jp": "そちら",
+        "kana": "そちら",
+        "romaji": "sochira",
+        "vn": "Phía đó, hướng đó (Lịch sự của そこ)"
+      },
+      {
+        "jp": "あちら",
+        "kana": "あちら",
+        "romaji": "achira",
+        "vn": "Phía kia, hướng kia (Lịch sự của あそこ)"
+      },
+      {
+        "jp": "どちら",
+        "kana": "どちら",
+        "romaji": "dochira",
+        "vn": "Phía nào, hướng nào (Lịch sự của どこ)"
+      },
+      {
+        "jp": "教室",
+        "kana": "きょうしつ",
+        "romaji": "kyoushitsu",
+        "vn": "Lớp học, phòng học"
+      },
+      {
+        "jp": "食堂",
+        "kana": "しょくどう",
+        "romaji": "shokudou",
+        "vn": "Nhà ăn, phòng ăn"
+      },
+      {
+        "jp": "事務所",
+        "kana": "じむしょ",
+        "romaji": "jimusho",
+        "vn": "Văn phòng"
+      },
+      {
+        "jp": "会議室",
+        "kana": "かいぎしつ",
+        "romaji": "kaigishitsu",
+        "vn": "Phòng họp"
+      },
+      {
+        "jp": "受付",
+        "kana": "うけつけ",
+        "romaji": "uketsuke",
+        "vn": "Bàn tiếp tân, chỗ thường trực"
+      },
+      {
+        "jp": "ロビー",
+        "kana": "ロビー",
+        "romaji": "robi-",
+        "vn": "Đại sảnh, hành lang đợi"
+      },
+      {
+        "jp": "部屋",
+        "kana": "へや",
+        "romaji": "heya",
+        "vn": "Căn phòng"
+      },
+      {
+        "jp": "トイレ",
+        "kana": "トイレ",
+        "romaji": "toire",
+        "vn": "Nhà vệ sinh (Toilet)"
+      },
+      {
+        "jp": "お手洗い",
+        "kana": "おてあらい",
+        "romaji": "otearai",
+        "vn": "Nhà vệ sinh, phòng rửa tay"
+      },
+      {
+        "jp": "階段",
+        "kana": "かいだん",
+        "romaji": "kaidan",
+        "vn": "Cầu thang bộ"
+      },
+      {
+        "jp": "エレベーター",
+        "kana": "エレベーター",
+        "romaji": "erebe-ta-",
+        "vn": "Thang máy"
+      },
+      {
+        "jp": "エスカレーター",
+        "kana": "エスカレーター",
+        "romaji": "esukare-ta-",
+        "vn": "Thang cuốn"
+      },
+      {
+        "jp": "自動販売機",
+        "kana": "じどうはんばいき",
+        "romaji": "jidouhanbaiki",
+        "vn": "Máy bán hàng tự động"
+      },
+      {
+        "jp": "電話",
+        "kana": "でんわ",
+        "romaji": "denwa",
+        "vn": "Điện thoại, máy điện thoại"
+      },
+      {
+        "jp": "お国",
+        "kana": "おくに",
+        "romaji": "okuni",
+        "vn": "Đất nước, quốc gia (Kính ngữ)"
+      },
+      {
+        "jp": "会社",
+        "kana": "かいしゃ",
+        "romaji": "kaisha",
+        "vn": "Công ty"
+      },
+      {
+        "jp": "うち",
+        "kana": "うち",
+        "romaji": "uchi",
+        "vn": "Nhà của mình"
+      },
+      {
+        "jp": "靴",
+        "kana": "くつ",
+        "romaji": "kutsu",
+        "vn": "Giày, dép"
+      },
+      {
+        "jp": "ネクタイ",
+        "kana": "ネクタイ",
+        "romaji": "nekutai",
+        "vn": "Cà vạt"
+      },
+      {
+        "jp": "ワイン",
+        "kana": "ワイン",
+        "romaji": "wain",
+        "vn": "Rượu vang"
+      },
+      {
+        "jp": "売り場",
+        "kana": "うりば",
+        "romaji": "uriba",
+        "vn": "Quầy bán hàng, nơi bán"
+      },
+      {
+        "jp": "地下",
+        "kana": "ちか",
+        "romaji": "chika",
+        "vn": "Dưới mặt đất, tầng hầm"
+      },
+      {
+        "jp": "～階",
+        "kana": "～かい／～がい",
+        "romaji": "~kai/~gai",
+        "vn": "Tầng thứ ~"
+      },
+      {
+        "jp": "何階",
+        "kana": "なんかい／なんがい",
+        "romaji": "nankai/nangai",
+        "vn": "Tầng mấy"
+      },
+      {
+        "jp": "～円",
+        "kana": "～えん",
+        "romaji": "~en",
+        "vn": "~ Yên (Đơn vị tiền Nhật)"
+      },
+      {
+        "jp": "いくら",
+        "kana": "いくら",
+        "romaji": "ikura",
+        "vn": "Bao nhiêu tiền"
+      },
+      {
+        "jp": "百",
+        "kana": "ひゃく",
+        "romaji": "hyaku",
+        "vn": "Trăm"
+      },
+      {
+        "jp": "千",
+        "kana": "せん",
+        "romaji": "sen",
+        "vn": "Nghìn"
+      },
+      {
+        "jp": "万",
+        "kana": "まん",
+        "romaji": "man",
+        "vn": "Vạn, mười nghìn"
+      },
+      {
+        "jp": "すみません",
+        "kana": "すみません",
+        "romaji": "sumimasen",
+        "vn": "Xin lỗi / Xin hỏi (Khi gọi, làm phiền ai)"
+      },
+      {
+        "jp": "みせてください",
+        "kana": "みせてください",
+        "romaji": "misete kudasai",
+        "vn": "Cho tôi xem (vật gì đó)"
+      },
+      {
+        "jp": "じゃ",
+        "kana": "じゃ",
+        "romaji": "ja",
+        "vn": "Vậy thì, thế thì"
+      },
+      {
+        "jp": "これをください",
+        "kana": "これをください",
+        "romaji": "kore wo kudasai",
+        "vn": "Lấy cho tôi cái này (Khi quyết định mua)"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "3-1",
+        "point": "ここ / そこ / あそこ は N (địa điểm) です",
+        "formula": "ここ / そこ / あそこ は [Noun (Place)] です。",
+        "jpExplain": "場所を示す指示代名詞を主語とする文です。話者と聞き手の位置関係によって使い分けます。",
+        "vnExplain": "Đây / Đó / Kia là [Địa điểm]. Dùng các đại từ chỉ định địa điểm làm chủ ngữ để giới thiệu nơi chốn dựa trên vị trí của người nói và người nghe.",
+        "exampleJp": "ここは食堂です。あそこは受付です。",
+        "exampleVn": "Chỗ này là nhà ăn. Chỗ kia là bàn tiếp tân.",
+        "exerciseQuestion": "___は会議室です。(Chỉ nơi gần người nghe)",
+        "exerciseAnswer": "そこ",
+        "exerciseHint": "Đại từ chỉ địa điểm ở gần vị trí của người nghe"
+      },
+      {
+        "id": "3-2",
+        "point": "N は Địa điểm (ここ/そこ/あそこ) です",
+        "formula": "[Noun] は [Place / 地点] です。",
+        "jpExplain": "人や物、場所がどこにあるかを提示する表現です。場所名詞のほかに「ここ・そこ・あそこ」も使えます。",
+        "vnExplain": "[N] ở [Địa điểm] / [Chỗ này/đó/kia]. Cấu trúc dùng để chỉ vị trí, sự tồn tại của một người, một vật hoặc một ban ngành, địa điểm cụ thể.",
+        "exampleJp": "お手洗いはあそこです。ミラーさんは事務所です。",
+        "exampleVn": "Nhà vệ sinh ở đằng kia. Anh Miller ở văn phòng.",
+        "exerciseQuestion": "エレベーターはどちら___。...あちらです。",
+        "exerciseAnswer": "ですか",
+        "exerciseHint": "Thêm đuôi nghi vấn lịch sự vào cuối câu hỏi vị trí"
+      },
+      {
+        "id": "3-3",
+        "point": "どこ / どちら ですか (Hỏi địa điểm, tổ chức, đất nước)",
+        "formula": "[Noun] は どこ / どちら ですか。",
+        "jpExplain": "場所を尋ねる疑問文です。「どちら」は「どこ」の丁寧な表現で、方向を尋ねるほか、国や会社などの所属を尋ねる際にも使われます。",
+        "vnExplain": "[N] ở đâu / hướng nào? 'doko' dùng để hỏi địa điểm. 'dochira' là thể lịch sự của 'doko', dùng hỏi phương hướng hoặc khi hỏi về tên quốc gia, trường học, công ty thuộc về.",
+        "exampleJp": "学校はどこですか。お国はどちらですか。",
+        "exampleVn": "Trường học ở đâu vậy? Đất nước của bạn là nơi nào ạ?",
+        "exerciseQuestion": "会社は___ですか。...ＩＭＣです。",
+        "exerciseAnswer": "どちら",
+        "exerciseHint": "Từ để hỏi trang trọng dùng cho tổ chức, công ty (thay vì hỏi địa điểm thuần túy)"
+      },
+      {
+        "id": "3-4",
+        "point": "N1 の N2 (Xuất xứ / Nơi sản xuất)",
+        "formula": "[Noun 1 (Country/Company)] の [Noun 2 (Product)]",
+        "jpExplain": "N1が国や会社などの場合、N2がその国や会社で作られた製品（産地・メーカー）であることを表します。",
+        "vnExplain": "[N2] của/sản xuất tại [N1]. Trợ từ 'no' trong bài này biểu thị nguồn gốc, xuất xứ của đồ vật (do quốc gia nào hay hãng nào sản xuất).",
+        "exampleJp": "これは日本の自動車です。あれはＩＭＣのコンピューターです。",
+        "exampleVn": "Đây là ô tô của Nhật Bản. Kia là máy tính của công ty IMC.",
+        "exerciseQuestion": "これはどこ___靴ですか。...イタリアの靴です。",
+        "exerciseAnswer": "の",
+        "exerciseHint": "Trợ từ nối giữa nghi vấn từ xuất xứ và danh từ sản phẩm"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "3-p1",
+        "jp": "すみません、ワイン売り場は何階ですか。...地下１階です。",
+        "vn": "Xin hỏi, quầy bán rượu vang ở tầng mấy ạ? ...Ở tầng hầm 1 ạ."
+      },
+      {
+        "id": "3-p2",
+        "jp": "このカメラはいくらですか。...２５,８００円です。...じゃ、これをください。",
+        "vn": "Cái máy ảnh này bao nhiêu tiền vậy? ...Là 25,800 Yên. ...Vậy thì lấy cho tôi cái này."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "第4課: 時間、日付と日常生活",
+    "titleVn": "Bài 4: Giờ giấc, Ngày tháng & Hoạt động hàng ngày",
+    "vocabulary": [
+      {
+        "jp": "起きます",
+        "kana": "おきます",
+        "romaji": "okimasu",
+        "vn": "Thức dậy"
+      },
+      {
+        "jp": "寝ます",
+        "kana": "ねます",
+        "romaji": "nemasu",
+        "vn": "Ngủ, đi ngủ"
+      },
+      {
+        "jp": "働きます",
+        "kana": "はたらきます",
+        "romaji": "hatarakimasu",
+        "vn": "Làm việc"
+      },
+      {
+        "jp": "休みます",
+        "kana": "やすみます",
+        "romaji": "yasumimasu",
+        "vn": "Nghỉ ngơi, xin nghỉ"
+      },
+      {
+        "jp": "勉強します",
+        "kana": "べんきょうします",
+        "romaji": "benkyoushimasu",
+        "vn": "Học, học tập"
+      },
+      {
+        "jp": "終わります",
+        "kana": "おわります",
+        "romaji": "owarimasu",
+        "vn": "Kết thúc, xong"
+      },
+      {
+        "jp": "デパート",
+        "kana": "デパート",
+        "romaji": "depa-to",
+        "vn": "Bách hóa"
+      },
+      {
+        "jp": "銀行",
+        "kana": "ぎんこう",
+        "romaji": "ginkou",
+        "vn": "Ngân hàng"
+      },
+      {
+        "jp": "郵便局",
+        "kana": "ゆうびんきょく",
+        "romaji": "yuubinkyoku",
+        "vn": "Bưu điện"
+      },
+      {
+        "jp": "図書館",
+        "kana": "としょかん",
+        "romaji": "toshokan",
+        "vn": "Thư viện"
+      },
+      {
+        "jp": "美術館",
+        "kana": "びじゅつかん",
+        "romaji": "bijutsukan",
+        "vn": "Bảo tàng mỹ thuật"
+      },
+      {
+        "jp": "今",
+        "kana": "いま",
+        "romaji": "ima",
+        "vn": "Bây giờ"
+      },
+      {
+        "jp": "～時",
+        "kana": "～じ",
+        "romaji": "~ji",
+        "vn": "~ giờ"
+      },
+      {
+        "jp": "～分",
+        "kana": "～ふん／～ぷん",
+        "romaji": "~fun/~pun",
+        "vn": "~ phút"
+      },
+      {
+        "jp": "半",
+        "kana": "はん",
+        "romaji": "han",
+        "vn": "Rưỡi, nửa"
+      },
+      {
+        "jp": "何時",
+        "kana": "なんじ",
+        "romaji": "nanji",
+        "vn": "Mấy giờ"
+      },
+      {
+        "jp": "何分",
+        "kana": "なんぷん",
+        "romaji": "nanpun",
+        "vn": "Mấy phút"
+      },
+      {
+        "jp": "午前",
+        "kana": "ごぜん",
+        "romaji": "gozen",
+        "vn": "Sáng, sáng sớm (AM)"
+      },
+      {
+        "jp": "午後",
+        "kana": "ごご",
+        "romaji": "gogo",
+        "vn": "Chiều, tối (PM)"
+      },
+      {
+        "jp": "朝",
+        "kana": "あさ",
+        "romaji": "asa",
+        "vn": "Buổi sáng"
+      },
+      {
+        "jp": "昼",
+        "kana": "ひる",
+        "romaji": "hiru",
+        "vn": "Buổi trưa"
+      },
+      {
+        "jp": "晩／夜",
+        "kana": "ばん／よる",
+        "romaji": "ban/yoru",
+        "vn": "Buổi tối"
+      },
+      {
+        "jp": "おととい",
+        "kana": "おととい",
+        "romaji": "ototoi",
+        "vn": "Hôm kia"
+      },
+      {
+        "jp": "昨日",
+        "kana": "きのう",
+        "romaji": "kinou",
+        "vn": "Hôm qua"
+      },
+      {
+        "jp": "今日",
+        "kana": "きょう",
+        "romaji": "kyou",
+        "vn": "Hôm nay"
+      },
+      {
+        "jp": "明日",
+        "kana": "あした",
+        "romaji": "ashita",
+        "vn": "Ngày mai"
+      },
+      {
+        "jp": "あさって",
+        "kana": "あさって",
+        "romaji": "asatte",
+        "vn": "Ngày kia"
+      },
+      {
+        "jp": "今朝",
+        "kana": "けさ",
+        "romaji": "kesa",
+        "vn": "Sáng nay"
+      },
+      {
+        "jp": "今晩",
+        "kana": "こんばん",
+        "romaji": "konban",
+        "vn": "Tối nay"
+      },
+      {
+        "jp": "休み",
+        "kana": "やすみ",
+        "romaji": "yasumi",
+        "vn": "Nghỉ ngơi, ngày nghỉ"
+      },
+      {
+        "jp": "昼休み",
+        "kana": "ひるやすみ",
+        "romaji": "hiruyasumi",
+        "vn": "Nghỉ trưa"
+      },
+      {
+        "jp": "試験",
+        "kana": "しけん",
+        "romaji": "shiken",
+        "vn": "Kỳ thi, kiểm tra"
+      },
+      {
+        "jp": "会議",
+        "kana": "かいぎ",
+        "romaji": "kaigi",
+        "vn": "Cuộc họp, hội nghị"
+      },
+      {
+        "jp": "映画",
+        "kana": "えいが",
+        "romaji": "eiga",
+        "vn": "Phim, điện ảnh"
+      },
+      {
+        "jp": "毎朝",
+        "kana": "まいあさ",
+        "romaji": "maiasa",
+        "vn": "Mỗi sáng"
+      },
+      {
+        "jp": "毎晩",
+        "kana": "まいばん",
+        "romaji": "maiban",
+        "vn": "Mỗi tối"
+      },
+      {
+        "jp": "毎日",
+        "kana": "まいにち",
+        "romaji": "mainichi",
+        "vn": "Mỗi ngày"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "4-1",
+        "point": "今 ～時 ～分です",
+        "formula": "今 [Noun (Time)] 時 [Noun (Time)] 分です。",
+        "jpExplain": "現在の時刻を提示する表現です。質問する時は「何時」「何分」を使います。",
+        "vnExplain": "Bây giờ là... giờ... phút. Dùng để diễn tả thời gian tại thời điểm nói. Khi hỏi dùng nghi vấn từ 'nanji' hoặc 'nanpun'.",
+        "exampleJp": "今４時半です。",
+        "exampleVn": "Bây giờ là 4 giờ rưỡi.",
+        "exerciseQuestion": "ニューヨークは今何時___か。",
+        "exerciseAnswer": "です",
+        "exerciseHint": "Thêm đuôi kết thúc câu khẳng định lịch sự trước trợ từ nghi vấn 'ka'"
+      },
+      {
+        "id": "4-2",
+        "point": "動詞 ます形 / ません形 / ました形 / ませんでした形",
+        "formula": "[Verb-ます] (Hiện tại khẳng định) / [~ません] (Hiện tại phủ định) / [~ました] (Quá khứ khẳng định) / [~ませんでした] (Quá khứ phủ định)",
+        "jpExplain": "動詞の非過去（現在・未来）と過去における肯定・否定の時制を表現します。",
+        "vnExplain": "Biểu thị các thì của động từ: khẳng định/phủ định ở hiện tại/tương lai (thói quen, chân lý, hành động sắp diễn ra) hoặc quá khứ.",
+        "exampleJp": "昨日勉強しました。明日は働きません。",
+        "exampleVn": "Hôm qua tôi đã học bài. Ngày mai tôi không làm việc.",
+        "exerciseQuestion": "昨日の晩、勉強し___。...いいえ、勉強しませんでした。",
+        "exerciseAnswer": "ましたか",
+        "exerciseHint": "Đặt câu hỏi nghi vấn ở thời quá khứ phù hợp với câu trả lời"
+      },
+      {
+        "id": "4-3",
+        "point": "N (thời gian) に V",
+        "formula": "[Noun (Time)] に [Verb]。",
+        "jpExplain": "動作が行われる特定の時間を表すとき、数値を含む時間の名詞の後ろに「に」をつけます。曜日にはつけることもありますが、毎朝などの言葉にはつけません。",
+        "vnExplain": "Làm việc gì vào lúc nào. Trợ từ 'ni' đứng sau danh từ chỉ mốc thời gian có con số cụ thể (giờ, ngày, tháng, năm). Không dùng 'ni' với các từ chung chung như 'maiasa', 'kyou', 'ashita'.",
+        "exampleJp": "私は６時半に起きます。",
+        "exampleVn": "Tôi thức dậy vào lúc 6 giờ rưỡi.",
+        "exerciseQuestion": "毎朝何時___起きますか。...６時に起きます。",
+        "exerciseAnswer": "に",
+        "exerciseHint": "Trợ từ đứng sau danh từ chỉ mốc thời gian cụ thể khi thực hiện hành động"
+      },
+      {
+        "id": "4-4",
+        "point": "N1 から N2 まで",
+        "formula": "[Noun 1] から [Noun 2] まで",
+        "jpExplain": "「から」は起点（始まり）、「まで」は終点（終わり）を示します。時間だけでなく場所の範囲にも使われます。また、「から」や「まで」単独で「です」と結ぶこともできます。",
+        "vnExplain": "Từ... đến... 'kara' biểu thị thời điểm/địa điểm bắt đầu, 'made' biểu thị thời điểm/địa điểm kết thúc. Có thể dùng độc lập một vế đi kèm đuôi 'desu'.",
+        "exampleJp": "９時から５時まで働きます。銀行は３時までです。",
+        "exampleVn": "Tôi làm việc từ 9 giờ đến 5 giờ. Ngân hàng mở cửa đến 3 giờ.",
+        "exerciseQuestion": "昼休みは１２時半___１時半までです。",
+        "exerciseAnswer": "から",
+        "exerciseHint": "Trợ từ biểu thị mốc thời gian xuất phát, bắt đầu nghỉ trưa"
+      }
+    ],
+    "phrases": [
+      {
+        "id": "4-p1",
+        "jp": "そちらは何時から何時までですか。...９時から５時半までです。",
+        "vn": "Phía bên ngài làm việc từ mấy giờ đến mấy giờ ạ? ...Từ 9 giờ đến 5 giờ rưỡi ạ."
+      },
+      {
+        "id": "4-p2",
+        "jp": "毎日何時に寝ますか。...１１時頃に寝ます。大変ですね。",
+        "vn": "Hàng ngày bạn ngủ lúc mấy giờ? ...Tôi ngủ vào khoảng 11 giờ. Vất vả cho bạn quá nhỉ."
+      }
+    ]
+  }
+]

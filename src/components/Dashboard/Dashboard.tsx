@@ -38,7 +38,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ progress, lessons, onResum
               Minna no Nihongo Master
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-2">
-              Chào mừng bạn trở lại! 👋
+              Chào mừng bạn trở lại!
             </h2>
             <p className="text-indigo-100 text-sm max-w-lg leading-relaxed">
               Hôm nay là một ngày tuyệt vời để học Tiếng Nhật. Hãy tiếp tục ôn tập từ vựng và hoàn thành các bài học nhé!
@@ -134,14 +134,14 @@ export const Dashboard: React.FC<DashboardProps> = ({ progress, lessons, onResum
                     onClick={() => onResumeLesson(lesson.id)}
                     className="p-4 rounded-xl border border-slate-100 hover:border-indigo-100 hover:bg-indigo-50/20 transition-all cursor-pointer group flex justify-between items-center"
                   >
-                    <div>
+                    <div className="flex-1 min-w-0 pr-3">
                       <span className="text-[10px] font-bold text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full mb-1 inline-block">
                         Bài {lesson.id}
                       </span>
-                      <h5 className="font-bold text-sm text-scholastic-navy group-hover:text-indigo-700 transition-colors">
+                      <h5 className="font-bold text-sm text-scholastic-navy group-hover:text-indigo-700 transition-colors truncate">
                         {lesson.title.split(': ')[1] || lesson.title}
                       </h5>
-                      <p className="text-xs text-slate-400 mt-0.5">{lesson.titleVn}</p>
+                      <p className="text-xs text-slate-400 mt-0.5 truncate">{lesson.titleVn}</p>
                     </div>
                     <span className="text-xs font-semibold text-slate-400 group-hover:text-indigo-600 transition-colors flex items-center gap-1">
                       Học tiếp

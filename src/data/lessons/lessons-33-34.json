@@ -1,0 +1,88 @@
+[
+  {
+    "id": 33,
+    "title": "第33課: 命令形 và 禁止形",
+    "titleVn": "Thể mệnh lệnh & Thể cấm đoán",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "33-1",
+        "point": "Grammar Point Lesson 33",
+        "formula": "Formula 33",
+        "jpExplain": "Explanation in Japanese for lesson 33.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 33.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "33-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "第34課: 指示 và 順序に従う",
+    "titleVn": "Làm theo chỉ dẫn & Trình tự",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "34-1",
+        "point": "Grammar Point Lesson 34",
+        "formula": "Formula 34",
+        "jpExplain": "Explanation in Japanese for lesson 34.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 34.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "34-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]

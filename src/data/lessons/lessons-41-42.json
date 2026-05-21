@@ -1,0 +1,88 @@
+[
+  {
+    "id": 41,
+    "title": "第41課: 目上・目下への授受",
+    "titleVn": "Cho và nhận kính ngữ/khiêm nhường ngữ",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "41-1",
+        "point": "Grammar Point Lesson 41",
+        "formula": "Formula 41",
+        "jpExplain": "Explanation in Japanese for lesson 41.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 41.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "41-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "第42課: 目的、用途 và 準備",
+    "titleVn": "Mục đích sử dụng & Chuẩn bị",
+    "vocabulary": [
+      {
+        "jp": "本",
+        "kana": "ほん",
+        "romaji": "hon",
+        "vn": "Sách"
+      },
+      {
+        "jp": "車",
+        "kana": "くるま",
+        "romaji": "kuruma",
+        "vn": "Xe hơi, ô tô"
+      },
+      {
+        "jp": "水",
+        "kana": "みず",
+        "romaji": "mizu",
+        "vn": "Nước"
+      }
+    ],
+    "grammar": [
+      {
+        "id": "42-1",
+        "point": "Grammar Point Lesson 42",
+        "formula": "Formula 42",
+        "jpExplain": "Explanation in Japanese for lesson 42.",
+        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 42.",
+        "exampleJp": "これは本です。",
+        "exampleVn": "Đây là cuốn sách."
+      }
+    ],
+    "phrases": [
+      {
+        "id": "42-p1",
+        "jp": "こんにちは。",
+        "vn": "Xin chào."
+      }
+    ]
+  }
+]
