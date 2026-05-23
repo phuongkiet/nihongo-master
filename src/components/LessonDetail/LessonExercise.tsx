@@ -3,6 +3,107 @@ import type { Lesson, VocabItem } from '../../types';
 import { Check, X, Award, ArrowRight, Sparkles, RefreshCw } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
+interface Token {
+  text: string;
+  isVocab: boolean;
+  vocabItem?: VocabItem;
+}
+
+export function tokenizeText(text: string, vocabList: VocabItem[], isJapanese: boolean): Token[] {
+  if (!text) return [];
+  
+  // Sort vocabulary descending by length to avoid partial matches
+  const sortedVocab = [...vocabList]
+    .filter(v => isJapanese ? v.jp : v.vn)
+    .sort((a, b) => {
+      const lenA = isJapanese ? a.jp.length : a.vn.length;
+      const lenB = isJapanese ? b.jp.length : b.vn.length;
+      return lenB - lenA;
+    });
+
+  let tokens: Token[] = [{ text, isVocab: false }];
+
+  for (const vocab of sortedVocab) {
+    const searchStr = isJapanese ? vocab.jp : vocab.vn;
+    if (!searchStr) continue;
+
+    const nextTokens: Token[] = [];
+    for (const token of tokens) {
+      if (token.isVocab) {
+        nextTokens.push(token);
+        continue;
+      }
+
+      const parts = token.text.split(searchStr);
+      if (parts.length > 1) {
+        parts.forEach((part, idx) => {
+          if (part) {
+            nextTokens.push({ text: part, isVocab: false });
+          }
+          if (idx < parts.length - 1) {
+            nextTokens.push({
+              text: searchStr,
+              isVocab: true,
+              vocabItem: vocab
+            });
+          }
+        });
+      } else {
+        nextTokens.push(token);
+      }
+    }
+    tokens = nextTokens;
+  }
+
+  return tokens;
+}
+
+interface InteractiveTextProps {
+  text: string;
+  vocabList: VocabItem[];
+  isJapanese: boolean;
+}
+
+export const InteractiveText: React.FC<InteractiveTextProps> = ({ text, vocabList, isJapanese }) => {
+  const tokens = useMemo(() => tokenizeText(text, vocabList, isJapanese), [text, vocabList, isJapanese]);
+
+  return (
+    <>
+      {tokens.map((token, idx) => {
+        if (!token.isVocab || !token.vocabItem) {
+          return <span key={idx} className="inline">{token.text}</span>;
+        }
+
+        const v = token.vocabItem;
+        let hint = '';
+        if (isJapanese) {
+          hint = v.kana !== v.jp ? `${v.kana}: ${v.vn}` : v.vn;
+        } else {
+          hint = v.kana !== v.jp ? `${v.jp} (${v.kana})` : v.jp;
+        }
+
+        return (
+          <span
+            key={idx}
+            className="inline-block relative group border-b-2 border-dotted border-indigo-400 hover:border-indigo-600 hover:text-indigo-600 cursor-help transition-all duration-200"
+          >
+            {token.text}
+            {/* Centered Positioning Wrapper */}
+            <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 hidden group-hover:block z-30 pointer-events-none">
+              {/* Animated Tooltip Bubble */}
+              <span className="relative block bg-slate-900 text-white text-xs font-sans rounded-xl py-2 px-3 shadow-xl whitespace-nowrap animate-scale-in">
+                {hint}
+              </span>
+              {/* Centered Indicator Arrow */}
+              <span className="absolute top-full left-1/2 transform -translate-x-1/2 border-4 border-transparent border-t-slate-900"></span>
+            </span>
+          </span>
+        );
+      })}
+    </>
+  );
+};
+
 export interface ExerciseQuestion {
   id: string;
   type: 'vocab_jp_vn' | 'vocab_vn_jp' | 'vocab_matching' | 'grammar_translate' | 'grammar_fill';
@@ -150,117 +251,171 @@ export const LessonExercise: React.FC<LessonExerciseProps> = ({
       return candidates.sort(() => Math.random() - 0.5).slice(0, count);
     };
 
-    // 1. JP -> VN Vocabulary MCQ (2 questions)
+    // 1. Easy Tier: Vocabulary MCQs (12 questions)
+    // 6x JP -> VN MCQs
     if (vocab.length > 0) {
-      const picked = [...vocab].sort(() => Math.random() - 0.5).slice(0, Math.min(2, vocab.length));
-      picked.forEach((v, i) => {
+      const shuffledJpVn = [...vocab].sort(() => Math.random() - 0.5);
+      for (let i = 0; i < 6; i++) {
+        const v = shuffledJpVn[i % shuffledJpVn.length];
         const correct = v.vn;
         const distractors = getDistractors(v, false, 3);
         const options = [correct, ...distractors].sort(() => Math.random() - 0.5);
         list.push({
-          id: `vocab_jp_vn_${i}`,
+          id: `vocab_jp_vn_${i}_${Date.now()}`,
           type: 'vocab_jp_vn',
           prompt: v.jp,
           correctAnswer: correct,
           options,
           hint: v.kana !== v.jp ? `${v.kana} (${v.romaji})` : v.romaji
         });
-      });
-    }
+      }
 
-    // 2. VN -> JP Vocabulary MCQ (2 questions)
-    if (vocab.length > 0) {
-      const picked = [...vocab].sort(() => Math.random() - 0.5).slice(0, Math.min(2, vocab.length));
-      picked.forEach((v, i) => {
+      // 6x VN -> JP MCQs
+      const shuffledVnJp = [...vocab].sort(() => Math.random() - 0.5);
+      for (let i = 0; i < 6; i++) {
+        const v = shuffledVnJp[i % shuffledVnJp.length];
         const correct = v.jp;
         const distractors = getDistractors(v, true, 3);
         const options = [correct, ...distractors].sort(() => Math.random() - 0.5);
         list.push({
-          id: `vocab_vn_jp_${i}`,
+          id: `vocab_vn_jp_${i}_${Date.now()}`,
           type: 'vocab_vn_jp',
           prompt: v.vn,
           correctAnswer: correct,
           options,
           hint: v.kana !== v.jp ? `${v.kana} (${v.romaji})` : v.romaji
         });
-      });
+      }
     }
 
-    // 3. Vocab Matching Pairs (1 question with 4 pairs)
+    // 2. Medium Tier: 2x Matching and 4x Fill-in-the-blank (6 questions total)
+    // 2x Matching Games
     if (vocab.length > 0) {
-      let matchedItems = [...vocab].sort(() => Math.random() - 0.5).slice(0, 4);
-      if (matchedItems.length < 4) {
-        lessons.forEach(l => {
-          l.vocabulary.forEach(v => {
-            if (matchedItems.length < 4 && !matchedItems.some(mi => mi.jp === v.jp)) {
-              matchedItems.push(v);
-            }
+      for (let m = 0; m < 2; m++) {
+        let matchedItems = [...vocab].sort(() => Math.random() - 0.5).slice(0, 4);
+        if (matchedItems.length < 4) {
+          lessons.forEach(l => {
+            l.vocabulary.forEach(v => {
+              if (matchedItems.length < 4 && !matchedItems.some(mi => mi.jp === v.jp)) {
+                matchedItems.push(v);
+              }
+            });
           });
+        }
+        list.push({
+          id: `matching_vocab_${m}_${Date.now()}`,
+          type: 'vocab_matching',
+          prompt: 'Nối từ tiếng Nhật với nghĩa tiếng Việt tương ứng:',
+          correctAnswer: '',
+          matchingPairs: matchedItems.map(v => ({ jp: v.jp, vn: v.vn }))
         });
       }
-      list.push({
-        id: 'matching_vocab',
-        type: 'vocab_matching',
-        prompt: 'Nối từ tiếng Nhật với nghĩa tiếng Việt tương ứng:',
-        correctAnswer: '',
-        matchingPairs: matchedItems.map(v => ({ jp: v.jp, vn: v.vn }))
-      });
     }
 
-    // 4. Grammar Translation VN -> JP (1-2 questions)
-    if (grammar.length > 0) {
-      const picked = [...grammar].sort(() => Math.random() - 0.5).slice(0, Math.min(2, grammar.length));
-      picked.forEach((g, i) => {
-        list.push({
-          id: `grammar_trans_${i}`,
-          type: 'grammar_translate',
-          prompt: g.exampleVn,
-          correctAnswer: g.exampleJp,
-          hint: `Mẫu ngữ pháp: ${g.point.split('(')[0]}`
-        });
-      });
-    }
-
-    // 5. Grammar Fill-in-the-blank (1-2 questions)
+    // 4x Grammar Fill-in-the-blank
+    const fillQuestions: ExerciseQuestion[] = [];
     const exerciseGPoints = grammar.filter(g => g.exerciseQuestion && g.exerciseAnswer);
-    if (exerciseGPoints.length > 0) {
-      const picked = [...exerciseGPoints].sort(() => Math.random() - 0.5).slice(0, Math.min(2, exerciseGPoints.length));
-      picked.forEach((g, i) => {
-        list.push({
-          id: `grammar_fill_${i}`,
-          type: 'grammar_fill',
-          prompt: g.exerciseQuestion || '',
-          correctAnswer: g.exerciseAnswer || '',
-          hint: g.exerciseHint
-        });
+    const shuffledPredefined = [...exerciseGPoints].sort(() => Math.random() - 0.5);
+    shuffledPredefined.forEach((g, i) => {
+      fillQuestions.push({
+        id: `grammar_fill_pre_${i}_${Date.now()}`,
+        type: 'grammar_fill',
+        prompt: g.exerciseQuestion || '',
+        correctAnswer: g.exerciseAnswer || '',
+        hint: g.exerciseHint
       });
-    } else if (grammar.length > 0) {
-      // Dynamic fallback fill-in-the-blank particle quiz
+    });
+
+    if (fillQuestions.length < 4 && grammar.length > 0) {
       const particles = ['は', 'の', 'も', 'に', 'で', 'を', 'が', 'か'];
-      let fallbackCount = 0;
       const shuffledGrammar = [...grammar].sort(() => Math.random() - 0.5);
-      
+      let fallbackIdx = 0;
+
       for (const g of shuffledGrammar) {
-        if (fallbackCount >= 2) break;
+        if (fillQuestions.length >= 4) break;
         const sentence = g.exampleJp;
         for (const p of particles) {
           if (sentence.includes(p) && sentence.indexOf(p) > 0 && sentence.indexOf(p) < sentence.length - 2) {
             const prompt = sentence.replace(p, '___');
-            list.push({
-              id: `grammar_fill_fallback_${fallbackCount}`,
-              type: 'grammar_fill',
-              prompt,
-              correctAnswer: p,
-              hint: `Trợ từ biểu diễn trong câu: ${g.point.split(' (')[0]}`
-            });
-            fallbackCount++;
-            break;
+            if (!fillQuestions.some(q => q.prompt === prompt)) {
+              fillQuestions.push({
+                id: `grammar_fill_dyn_${fallbackIdx}_${Date.now()}`,
+                type: 'grammar_fill',
+                prompt,
+                correctAnswer: p,
+                hint: `Trợ từ biểu diễn trong câu: ${g.point.split(' (')[0]}`
+              });
+              fallbackIdx++;
+              break;
+            }
           }
         }
       }
     }
 
-    return list.sort(() => Math.random() - 0.5); // Shuffle final quiz list
+    if (fillQuestions.length < 4) {
+      let fallbackIdx = 0;
+      lessons.forEach(l => {
+        if (fillQuestions.length >= 4) return;
+        l.grammar.forEach(g => {
+          if (fillQuestions.length >= 4) return;
+          if (g.exerciseQuestion && g.exerciseAnswer) {
+            fillQuestions.push({
+              id: `grammar_fill_fallback_${l.id}_${fallbackIdx}_${Date.now()}`,
+              type: 'grammar_fill',
+              prompt: g.exerciseQuestion,
+              correctAnswer: g.exerciseAnswer,
+              hint: g.exerciseHint
+            });
+            fallbackIdx++;
+          }
+        });
+      });
+    }
+
+    list.push(...fillQuestions.slice(0, 4));
+
+    // 3. Hard Tier: VN -> JP Sentence Translation (2 questions)
+    const translationQuestions: ExerciseQuestion[] = [];
+    if (grammar.length > 0) {
+      const shuffledGrammarForTrans = [...grammar].sort(() => Math.random() - 0.5);
+      shuffledGrammarForTrans.forEach((g, i) => {
+        if (translationQuestions.length < 2 && g.exampleVn && g.exampleJp) {
+          translationQuestions.push({
+            id: `grammar_trans_${i}_${Date.now()}`,
+            type: 'grammar_translate',
+            prompt: g.exampleVn,
+            correctAnswer: g.exampleJp,
+            hint: `Mẫu ngữ pháp: ${g.point.split(' (')[0]}`
+          });
+        }
+      });
+    }
+
+    if (translationQuestions.length < 2) {
+      let fallbackIdx = 0;
+      lessons.forEach(l => {
+        if (translationQuestions.length >= 2) return;
+        l.grammar.forEach(g => {
+          if (translationQuestions.length >= 2) return;
+          if (g.exampleVn && g.exampleJp) {
+            translationQuestions.push({
+              id: `grammar_trans_fallback_${fallbackIdx}_${Date.now()}`,
+              type: 'grammar_translate',
+              prompt: g.exampleVn,
+              correctAnswer: g.exampleJp,
+              hint: `Mẫu ngữ pháp: ${g.point.split(' (')[0]}`
+            });
+            fallbackIdx++;
+          }
+        });
+      });
+    }
+
+    list.push(...translationQuestions.slice(0, 2));
+
+    // Final shuffle to mix Easy, Medium, and Hard questions in random order
+    return list.sort(() => Math.random() - 0.5);
   };
 
   const currentQuestion = questions[currentIdx];
@@ -523,7 +678,9 @@ export const LessonExercise: React.FC<LessonExerciseProps> = ({
                 </span>
                 
                 <div className="bg-slate-50 border border-slate-100 rounded-3xl p-8 mb-8 max-w-sm mx-auto shadow-inner">
-                  <h3 className="japanese-text text-4xl mb-2">{currentQuestion.prompt}</h3>
+                  <h3 className="japanese-text text-4xl mb-2">
+                    <InteractiveText text={currentQuestion.prompt} vocabList={lesson.vocabulary} isJapanese={true} />
+                  </h3>
                   {currentQuestion.hint && (
                     <span className="text-xs text-slate-400 font-bold block">{currentQuestion.hint}</span>
                   )}
@@ -562,7 +719,9 @@ export const LessonExercise: React.FC<LessonExerciseProps> = ({
                 </span>
                 
                 <div className="bg-slate-50 border border-slate-100 rounded-3xl p-8 mb-8 max-w-md mx-auto shadow-inner">
-                  <h3 className="text-xl font-bold text-slate-700 leading-snug">{currentQuestion.prompt}</h3>
+                  <h3 className="text-xl font-bold text-slate-700 leading-snug">
+                    <InteractiveText text={currentQuestion.prompt} vocabList={lesson.vocabulary} isJapanese={false} />
+                  </h3>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-lg mx-auto">
@@ -673,7 +832,9 @@ export const LessonExercise: React.FC<LessonExerciseProps> = ({
                 </span>
 
                 <div className="bg-slate-50 border border-slate-100 rounded-3xl p-6 mb-6 shadow-inner text-center">
-                  <h3 className="text-lg font-bold text-slate-700">{currentQuestion.prompt}</h3>
+                  <h3 className="text-lg font-bold text-slate-700">
+                    <InteractiveText text={currentQuestion.prompt} vocabList={lesson.vocabulary} isJapanese={false} />
+                  </h3>
                 </div>
 
                 <div className="relative mb-3">
@@ -704,7 +865,7 @@ export const LessonExercise: React.FC<LessonExerciseProps> = ({
 
                 <div className="bg-slate-50 border border-slate-100 rounded-3xl p-8 mb-6 shadow-inner text-center">
                   <h3 className="japanese-text text-2xl tracking-wide select-none leading-relaxed flex items-center justify-center flex-wrap gap-2">
-                    {currentQuestion.prompt.split('___')[0]}
+                    <InteractiveText text={currentQuestion.prompt.split('___')[0]} vocabList={lesson.vocabulary} isJapanese={true} />
                     <input
                       type="text"
                       value={textInput}
@@ -718,7 +879,7 @@ export const LessonExercise: React.FC<LessonExerciseProps> = ({
                           : 'border-slate-300 focus:border-indigo-600 bg-white/70'
                       }`}
                     />
-                    {currentQuestion.prompt.split('___')[1]}
+                    <InteractiveText text={currentQuestion.prompt.split('___')[1]} vocabList={lesson.vocabulary} isJapanese={true} />
                   </h3>
                 </div>
                 {currentQuestion.hint && (
