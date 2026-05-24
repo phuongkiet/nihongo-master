@@ -5,33 +5,192 @@
     "titleVn": "Vẻ bề ngoài & Hoạt động sắp diễn ra",
     "vocabulary": [
       {
-        "jp": "本",
-        "kana": "ほん",
-        "romaji": "hon",
-        "vn": "Sách"
+        "jp": "ふえます[ゆしゅつが～]",
+        "kana": "ふえます[ゆしゅつが～]",
+        "romaji": "fuemasu[yushutsuga~]",
+        "vn": "tăng, tăng lên [xuất khẩu ~]"
       },
       {
-        "jp": "車",
-        "kana": "くるま",
-        "romaji": "kuruma",
-        "vn": "Xe hơi, ô tô"
+        "jp": "へります[ゆしゅつが～]",
+        "kana": "へります[ゆしゅつが～]",
+        "romaji": "herimasu[yushutsuga~]",
+        "vn": "giảm, giảm xuống [xuất khẩu ~]"
       },
       {
-        "jp": "水",
-        "kana": "みず",
-        "romaji": "mizu",
-        "vn": "Nước"
+        "jp": "あがります[ねだんが～]",
+        "kana": "あがります[ねだんが～]",
+        "romaji": "agarimasu[nedanga~]",
+        "vn": "tăng, tăng lên [giá ~]"
+      },
+      {
+        "jp": "さがります[ねだんが～]",
+        "kana": "さがります[ねだんが～]",
+        "romaji": "sagarimasu[nedanga~]",
+        "vn": "giảm, giảm xuống [giá ~]"
+      },
+      {
+        "jp": "きれます[ひもが～]",
+        "kana": "きれます[ひもが～]",
+        "romaji": "kiremasu[himoga~]",
+        "vn": "đứt [sợi dây bị ~]"
+      },
+      {
+        "jp": "とれます[ボタンが～]",
+        "kana": "とれます[ボタンが～]",
+        "romaji": "toremasu[botanga~]",
+        "vn": "tuột [cái cúc bị ~]"
+      },
+      {
+        "jp": "おちます[にもつが～]",
+        "kana": "おちます[にもつが～]",
+        "romaji": "ochimasu[nimotsuga~]",
+        "vn": "rơi [hành lý bị ~]"
+      },
+      {
+        "jp": "なくなります[ガソリンが～]",
+        "kana": "なくなります[ガソリンが～]",
+        "romaji": "nakunarimasu[gasoringa~]",
+        "vn": "mất, hết [xăng bị ~]"
+      },
+      {
+        "jp": "へん[な]",
+        "kana": "へん[な]",
+        "romaji": "hen[na]",
+        "vn": "lạ, kỳ quặc"
+      },
+      {
+        "jp": "しあわせ[な]",
+        "kana": "しあわせ[な]",
+        "romaji": "shiawase[na]",
+        "vn": "hạnh phúc"
+      },
+      {
+        "jp": "らく[な]",
+        "kana": "らく[な]",
+        "romaji": "raku[na]",
+        "vn": "thoải mái, nhàn hạ, dễ dàng"
+      },
+      {
+        "jp": "うまい",
+        "kana": "うまい",
+        "romaji": "umai",
+        "vn": "ngon"
+      },
+      {
+        "jp": "まずい",
+        "kana": "まずい",
+        "romaji": "mazui",
+        "vn": "dở"
+      },
+      {
+        "jp": "つまらない",
+        "kana": "つまらない",
+        "romaji": "tsumaranai",
+        "vn": "buồn tẻ, không hấp dẫn, không thú vị"
+      },
+      {
+        "jp": "やさしい",
+        "kana": "やさしい",
+        "romaji": "yasashii",
+        "vn": "hiền lành"
+      },
+      {
+        "jp": "ガソリン",
+        "kana": "ガソリン",
+        "romaji": "gasorin",
+        "vn": "xăng"
+      },
+      {
+        "jp": "ひ",
+        "kana": "ひ",
+        "romaji": "hi",
+        "vn": "lửa"
+      },
+      {
+        "jp": "パンフレット",
+        "kana": "パンフレット",
+        "romaji": "panfuretto",
+        "vn": "tờ rơi, tờ quảng cáo"
+      },
+      {
+        "jp": "いまにも",
+        "kana": "いまにも",
+        "romaji": "imanimo",
+        "vn": "(có vẻ, sắp) ~ đến nơi"
+      },
+      {
+        "jp": "わあ",
+        "kana": "わあ",
+        "romaji": "waa",
+        "vn": "ôi! (câu nói dùng khi ngạc nhiên hoặc cảm thán điều gì)"
+      },
+      {
+        "jp": "ばら",
+        "kana": "ばら",
+        "romaji": "bara",
+        "vn": "Hoa Hồng"
+      },
+      {
+        "jp": "ドライブ",
+        "kana": "ドライブ",
+        "romaji": "doraibu",
+        "vn": "lái xe (đi chơi)"
+      },
+      {
+        "jp": "理由（りゆう）",
+        "kana": "りゆう（りゆう）",
+        "romaji": "riyū(riyū)",
+        "vn": "lí do"
+      },
+      {
+        "jp": "謝（あやま）ります",
+        "kana": "しゃ（あやま）ります",
+        "romaji": "sha(ayama)rimasu",
+        "vn": "xin lỗi, tạ lỗi"
+      },
+      {
+        "jp": "知（し）り合（あ）います",
+        "kana": "ち（し）りごう（あ）います",
+        "romaji": "chi(shi)rigō(a)imasu",
+        "vn": "quen biết"
       }
     ],
     "grammar": [
       {
         "id": "43-1",
-        "point": "Grammar Point Lesson 43",
-        "formula": "Formula 43",
-        "jpExplain": "Explanation in Japanese for lesson 43.",
-        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 43.",
-        "exampleJp": "これは本です。",
-        "exampleVn": "Đây là cuốn sách."
+        "point": "Đặc biệt: いいです　→　よさそうです。",
+        "formula": "Đặc biệt: いいです　→　よさそうです。\nĐộng từ",
+        "jpExplain": "",
+        "vnExplain": "",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
+      },
+      {
+        "id": "43-2",
+        "point": "～Vてきます。",
+        "formula": "～Vてきます。",
+        "jpExplain": "",
+        "vnExplain": "",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
+      },
+      {
+        "id": "43-3",
+        "point": "～Vて くれませんか。",
+        "formula": "～Vて くれませんか。",
+        "jpExplain": "",
+        "vnExplain": "",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
       }
     ],
     "phrases": [
@@ -48,33 +207,288 @@
     "titleVn": "Sự quá mức & Dễ/Khó làm gì",
     "vocabulary": [
       {
-        "jp": "本",
-        "kana": "ほん",
-        "romaji": "hon",
-        "vn": "Sách"
+        "jp": "なきます",
+        "kana": "なきます",
+        "romaji": "nakimasu",
+        "vn": "khóc"
       },
       {
-        "jp": "車",
-        "kana": "くるま",
-        "romaji": "kuruma",
-        "vn": "Xe hơi, ô tô"
+        "jp": "わらいます",
+        "kana": "わらいます",
+        "romaji": "waraimasu",
+        "vn": "cười"
       },
       {
-        "jp": "水",
-        "kana": "みず",
-        "romaji": "mizu",
-        "vn": "Nước"
+        "jp": "ねむります",
+        "kana": "ねむります",
+        "romaji": "nemurimasu",
+        "vn": "ngủ"
+      },
+      {
+        "jp": "かわきます　[シャツが～]",
+        "kana": "かわきます　[シャツが～]",
+        "romaji": "kawakimasu [shatsuga~]",
+        "vn": "khô [áo sơ mi ~]"
+      },
+      {
+        "jp": "ぬれます  [シャツが～]",
+        "kana": "ぬれます  [シャツが～]",
+        "romaji": "nuremasu  [shatsuga~]",
+        "vn": "ướt [áo sơ mi ~]"
+      },
+      {
+        "jp": "すべります",
+        "kana": "すべります",
+        "romaji": "suberimasu",
+        "vn": "trượt"
+      },
+      {
+        "jp": "おきます  [じこが～]",
+        "kana": "おきます  [じこが～]",
+        "romaji": "okimasu  [jikoga~]",
+        "vn": "xảy ra [tai nạn ~]"
+      },
+      {
+        "jp": "ちょうせつします",
+        "kana": "ちょうせつします",
+        "romaji": "chōsetsushimasu",
+        "vn": "điều tiết, điều chỉnh"
+      },
+      {
+        "jp": "あんぜん[な]",
+        "kana": "あんぜん[な]",
+        "romaji": "anzen[na]",
+        "vn": "an toàn"
+      },
+      {
+        "jp": "きけん[な]",
+        "kana": "きけん[な]",
+        "romaji": "kiken[na]",
+        "vn": "nguy hiểm"
+      },
+      {
+        "jp": "こい",
+        "kana": "こい",
+        "romaji": "koi",
+        "vn": "nồng, đậm"
+      },
+      {
+        "jp": "うすい",
+        "kana": "うすい",
+        "romaji": "usui",
+        "vn": "nhạt, loãng"
+      },
+      {
+        "jp": "あつい",
+        "kana": "あつい",
+        "romaji": "atsui",
+        "vn": "dày"
+      },
+      {
+        "jp": "ふとい",
+        "kana": "ふとい",
+        "romaji": "futoi",
+        "vn": "đậm"
+      },
+      {
+        "jp": "ほそい",
+        "kana": "ほそい",
+        "romaji": "hosoi",
+        "vn": "mảnh, gầy"
+      },
+      {
+        "jp": "くうき",
+        "kana": "くうき",
+        "romaji": "kūki",
+        "vn": "không khí"
+      },
+      {
+        "jp": "なみだ",
+        "kana": "なみだ",
+        "romaji": "namida",
+        "vn": "nước mắt"
+      },
+      {
+        "jp": "わしょく",
+        "kana": "わしょく",
+        "romaji": "washoku",
+        "vn": "món ăn Nhật"
+      },
+      {
+        "jp": "ようしょく",
+        "kana": "ようしょく",
+        "romaji": "yōshoku",
+        "vn": "món ăn Âu Mỹ"
+      },
+      {
+        "jp": "おかず",
+        "kana": "おかず",
+        "romaji": "okazu",
+        "vn": "thức ăn"
+      },
+      {
+        "jp": "りょう",
+        "kana": "りょう",
+        "romaji": "ryō",
+        "vn": "lượng"
+      },
+      {
+        "jp": "―ばい",
+        "kana": "―ばい",
+        "romaji": "―bai",
+        "vn": "- lần"
+      },
+      {
+        "jp": "シングル",
+        "kana": "シングル",
+        "romaji": "shinguru",
+        "vn": "phòng đơn (1 giường)"
+      },
+      {
+        "jp": "ツイン",
+        "kana": "ツイン",
+        "romaji": "tsuin",
+        "vn": "phòng đôi (2 giường)"
+      },
+      {
+        "jp": "せんたくもの",
+        "kana": "せんたくもの",
+        "romaji": "sentakumono",
+        "vn": "quần áo giặt"
+      },
+      {
+        "jp": "DVD",
+        "kana": "DVD",
+        "romaji": "DVD",
+        "vn": "DVD"
+      },
+      {
+        "jp": "ホテルひろしま",
+        "kana": "ホテルひろしま",
+        "romaji": "hoteruhiroshima",
+        "vn": "tên khách sạn giả định"
+      },
+      {
+        "jp": "どうなさいますか。",
+        "kana": "どうなさいますか。",
+        "romaji": "dōnasaimasuka.",
+        "vn": "Anh/chị định làm gì? (Tôn kính ngữ của どうしますか)"
+      },
+      {
+        "jp": "カット",
+        "kana": "カット",
+        "romaji": "katto",
+        "vn": "Cắt tóc"
+      },
+      {
+        "jp": "シャンプー",
+        "kana": "シャンプー",
+        "romaji": "shampū",
+        "vn": "Gội đầu, dầu gội"
+      },
+      {
+        "jp": "どういうふうに なさいますか。",
+        "kana": "どういうふうに なさいますか。",
+        "romaji": "dōyuufūni nasaimasuka.",
+        "vn": "Anh/chị muốn làm theo kiểu nào ạ?"
+      },
+      {
+        "jp": "ショート",
+        "kana": "ショート",
+        "romaji": "shōto",
+        "vn": "Tóc ngắn"
+      },
+      {
+        "jp": "～みたいに　してください。",
+        "kana": "～みたいに　してください。",
+        "romaji": "~mitaini shitekudasai.",
+        "vn": "Hãy làm giống như ~."
+      },
+      {
+        "jp": "これでよろしいでしょうか。",
+        "kana": "これでよろしいでしょうか。",
+        "romaji": "koredeyoroshiideshouka.",
+        "vn": "Như thế này đã được chưa ạ?"
+      },
+      {
+        "jp": "[どうも]お疲（つか）れ様（さま）でした。",
+        "kana": "[どうも]お疲（つか）れさま（さま）でした。",
+        "romaji": "[dōmo]o疲(tsuka)resama(sama)deshita.",
+        "vn": "Xin cám ơn anh/chị đã vất vả."
+      },
+      {
+        "jp": "嫌（いや）がります",
+        "kana": "いや（いや）がります",
+        "romaji": "iya(iya)garimasu",
+        "vn": "không thích, tỏ thái độ không thích"
+      },
+      {
+        "jp": "また",
+        "kana": "また",
+        "romaji": "mata",
+        "vn": "thêm nữa"
+      },
+      {
+        "jp": "うまく",
+        "kana": "うまく",
+        "romaji": "umaku",
+        "vn": "tốt, giỏi"
+      },
+      {
+        "jp": "順序（じゅんじょ）",
+        "kana": "じゅんじょ（じゅんじょ）",
+        "romaji": "junjo(junjiyo)",
+        "vn": "thứ tự"
+      },
+      {
+        "jp": "安心（あんしん）[な]",
+        "kana": "あんしん（あんしん）[な]",
+        "romaji": "anshin(anshin)[na]",
+        "vn": "yên tâm"
+      },
+      {
+        "jp": "表現（ひょうげん）",
+        "kana": "ひょうげん（ひょうげん）",
+        "romaji": "hyōgen(hyōgen)",
+        "vn": "cách nói, cách diễn đạt"
+      },
+      {
+        "jp": "例（たと）えば",
+        "kana": "れい（たと）えば",
+        "romaji": "rei(tato)eba",
+        "vn": "ví dụ"
+      },
+      {
+        "jp": "別（わか）れます",
+        "kana": "べつ（わか）れます",
+        "romaji": "betsu(waka)remasu",
+        "vn": "chia tay, từ biệt"
+      },
+      {
+        "jp": "これら",
+        "kana": "これら",
+        "romaji": "korera",
+        "vn": "những cái này"
+      },
+      {
+        "jp": "縁起（えんぎ）が悪（わる）い",
+        "kana": "えんぎ（えんぎ）があく（わる）い",
+        "romaji": "engi(engi)gaaku(waru)i",
+        "vn": "không may, không lành"
       }
     ],
     "grammar": [
       {
         "id": "44-1",
-        "point": "Grammar Point Lesson 44",
-        "formula": "Formula 44",
-        "jpExplain": "Explanation in Japanese for lesson 44.",
-        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 44.",
-        "exampleJp": "これは本です。",
-        "exampleVn": "Đây là cuốn sách."
+        "point": "Ngữ pháp 1",
+        "formula": "",
+        "jpExplain": "",
+        "vnExplain": "～Vやすいです： dễ  ~\n～Vにくいです： Khó  ~\nXem cụm từ ～Vやすい, ～Vにくい như một tính từ い.",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
       }
     ],
     "phrases": [

@@ -5,33 +5,186 @@
     "titleVn": "Điều kiện, Đường đi & Mệnh đề thời gian",
     "vocabulary": [
       {
-        "jp": "本",
-        "kana": "ほん",
-        "romaji": "hon",
-        "vn": "Sách"
+        "jp": "ききます[せんせいに～]",
+        "kana": "ききます[せんせいに～]",
+        "romaji": "kikimasu[senseini~]",
+        "vn": "hỏi [giáo viên]"
       },
       {
-        "jp": "車",
-        "kana": "くるま",
-        "romaji": "kuruma",
-        "vn": "Xe hơi, ô tô"
+        "jp": "まわします",
+        "kana": "まわします",
+        "romaji": "mawashimasu",
+        "vn": "vặn (núm)"
       },
       {
-        "jp": "水",
-        "kana": "みず",
-        "romaji": "mizu",
-        "vn": "Nước"
+        "jp": "ひきます",
+        "kana": "ひきます",
+        "romaji": "hikimasu",
+        "vn": "kéo"
+      },
+      {
+        "jp": "かえます",
+        "kana": "かえます",
+        "romaji": "kaemasu",
+        "vn": "đổi"
+      },
+      {
+        "jp": "さわります[ドアに～]",
+        "kana": "さわります[ドアに～]",
+        "romaji": "sawarimasu[doani~]",
+        "vn": "sờ, chạm vào [cửa]"
+      },
+      {
+        "jp": "でます[おつりが～]",
+        "kana": "でます[おつりが～]",
+        "romaji": "demasu[otsuriga~]",
+        "vn": "[tiền thừa] ra, chạy ra"
+      },
+      {
+        "jp": "あるきます",
+        "kana": "あるきます",
+        "romaji": "arukimasu",
+        "vn": "đi bộ"
+      },
+      {
+        "jp": "わたります[はしを～]",
+        "kana": "わたります[はしを～]",
+        "romaji": "watarimasu[hashio~]",
+        "vn": "qua, đi qua [cầu]"
+      },
+      {
+        "jp": "まがります[みぎへ～]",
+        "kana": "まがります[みぎへ～]",
+        "romaji": "magarimasu[migie~]",
+        "vn": "rẽ, quẹo [phải]"
+      },
+      {
+        "jp": "さびしい",
+        "kana": "さびしい",
+        "romaji": "sabishii",
+        "vn": "buồn, cô đơn"
+      },
+      {
+        "jp": "[お]ゆ",
+        "kana": "[お]ゆ",
+        "romaji": "[o]yu",
+        "vn": "nước nóng"
+      },
+      {
+        "jp": "おと",
+        "kana": "おと",
+        "romaji": "oto",
+        "vn": "âm thanh"
+      },
+      {
+        "jp": "サイズ",
+        "kana": "サイズ",
+        "romaji": "saizu",
+        "vn": "cỡ, kích thước"
+      },
+      {
+        "jp": "こしょう",
+        "kana": "こしょう",
+        "romaji": "koshō",
+        "vn": "hỏng (~します：bị hỏng)"
+      },
+      {
+        "jp": "みち",
+        "kana": "みち",
+        "romaji": "michi",
+        "vn": "đường"
+      },
+      {
+        "jp": "こうさてん",
+        "kana": "こうさてん",
+        "romaji": "kōsaten",
+        "vn": "ngã tư"
+      },
+      {
+        "jp": "しんごう",
+        "kana": "しんごう",
+        "romaji": "shingou",
+        "vn": "đèn tín hiệu"
+      },
+      {
+        "jp": "かど",
+        "kana": "かど",
+        "romaji": "kado",
+        "vn": "góc"
+      },
+      {
+        "jp": "はし",
+        "kana": "はし",
+        "romaji": "hashi",
+        "vn": "cầu"
+      },
+      {
+        "jp": "ちゅうしゃじょう",
+        "kana": "ちゅうしゃじょう",
+        "romaji": "chūshiyajou",
+        "vn": "bãi đỗ xe"
+      },
+      {
+        "jp": "たてもの",
+        "kana": "たてもの",
+        "romaji": "tatemono",
+        "vn": "tòa nhà"
+      },
+      {
+        "jp": "なんかいも",
+        "kana": "なんかいも",
+        "romaji": "nankaimo",
+        "vn": "nhiều lần"
+      },
+      {
+        "jp": "―め",
+        "kana": "―め",
+        "romaji": "―me",
+        "vn": "thứ - , số - (biểu thị thứ tự)"
+      },
+      {
+        "jp": "しょうとくたいし",
+        "kana": "しょうとくたいし",
+        "romaji": "shiyoutokutaishi",
+        "vn": "Thái tử Shotoku"
+      },
+      {
+        "jp": "ほうりゅうじ",
+        "kana": "ほうりゅうじ",
+        "romaji": "hōryūji",
+        "vn": "Chùa Horyuji (Pháp隆tự)"
+      },
+      {
+        "jp": "げんきちゃ",
+        "kana": "げんきちゃ",
+        "romaji": "genkicha",
+        "vn": "Tên loại trà giả định (Trà Genki)"
+      },
+      {
+        "jp": "ほんだえき",
+        "kana": "ほんだえき",
+        "romaji": "hondaeki",
+        "vn": "Tên nhà ga giả định (Ga Honda)"
+      },
+      {
+        "jp": "としょかんまえ",
+        "kana": "としょかんまえ",
+        "romaji": "toshiyokammae",
+        "vn": "Tên bến xe buýt giả định (Trước thư viện)"
       }
     ],
     "grammar": [
       {
         "id": "23-1",
-        "point": "Grammar Point Lesson 23",
-        "formula": "Formula 23",
-        "jpExplain": "Explanation in Japanese for lesson 23.",
-        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 23.",
-        "exampleJp": "これは本です。",
-        "exampleVn": "Đây là cuốn sách."
+        "point": "Ngữ pháp 1",
+        "formula": "",
+        "jpExplain": "",
+        "vnExplain": "V1た : Sau khi V1 thì V2 （V1 xảy ra trước）\nV1る : Trước khi V1 thì V2 （V1 xảy ra sau）\nれい１：\n部屋(へや)を　出(で)たとき、ドアを　閉(し)めます。\n(Sau) Khi ra khỏi phòng thì đóng cửa.\nĐộng từ đi kèm với とき chia ở thể た (出(で)た) nên được hiểu 部屋(へや)を　出(で)た xảy ra trước, ドアを　閉(し)めます xảy ra sau.\nれい２：\nきのう、家(いえ)へ帰(かえ)るとき、パンを　買(か)いました。\nHôm qua (trước) khi về nhà tôi đã mua bánh.\nĐộng từ đi kèm với とき chia ở thể る (帰(かえ)る) nên được hiểu パンを　買(か)いました xảy ra trước, 家(いえ)へ帰(かえ)る xảy ra sau.",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
       }
     ],
     "phrases": [
@@ -48,33 +201,126 @@
     "titleVn": "Động từ cho nhận hành động (Trợ giúp)",
     "vocabulary": [
       {
-        "jp": "本",
-        "kana": "ほん",
-        "romaji": "hon",
-        "vn": "Sách"
+        "jp": "くれます",
+        "kana": "くれます",
+        "romaji": "kuremasu",
+        "vn": "cho, tặng (tôi)"
       },
       {
-        "jp": "車",
-        "kana": "くるま",
-        "romaji": "kuruma",
-        "vn": "Xe hơi, ô tô"
+        "jp": "なおします",
+        "kana": "なおします",
+        "romaji": "naoshimasu",
+        "vn": "chữa, sửa"
       },
       {
-        "jp": "水",
-        "kana": "みず",
-        "romaji": "mizu",
-        "vn": "Nước"
+        "jp": "つれていきます",
+        "kana": "つれていきます",
+        "romaji": "tsureteikimasu",
+        "vn": "dẫn đi"
+      },
+      {
+        "jp": "つれてきます",
+        "kana": "つれてきます",
+        "romaji": "tsuretekimasu",
+        "vn": "dẫn đến"
+      },
+      {
+        "jp": "おくります[ひとを～]",
+        "kana": "おくります[ひとを～]",
+        "romaji": "okurimasu[hitoo~]",
+        "vn": "đưa đi, đưa đến, tiễn [một ai đó]"
+      },
+      {
+        "jp": "しょうかいします",
+        "kana": "しょうかいします",
+        "romaji": "shōkaishimasu",
+        "vn": "giới thiệu"
+      },
+      {
+        "jp": "あんないします",
+        "kana": "あんないします",
+        "romaji": "annaishimasu",
+        "vn": "hướng dẫn, giới thiệu, dẫn đường"
+      },
+      {
+        "jp": "せつめいします",
+        "kana": "せつめいします",
+        "romaji": "setsumeishimasu",
+        "vn": "giải thích, trình bày"
+      },
+      {
+        "jp": "おじいさん／  おじいちゃん",
+        "kana": "おじいさん／  おじいちゃん",
+        "romaji": "ojīsan/  ojīchan",
+        "vn": "ông nội, ông ngoại, ông"
+      },
+      {
+        "jp": "おばあさん／  おばあちゃん",
+        "kana": "おばあさん／  おばあちゃん",
+        "romaji": "obāsan/  obāchan",
+        "vn": "bà nội, bà ngoại, bà"
+      },
+      {
+        "jp": "じゅんび",
+        "kana": "じゅんび",
+        "romaji": "junbi",
+        "vn": "chuẩn bị [～します:chuẩn bị]"
+      },
+      {
+        "jp": "ひっこし",
+        "kana": "ひっこし",
+        "romaji": "hikkoshi",
+        "vn": "sự chuyển nhà"
+      },
+      {
+        "jp": "[お]かし",
+        "kana": "[お]かし",
+        "romaji": "[o]kashi",
+        "vn": "bánh kẹo"
+      },
+      {
+        "jp": "ホームステイ",
+        "kana": "ホームステイ",
+        "romaji": "hōmusutei",
+        "vn": "homestay"
+      },
+      {
+        "jp": "ぜんぶ",
+        "kana": "ぜんぶ",
+        "romaji": "zembu",
+        "vn": "toàn bộ, tất cả"
+      },
+      {
+        "jp": "じぶんで",
+        "kana": "じぶんで",
+        "romaji": "jibunde",
+        "vn": "tự (mình)"
+      },
+      {
+        "jp": "ほかに",
+        "kana": "ほかに",
+        "romaji": "hokani",
+        "vn": "Ngoài ra, khác"
+      },
+      {
+        "jp": "母（はは）の日（ひ）",
+        "kana": "はは（はは）のひ（ひ）",
+        "romaji": "haha(wawa)nohi(hi)",
+        "vn": "Ngày của Mẹ"
       }
     ],
     "grammar": [
       {
         "id": "24-1",
-        "point": "Grammar Point Lesson 24",
-        "formula": "Formula 24",
-        "jpExplain": "Explanation in Japanese for lesson 24.",
-        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 24.",
-        "exampleJp": "これは本です。",
-        "exampleVn": "Đây là cuốn sách."
+        "point": "Ngữ pháp 1",
+        "formula": "",
+        "jpExplain": "",
+        "vnExplain": "Chỉ dùng cho bản thân và người thân như bố,mẹ,anh,chị…（ちち、はは、あね、あに、おとうと、いもうと…)\nCó thể lược bỏ 私(わたし)に khi đó chủ ngữ sẽ đi cùng với trợ từ が.",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
       }
     ],
     "phrases": [

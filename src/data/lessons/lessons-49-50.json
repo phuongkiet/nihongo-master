@@ -5,33 +5,240 @@
     "titleVn": "Kính ngữ (Sonkeigo)",
     "vocabulary": [
       {
-        "jp": "本",
-        "kana": "ほん",
-        "romaji": "hon",
-        "vn": "Sách"
+        "jp": "りようします",
+        "kana": "りようします",
+        "romaji": "riyōshimasu",
+        "vn": "sử dụng, tận dụng, dùng"
       },
       {
-        "jp": "車",
-        "kana": "くるま",
-        "romaji": "kuruma",
-        "vn": "Xe hơi, ô tô"
+        "jp": "つとめます　[かいしゃに～]",
+        "kana": "つとめます　[かいしゃに～]",
+        "romaji": "tsutomemasu [kaishani~]",
+        "vn": "làm việc ở [công ty]"
       },
       {
-        "jp": "水",
-        "kana": "みず",
-        "romaji": "mizu",
-        "vn": "Nước"
+        "jp": "かけます　[いすに～]",
+        "kana": "かけます　[いすに～]",
+        "romaji": "kakemasu [isuni~]",
+        "vn": "ngồi [ghế]"
+      },
+      {
+        "jp": "すごします",
+        "kana": "すごします",
+        "romaji": "sugoshimasu",
+        "vn": "tiêu thời gian, trải qua"
+      },
+      {
+        "jp": "いらっしゃいます",
+        "kana": "いらっしゃいます",
+        "romaji": "irasshaimasu",
+        "vn": "ở, có, đi, đến (tôn kính ngữ của います、いきます và きます)"
+      },
+      {
+        "jp": "めしあがります",
+        "kana": "めしあがります",
+        "romaji": "meshiagarimasu",
+        "vn": "ăn, uống (tôn kính ngữ của たべます và のみます)"
+      },
+      {
+        "jp": "おっしゃいます",
+        "kana": "おっしゃいます",
+        "romaji": "osshaimasu",
+        "vn": "nói (tôn kính ngữ của いいます)"
+      },
+      {
+        "jp": "なさいます",
+        "kana": "なさいます",
+        "romaji": "nasaimasu",
+        "vn": "làm (tôn kính ngữ của します)"
+      },
+      {
+        "jp": "ごらんになります",
+        "kana": "ごらんになります",
+        "romaji": "goranninarimasu",
+        "vn": "xem, nhìn (tôn kính ngữ của みます)"
+      },
+      {
+        "jp": "ごぞんじです",
+        "kana": "ごぞんじです",
+        "romaji": "gozonjidesu",
+        "vn": "biết (tôn kính ngữ của しっています)"
+      },
+      {
+        "jp": "あいさつ",
+        "kana": "あいさつ",
+        "romaji": "aisatsu",
+        "vn": "chào hỏi (～をします：chào hỏi)"
+      },
+      {
+        "jp": "りょかん",
+        "kana": "りょかん",
+        "romaji": "riyokan",
+        "vn": "khách sạn kiểu Nhật"
+      },
+      {
+        "jp": "バスてい",
+        "kana": "バスてい",
+        "romaji": "basutei",
+        "vn": "bến xe buýt, điểm lên xuống xe buýt"
+      },
+      {
+        "jp": "おくさま",
+        "kana": "おくさま",
+        "romaji": "okusama",
+        "vn": "vợ người khác (kính ngữ của おくさん）"
+      },
+      {
+        "jp": "～さま",
+        "kana": "～さま",
+        "romaji": "~sama",
+        "vn": "ngài ~, ông ~, bà ~ (tôn kính ngữ của ～さん)"
+      },
+      {
+        "jp": "たまに",
+        "kana": "たまに",
+        "romaji": "tamani",
+        "vn": "thỉnh thoảng (tần suất nhỏ hơn ときどき)"
+      },
+      {
+        "jp": "どなたでも",
+        "kana": "どなたでも",
+        "romaji": "donatademo",
+        "vn": "vị nào cũng (kính ngữ của だれでも)"
+      },
+      {
+        "jp": "～といいます",
+        "kana": "～といいます",
+        "romaji": "~toiimasu",
+        "vn": "tên là ~"
+      },
+      {
+        "jp": "―年（ねん）―組（くみ）",
+        "kana": "―とし（ねん）―ぐみ（くみ）",
+        "romaji": "―toshi(nen)―gumi(kumi)",
+        "vn": "Lớp － năm thứ －"
+      },
+      {
+        "jp": "出（だ）します[熱（ねつ）を～]",
+        "kana": "で（だ）します[ねつ（ねつ）を～]",
+        "romaji": "de(da)shimasu[netsu(netsu)o~]",
+        "vn": "Bị [sốt]"
+      },
+      {
+        "jp": "よろしく　お伝（つた）えください。",
+        "kana": "よろしく　おでん（つた）えください。",
+        "romaji": "yoroshiku oden(tsuta)ekudasai.",
+        "vn": "Nhờ anh/chị chuyển lời hỏi thăm."
+      },
+      {
+        "jp": "失礼（しつれい）いたします",
+        "kana": "しつれい（しつれい）いたします",
+        "romaji": "shitsurei(shitsurei)itashimasu",
+        "vn": "Xin thất lễ / Xin phép anh chị (khi cúp máy, ra về)"
+      },
+      {
+        "jp": "ひまわり小学校（しょうがっこう）",
+        "kana": "ひまわりしょうがっこう（しょうがっこう）",
+        "romaji": "himawarishōgakkō(shiyougakkou)",
+        "vn": "Trường tiểu học Himawari"
+      },
+      {
+        "jp": "経歴（けいれき）",
+        "kana": "けいれき（けいれき）",
+        "romaji": "keireki(keireki)",
+        "vn": "lí lịch"
+      },
+      {
+        "jp": "医学（いがく）部（ぶ）",
+        "kana": "いがく（いがく）ぶ（ぶ）",
+        "romaji": "igaku(igaku)bu(bu)",
+        "vn": "khoa y"
+      },
+      {
+        "jp": "目指（めざ）します",
+        "kana": "もくし（めざ）します",
+        "romaji": "mokushi(meza)shimasu",
+        "vn": "hướng đến, muốn trở thành"
+      },
+      {
+        "jp": "進（すす）みます",
+        "kana": "すすむ（すす）みます",
+        "romaji": "susumu(susu)mimasu",
+        "vn": "học lên"
+      },
+      {
+        "jp": "IPS細胞（さいぼう）",
+        "kana": "IPSさいぼう（さいぼう）",
+        "romaji": "IPSsaibō(saibou)",
+        "vn": "tế bào IPS"
+      },
+      {
+        "jp": "開発（かいはつ）します",
+        "kana": "かいはつ（かいはつ）します",
+        "romaji": "kaihatsu(kaihatsu)shimasu",
+        "vn": "phát triển"
+      },
+      {
+        "jp": "マウス",
+        "kana": "マウス",
+        "romaji": "mausu",
+        "vn": "chuột"
+      },
+      {
+        "jp": "ヒト",
+        "kana": "ヒト",
+        "romaji": "hito",
+        "vn": "người"
+      },
+      {
+        "jp": "受賞（じゅしょう）します",
+        "kana": "じゅしょう（じゅしょう）します",
+        "romaji": "jushō(jushō)shimasu",
+        "vn": "nhận giải thưởng"
+      },
+      {
+        "jp": "講演会（こうえんかい）",
+        "kana": "こうえんかい（こうえんかい）",
+        "romaji": "kōenkai(kōenkai)",
+        "vn": "buổi nói chuyện"
+      },
+      {
+        "jp": "山中（やまなか）伸弥（しんや）",
+        "kana": "さんちゅう（やまなか）しんわたる（しんや）",
+        "romaji": "sanchū(yamanaka)shinwataru(shinya)",
+        "vn": "nhà nghiên cứu y học người Nhật (1962 -)"
+      },
+      {
+        "jp": "ノーベル賞（しょう）",
+        "kana": "ノーベルしょう（しょう）",
+        "romaji": "nōberushō(shō)",
+        "vn": "giải Nobel"
       }
     ],
     "grammar": [
       {
         "id": "49-1",
-        "point": "Grammar Point Lesson 49",
-        "formula": "Formula 49",
-        "jpExplain": "Explanation in Japanese for lesson 49.",
-        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 49.",
-        "exampleJp": "これは本です。",
-        "exampleVn": "Đây là cuốn sách."
+        "point": "Tôn Kính ngữ (尊敬語(そんけいご)）： có 3 cách sử dụng:",
+        "formula": "Tôn Kính ngữ (尊敬語(そんけいご)）： có 3 cách sử dụng:\nCách 1: Chia Động từ sang Thể Bị Động:",
+        "jpExplain": "",
+        "vnExplain": "＊Tôn kính ngữ (尊敬語(そんけいご)）：\nCách 3 mang ý lịch sự hơn cách 2, cách 2 mang ý lịch sự hơn cách 1. Vì vậy cách 3 thường được ưu tiên sử dụng, đối với các động từ không chia được theo cách 3 thì chúng ta sẽ chia sang cách 2 rồi đến cách 1.\nKhi dùng “Tôn kính ngữ” chúng ta chú ý là động từ là hành động hoặc trạng thái của người mình cần tôn kính, không phải là hành động của bản thân mình.\nNgoài động từ thì một số danh từ, tính từ, phó từ cũng có thể trở thành “Tôn kính ngữ” theo cách sau:\nお　thường dùng dùng với các từ thuần Nhật\nご　thường dùng với các từ có nguồn gốc từ Trung Quốc\nお\nDanh từ: 　お国(くに)、お名前(なまえ)、お仕事(しごと)\nTính từ：　お元気(げんき)、お上手(じょうず)、お忙(いそが)しい\nご\nDanh từ:　ご家族(かぞく)、ご意見(いけん)、ご旅行(りょこう)\nTính từ：　ご熱心(ねっしん)、ご親切(しんせつ)\nPhó từ: 　ご自由(じゆう)に",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
+      },
+      {
+        "id": "49-2",
+        "point": "～まして、～",
+        "formula": "～まして、～\n～ますので、～\n～ますのに、～",
+        "jpExplain": "",
+        "vnExplain": "",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
       }
     ],
     "phrases": [
@@ -48,33 +255,216 @@
     "titleVn": "Khiêm nhường ngữ (Kenjougo)",
     "vocabulary": [
       {
-        "jp": "本",
-        "kana": "ほん",
-        "romaji": "hon",
-        "vn": "Sách"
+        "jp": "まいります",
+        "kana": "まいります",
+        "romaji": "mairimasu",
+        "vn": "đi, đến (khiêm nhường ngữ của いきます và きます)"
       },
       {
-        "jp": "車",
-        "kana": "くるま",
-        "romaji": "kuruma",
-        "vn": "Xe hơi, ô tô"
+        "jp": "おります",
+        "kana": "おります",
+        "romaji": "orimasu",
+        "vn": "ở, có (khiêm nhường ngữ của います)"
       },
       {
-        "jp": "水",
-        "kana": "みず",
-        "romaji": "mizu",
-        "vn": "Nước"
+        "jp": "いただきます",
+        "kana": "いただきます",
+        "romaji": "itadakimasu",
+        "vn": "ăn, uống, nhận (khiêm nhường ngữ của たべます、のみます　và もらいます)"
+      },
+      {
+        "jp": "もうします",
+        "kana": "もうします",
+        "romaji": "mōshimasu",
+        "vn": "nói (khiêm nhường ngữ của いいます)"
+      },
+      {
+        "jp": "いたします",
+        "kana": "いたします",
+        "romaji": "itashimasu",
+        "vn": "làm (khiêm nhường ngữ của します)"
+      },
+      {
+        "jp": "はいけんします",
+        "kana": "はいけんします",
+        "romaji": "haikenshimasu",
+        "vn": "xem, nhìn (khiêm nhường ngữ của みます)"
+      },
+      {
+        "jp": "ぞんじます",
+        "kana": "ぞんじます",
+        "romaji": "zonjimasu",
+        "vn": "biết (khiêm nhường ngữ của しります)"
+      },
+      {
+        "jp": "うかがいます",
+        "kana": "うかがいます",
+        "romaji": "ukagaimasu",
+        "vn": "hỏi, nghe, đến thăm(khiêm nhường ngữ của ききます và いきます)"
+      },
+      {
+        "jp": "おめにかかります",
+        "kana": "おめにかかります",
+        "romaji": "omenikakarimasu",
+        "vn": "gặp (khiêm nhường ngữ của あいます)"
+      },
+      {
+        "jp": "いれます [コーヒーを～]",
+        "kana": "いれます [コーヒーを～]",
+        "romaji": "iremasu [kōhīo~]",
+        "vn": "pha [cà phê]"
+      },
+      {
+        "jp": "よういします",
+        "kana": "よういします",
+        "romaji": "yōishimasu",
+        "vn": "chuẩn bị"
+      },
+      {
+        "jp": "わたくし",
+        "kana": "わたくし",
+        "romaji": "watakushi",
+        "vn": "tôi (khiêm nhường ngữ của わたし)"
+      },
+      {
+        "jp": "ガイド",
+        "kana": "ガイド",
+        "romaji": "gaido",
+        "vn": "người hướng dẫn, hướng dẫn viên"
+      },
+      {
+        "jp": "メールアドレス",
+        "kana": "メールアドレス",
+        "romaji": "mēruadoresu",
+        "vn": "địa chỉ email"
+      },
+      {
+        "jp": "スケジュール",
+        "kana": "スケジュール",
+        "romaji": "sukejūru",
+        "vn": "thời khóa biểu, lịch làm việc"
+      },
+      {
+        "jp": "さらいしゅう",
+        "kana": "さらいしゅう",
+        "romaji": "saraishū",
+        "vn": "tuần sau nữa"
+      },
+      {
+        "jp": "さらいげつ",
+        "kana": "さらいげつ",
+        "romaji": "saraigetsu",
+        "vn": "tháng sau nữa"
+      },
+      {
+        "jp": "さらいねん",
+        "kana": "さらいねん",
+        "romaji": "sarainen",
+        "vn": "năm sau nữa"
+      },
+      {
+        "jp": "はじめに",
+        "kana": "はじめに",
+        "romaji": "hajimeni",
+        "vn": "đầu tiên, trước hết"
+      },
+      {
+        "jp": "江戸（えど）東京（とうきょう）　博物館（はくぶつかん）",
+        "kana": "えど（えど）とうきょう（とうきょう）　はくぶつかん（はくぶつかん）",
+        "romaji": "edo(edo)tōkyō(toukyō) hakubutsukan(hakubutsukan)",
+        "vn": "bảo tàng Edo-Tokyo"
+      },
+      {
+        "jp": "緊張（きんちょう）します",
+        "kana": "きんちょう（きんちょう）します",
+        "romaji": "kinchō(kinchō)shimasu",
+        "vn": "Căng thẳng"
+      },
+      {
+        "jp": "賞金（しょうきん）",
+        "kana": "しょうきん（しょうきん）",
+        "romaji": "shōkin(shōkin)",
+        "vn": "Tiền thưởng"
+      },
+      {
+        "jp": "きりん",
+        "kana": "きりん",
+        "romaji": "kirin",
+        "vn": "Hươu cao cổ"
+      },
+      {
+        "jp": "ころ",
+        "kana": "ころ",
+        "romaji": "koro",
+        "vn": "Lúc, khoảng thời gian"
+      },
+      {
+        "jp": "かないます[夢（ゆめ）が～]",
+        "kana": "かないます[ゆめ（ゆめ）が～]",
+        "romaji": "kanaimasu[yume(yume)ga~]",
+        "vn": "Trở thành hiện thực [giấc mơ ~]"
+      },
+      {
+        "jp": "応援（おうえん）します",
+        "kana": "おうえん（おうえん）します",
+        "romaji": "ōen(ouen)shimasu",
+        "vn": "Cổ vũ, ủng hộ"
+      },
+      {
+        "jp": "心（こころ）から",
+        "kana": "こころ（こころ）から",
+        "romaji": "kokoro(kokoro)kara",
+        "vn": "Từ tận đáy lòng"
+      },
+      {
+        "jp": "感謝（かんしゃ）します",
+        "kana": "かんしゃ（かんしゃ）します",
+        "romaji": "kansha(kansha)shimasu",
+        "vn": "Cảm tạ, biết ơn"
+      },
+      {
+        "jp": "[お]礼（れい）",
+        "kana": "[お]れい（れい）",
+        "romaji": "[o]rei(rei)",
+        "vn": "lời cám ơn, sự cám ơn"
+      },
+      {
+        "jp": "お元気（げんき）でいらっしゃいますか。",
+        "kana": "おげんき（げんき）でいらっしゃいますか。",
+        "romaji": "ogenki(genki)deirasshaimasuka.",
+        "vn": "Anh/chị có khỏe không ạ? (tôn kính ngữ của おげんきですか)"
+      },
+      {
+        "jp": "迷惑（めいわく）をかけます",
+        "kana": "めいわく（めいわく）をかけます",
+        "romaji": "meiwaku(meiwaku)okakemasu",
+        "vn": "làm phiền"
+      },
+      {
+        "jp": "生（い）かします",
+        "kana": "なま（い）かします",
+        "romaji": "nama(i)kashimasu",
+        "vn": "tận dụng, phát huy, dùng"
+      },
+      {
+        "jp": "ミュンヘン",
+        "kana": "ミュンヘン",
+        "romaji": "myunhen",
+        "vn": "München(Munich) (ở Đức)"
       }
     ],
     "grammar": [
       {
         "id": "50-1",
-        "point": "Grammar Point Lesson 50",
-        "formula": "Formula 50",
-        "jpExplain": "Explanation in Japanese for lesson 50.",
-        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 50.",
-        "exampleJp": "これは本です。",
-        "exampleVn": "Đây là cuốn sách."
+        "point": "Khiêm nhường ngữ (謙譲語(けんじょうご)）： có 2 cách sử dụng:",
+        "formula": "Khiêm nhường ngữ (謙譲語(けんじょうご)）： có 2 cách sử dụng:\nCách 1:\nĐối với động từ nhóm 1 và nhóm 2:\nKhông dùng cho các động từ khi chi sang thể ます chỉ có 1 âm tiết ví dụ như: みます、ねます、います…\nĐối với Danh động từ nhóm 3:\nTuy nhiên cũng có một số động từ sẽ là ngoại lệ, chúng ta sẽ dủng お thay cho ご：\nお　でんわ　します\nお　やくそく　します",
+        "jpExplain": "",
+        "vnExplain": "Khiêm nhường ngữ (謙譲語(けんじょうご)）：\nCách 2 mang ý lịch sự hơn cách 1 vì vậy cách 2 thường được ưu tiên sử dụng, đối với các động từ không chia được theo cách 2 thì chúng ta sẽ chia sang cách 1.\nKhi dùng “Khiêm nhường ngữ” chúng ta chú ý động từ là hành động hoặc trạng thái của bản thân mình, không phải là hành động của đối phương.",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
       }
     ],
     "phrases": [

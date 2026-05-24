@@ -7,7 +7,9 @@ import { LessonsList } from './components/LessonsList/LessonsList';
 import { LessonDetail } from './components/LessonDetail/LessonDetail';
 import { ExamDetail } from './components/ExamDetail/ExamDetail';
 import { Review } from './components/Review/Review';
-import { LayoutDashboard, BookOpen, GraduationCap, Flame, Menu, X, Landmark } from 'lucide-react';
+import { TeFormPractice } from './components/TeFormPractice/TeFormPractice';
+import { KanjiPractice } from './components/KanjiPractice/KanjiPractice';
+import { LayoutDashboard, BookOpen, GraduationCap, Flame, Menu, X, Landmark, Repeat, Layers } from 'lucide-react';
 
 const LOCAL_STORAGE_KEY = 'nihongo_app_user_progress';
 
@@ -20,7 +22,7 @@ const defaultProgress: UserProgress = {
 };
 
 function App() {
-  const [activeTab, setActiveTab] = useState<'dashboard' | 'lessons' | 'review'>('dashboard');
+  const [activeTab, setActiveTab] = useState<'dashboard' | 'lessons' | 'review' | 'te-form' | 'kanji'>('dashboard');
   const [selectedLessonId, setSelectedLessonId] = useState<number | null>(null);
   const [selectedExamId, setSelectedExamId] = useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -89,7 +91,7 @@ function App() {
   };
 
   // Record a learning activity in the heatmap
-  const recordActivity = (increment: number = 1) => {
+  const recordActivity = (increment: number = 1, affectStreak: boolean = true) => {
     const todayStr = getTodayString();
     setProgress((prev) => {
       const currentHeatmap = { ...prev.heatmapData };
@@ -100,14 +102,16 @@ function App() {
 
       // Update streak count
       let newStreak = prev.streakDays;
-      const hasActivityYesterday = prev.heatmapData[getYesterdayString()] > 0;
+      if (affectStreak) {
+        const hasActivityYesterday = prev.heatmapData[getYesterdayString()] > 0;
 
-      if (currentCount === 0) {
-        // First activity of today
-        if (hasActivityYesterday || datesCountTodayAndYesterday(prev.heatmapData)) {
-          newStreak += 1;
-        } else {
-          newStreak = 1;
+        if (currentCount === 0) {
+          // First activity of today
+          if (hasActivityYesterday || datesCountTodayAndYesterday(prev.heatmapData)) {
+            newStreak += 1;
+          } else {
+            newStreak = 1;
+          }
         }
       }
 
@@ -229,6 +233,19 @@ function App() {
             onRecordPractice={handleRecordPractice}
           />
         );
+      case 'te-form':
+        return (
+          <TeFormPractice
+            lessons={lessonsData}
+            onRecordActivity={recordActivity}
+          />
+        );
+      case 'kanji':
+        return (
+          <KanjiPractice
+            onRecordActivity={recordActivity}
+          />
+        );
       default:
         return <div>Trang không tồn tại.</div>;
     }
@@ -298,6 +315,38 @@ function App() {
             >
               <GraduationCap className="w-4 h-4" />
               Ôn tập & Luyện tập
+            </button>
+
+            <button
+              onClick={() => {
+                setActiveTab('te-form');
+                setSelectedLessonId(null);
+                setSelectedExamId(null);
+              }}
+              className={`w-full px-4 py-3 rounded-xl text-sm font-bold flex items-center gap-3 transition-all ${
+                activeTab === 'te-form'
+                  ? 'bg-scholastic-sakura text-white shadow-md shadow-pink-500/10'
+                  : 'text-slate-400 hover:bg-slate-800/60 hover:text-slate-100'
+              }`}
+            >
+              <Repeat className="w-4 h-4" />
+              Luyện tập chia từ
+            </button>
+
+            <button
+              onClick={() => {
+                setActiveTab('kanji');
+                setSelectedLessonId(null);
+                setSelectedExamId(null);
+              }}
+              className={`w-full px-4 py-3 rounded-xl text-sm font-bold flex items-center gap-3 transition-all ${
+                activeTab === 'kanji'
+                  ? 'bg-scholastic-sakura text-white shadow-md shadow-pink-500/10'
+                  : 'text-slate-400 hover:bg-slate-800/60 hover:text-slate-100'
+              }`}
+            >
+              <Layers className="w-4 h-4" />
+              Ôn tập Hán tự
             </button>
           </nav>
         </div>
@@ -391,6 +440,40 @@ function App() {
           >
             <GraduationCap className="w-5 h-5" />
             Ôn tập từ vựng
+          </button>
+
+          <button
+            onClick={() => {
+              setActiveTab('te-form');
+              setSelectedLessonId(null);
+              setSelectedExamId(null);
+              setIsMobileMenuOpen(false);
+            }}
+            className={`w-full py-4 px-5 rounded-2xl text-left font-bold text-base flex items-center gap-3 transition-all ${
+              activeTab === 'te-form'
+                ? 'bg-scholastic-sakura text-white shadow-lg shadow-pink-500/20'
+                : 'text-slate-300 hover:bg-slate-900'
+            }`}
+          >
+            <Repeat className="w-5 h-5" />
+            Luyện tập chia từ
+          </button>
+
+          <button
+            onClick={() => {
+              setActiveTab('kanji');
+              setSelectedLessonId(null);
+              setSelectedExamId(null);
+              setIsMobileMenuOpen(false);
+            }}
+            className={`w-full py-4 px-5 rounded-2xl text-left font-bold text-base flex items-center gap-3 transition-all ${
+              activeTab === 'kanji'
+                ? 'bg-scholastic-sakura text-white shadow-lg shadow-pink-500/20'
+                : 'text-slate-300 hover:bg-slate-900'
+            }`}
+          >
+            <Layers className="w-5 h-5" />
+            Ôn tập Hán tự
           </button>
         </div>
       )}

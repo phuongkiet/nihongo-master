@@ -5,33 +5,186 @@
     "titleVn": "Tình huống giả định (Trường hợp)",
     "vocabulary": [
       {
-        "jp": "本",
-        "kana": "ほん",
-        "romaji": "hon",
-        "vn": "Sách"
+        "jp": "しんじます",
+        "kana": "しんじます",
+        "romaji": "shinjimasu",
+        "vn": "tin, tin tưởng"
       },
       {
-        "jp": "車",
-        "kana": "くるま",
-        "romaji": "kuruma",
-        "vn": "Xe hơi, ô tô"
+        "jp": "キャンセルします",
+        "kana": "キャンセルします",
+        "romaji": "kyanserushimasu",
+        "vn": "hủy bỏ, hủy"
       },
       {
-        "jp": "水",
-        "kana": "みず",
-        "romaji": "mizu",
-        "vn": "Nước"
+        "jp": "しらせます",
+        "kana": "しらせます",
+        "romaji": "shirasemasu",
+        "vn": "thông báo, báo"
+      },
+      {
+        "jp": "ほしょうしょ",
+        "kana": "ほしょうしょ",
+        "romaji": "hoshiyousho",
+        "vn": "giấy bảo hành"
+      },
+      {
+        "jp": "りょうしゅうしょ",
+        "kana": "りょうしゅうしょ",
+        "romaji": "ryōshūsho",
+        "vn": "hóa đơn"
+      },
+      {
+        "jp": "キャンプ",
+        "kana": "キャンプ",
+        "romaji": "kyampu",
+        "vn": "trại"
+      },
+      {
+        "jp": "ちゅうし",
+        "kana": "ちゅうし",
+        "romaji": "chūshi",
+        "vn": "dừng, đình chỉ"
+      },
+      {
+        "jp": "てん",
+        "kana": "てん",
+        "romaji": "ten",
+        "vn": "điểm"
+      },
+      {
+        "jp": "うめ",
+        "kana": "うめ",
+        "romaji": "ume",
+        "vn": "hoa mơ"
+      },
+      {
+        "jp": "110はん",
+        "kana": "110はん",
+        "romaji": "110han",
+        "vn": "số điện thoại,"
+      },
+      {
+        "jp": "119ばん",
+        "kana": "119ばん",
+        "romaji": "119ban",
+        "vn": "số 119 (báo cháy khi khẩn cấp)"
+      },
+      {
+        "jp": "きゅうに",
+        "kana": "きゅうに",
+        "romaji": "kyūni",
+        "vn": "gấp"
+      },
+      {
+        "jp": "むりに",
+        "kana": "むりに",
+        "romaji": "murini",
+        "vn": "cố, gắng(làm không hợp lý)"
+      },
+      {
+        "jp": "楽（たの）しみにしています",
+        "kana": "らく（たの）しみにしています",
+        "romaji": "raku(tano)shiminishiteimasu",
+        "vn": "mong đợi, lấy làm vui"
+      },
+      {
+        "jp": "いじょうです。",
+        "kana": "いじょうです。",
+        "romaji": "ijiyoudesu.",
+        "vn": "Xin hết."
+      },
+      {
+        "jp": "係員（かかりいん）",
+        "kana": "かかりいん（かかりいん）",
+        "romaji": "kakariin(kakariin)",
+        "vn": "Nhân viên phụ trách"
+      },
+      {
+        "jp": "コース",
+        "kana": "コース",
+        "romaji": "kōsu",
+        "vn": "Đường chạy (marathon), khóa học"
+      },
+      {
+        "jp": "スタート",
+        "kana": "スタート",
+        "romaji": "sutāto",
+        "vn": "Xuất phát"
+      },
+      {
+        "jp": "－位（い）",
+        "kana": "－い（い）",
+        "romaji": "－i(i)",
+        "vn": "Vị trí thứ －"
+      },
+      {
+        "jp": "優勝（ゆうしょう）します",
+        "kana": "ゆうしょう（ゆうしょう）します",
+        "romaji": "yūshō(yūshō)shimasu",
+        "vn": "Vô địch"
+      },
+      {
+        "jp": "悩（なや）み",
+        "kana": "悩（なや）み",
+        "romaji": "悩(naya)mi",
+        "vn": "(điều/sự) lo nghĩ, trăn trở, phiền muộn"
+      },
+      {
+        "jp": "目覚（めざ）まし[時計（とけい）]",
+        "kana": "めざめ（めざ）まし[とけい（とけい）]",
+        "romaji": "mezame(meza)mashi[tokei(tokei)]",
+        "vn": "đồng hồ báo thức"
+      },
+      {
+        "jp": "目（め）が覚（さ）めます",
+        "kana": "め（め）がさとし（さ）めます",
+        "romaji": "me(me)gasatoshi(sa)memasu",
+        "vn": "tỉnh giấc"
+      },
+      {
+        "jp": "大学生（だいがくせい）",
+        "kana": "だいがくせい（だいがくせい）",
+        "romaji": "daigakusei(daigakusei)",
+        "vn": "sinh viên đại học"
+      },
+      {
+        "jp": "回答（かいとう）",
+        "kana": "かいとう（かいとう）",
+        "romaji": "kaitō(kaitou)",
+        "vn": "câu trả lời, lời giải"
+      },
+      {
+        "jp": "鳴（な）ります",
+        "kana": "な（な）ります",
+        "romaji": "na(na)rimasu",
+        "vn": "reo, kêu"
+      },
+      {
+        "jp": "セットします",
+        "kana": "セットします",
+        "romaji": "settoshimasu",
+        "vn": "cài, đặt"
+      },
+      {
+        "jp": "それでも",
+        "kana": "それでも",
+        "romaji": "soredemo",
+        "vn": "tuy thế, mặc dù thế"
       }
     ],
     "grammar": [
       {
         "id": "45-1",
-        "point": "Grammar Point Lesson 45",
-        "formula": "Formula 45",
-        "jpExplain": "Explanation in Japanese for lesson 45.",
-        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 45.",
-        "exampleJp": "これは本です。",
-        "exampleVn": "Đây là cuốn sách."
+        "point": "Ngữ pháp 1",
+        "formula": "",
+        "jpExplain": "",
+        "vnExplain": "Giả định một tình huống nào đó, phần đi sau là cách xử lý hay kết quả xảy ra.\nVì 場合(ばあい) là danh từ nên cách kết hợp tương tự bổ nghĩa cho danh từ.",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
       }
     ],
     "phrases": [
@@ -48,33 +201,234 @@
     "titleVn": "Các khía cạnh thời gian & Trạng thái hoàn thành",
     "vocabulary": [
       {
-        "jp": "本",
-        "kana": "ほん",
-        "romaji": "hon",
-        "vn": "Sách"
+        "jp": "わたします",
+        "kana": "わたします",
+        "romaji": "watashimasu",
+        "vn": "đưa cho, giao cho"
       },
       {
-        "jp": "車",
-        "kana": "くるま",
-        "romaji": "kuruma",
-        "vn": "Xe hơi, ô tô"
+        "jp": "かえってきます",
+        "kana": "かえってきます",
+        "romaji": "kaettekimasu",
+        "vn": "về, trở lại"
       },
       {
-        "jp": "水",
-        "kana": "みず",
-        "romaji": "mizu",
-        "vn": "Nước"
+        "jp": "でます　[バスが～]",
+        "kana": "でます　[バスが～]",
+        "romaji": "demasu [basuga~]",
+        "vn": "xuất phát, chạy [xe buýt ~]"
+      },
+      {
+        "jp": "とどきます　[にもつが～]",
+        "kana": "とどきます　[にもつが～]",
+        "romaji": "todokimasu [nimotsuga~]",
+        "vn": "được gởi đến, được chuyển đến [hành lý ~]"
+      },
+      {
+        "jp": "にゅうがくします　[だいがくに～]",
+        "kana": "にゅうがくします　[だいがくに～]",
+        "romaji": "niyuugakushimasu [daigakuni~]",
+        "vn": "nhập học, vào [(trường) đại học]"
+      },
+      {
+        "jp": "そつぎょうします　[だいがくを～]",
+        "kana": "そつぎょうします　[だいがくを～]",
+        "romaji": "sotsugyoushimasu [daigakuo~]",
+        "vn": "tốt nghiệp [(trường) đại học]"
+      },
+      {
+        "jp": "やきます",
+        "kana": "やきます",
+        "romaji": "yakimasu",
+        "vn": "nướng, rán"
+      },
+      {
+        "jp": "やけます　[パンが～]　[にくが～]",
+        "kana": "やけます　[パンが～]　[にくが～]",
+        "romaji": "yakemasu [panga~] [nikuga~]",
+        "vn": "được nướng [bánh mì ~],[thịt ~]"
+      },
+      {
+        "jp": "るす",
+        "kana": "るす",
+        "romaji": "rusu",
+        "vn": "đi vắng"
+      },
+      {
+        "jp": "たくはいびん",
+        "kana": "たくはいびん",
+        "romaji": "takuwaibin",
+        "vn": "dịch vụ chuyển đồ đến nhà"
+      },
+      {
+        "jp": "げんいん",
+        "kana": "げんいん",
+        "romaji": "genin",
+        "vn": "nguyên nhân"
+      },
+      {
+        "jp": "こちら",
+        "kana": "こちら",
+        "romaji": "kochira",
+        "vn": "đây, đằng này"
+      },
+      {
+        "jp": "～のところ",
+        "kana": "～のところ",
+        "romaji": "~notokoro",
+        "vn": "quanh ~, xung quanh ~"
+      },
+      {
+        "jp": "はんとし",
+        "kana": "はんとし",
+        "romaji": "hantoshi",
+        "vn": "nửa năm"
+      },
+      {
+        "jp": "ちょうど",
+        "kana": "ちょうど",
+        "romaji": "chōdo",
+        "vn": "vừa đúng"
+      },
+      {
+        "jp": "たったいま",
+        "kana": "たったいま",
+        "romaji": "tattaima",
+        "vn": "vừa mới rồi"
+      },
+      {
+        "jp": "今（いま）いいですか。",
+        "kana": "いま（いま）いいですか。",
+        "romaji": "ima(ima)iidesuka.",
+        "vn": "Bây giờ nói chuyện có được không ạ?"
+      },
+      {
+        "jp": "ガスサービスセンター",
+        "kana": "ガスサービスセンター",
+        "romaji": "gasusābisusentā",
+        "vn": "Trung tâm dịch vụ gas"
+      },
+      {
+        "jp": "ガスレンジ",
+        "kana": "ガスレンジ",
+        "romaji": "gasurenji",
+        "vn": "Bếp ga"
+      },
+      {
+        "jp": "具合（ぐあい）",
+        "kana": "ぐあい（ぐあい）",
+        "romaji": "guai(guai)",
+        "vn": "Tình trạng"
+      },
+      {
+        "jp": "申（もう）し訳（わけ）ありません",
+        "kana": "さる（もう）しやく（わけ）ありません",
+        "romaji": "saru(mō)shiyaku(wake)arimasen",
+        "vn": "Tôi xin lỗi"
+      },
+      {
+        "jp": "どちら様（さま）でしょうか。",
+        "kana": "どちらさま（さま）でしょうか。",
+        "romaji": "dochirasama(sama)deshouka.",
+        "vn": "Ai đấy ạ? (kính ngữ)"
+      },
+      {
+        "jp": "お待（ま）たせしました",
+        "kana": "おまち（ま）たせしました",
+        "romaji": "omachi(ma)taseshimashita",
+        "vn": "Xin lỗi vì đã bắt anh/chị chờ lâu."
+      },
+      {
+        "jp": "向（む）かいます",
+        "kana": "むかい（む）かいます",
+        "romaji": "mukai(mu)kaimasu",
+        "vn": "Hướng tới, đi đến"
+      },
+      {
+        "jp": "ついています",
+        "kana": "ついています",
+        "romaji": "tsuiteimasu",
+        "vn": "may"
+      },
+      {
+        "jp": "床（ゆか）",
+        "kana": "ゆか（ゆか）",
+        "romaji": "yuka(yuka)",
+        "vn": "sàn"
+      },
+      {
+        "jp": "転（ころ）びます",
+        "kana": "うたて（ころ）びます",
+        "romaji": "utate(koro)bimasu",
+        "vn": "ngã"
+      },
+      {
+        "jp": "ベル",
+        "kana": "ベル",
+        "romaji": "beru",
+        "vn": "chuông cửa"
+      },
+      {
+        "jp": "鳴（な）ります",
+        "kana": "な（な）ります",
+        "romaji": "na(na)rimasu",
+        "vn": "reng, kêu"
+      },
+      {
+        "jp": "慌（あわ）てて",
+        "kana": "慌（あわ）てて",
+        "romaji": "慌(awa)tete",
+        "vn": "vội vàng"
+      },
+      {
+        "jp": "順番（じゅんばん）に",
+        "kana": "じゅんばん（じゅんばん）に",
+        "romaji": "jumban(junban)ni",
+        "vn": "theo thứ tự"
+      },
+      {
+        "jp": "出来事（できごと）",
+        "kana": "できごと（できごと）",
+        "romaji": "dekigoto(dekigoto)",
+        "vn": "sự việc"
       }
     ],
     "grammar": [
       {
         "id": "46-1",
-        "point": "Grammar Point Lesson 46",
-        "formula": "Formula 46",
-        "jpExplain": "Explanation in Japanese for lesson 46.",
-        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 46.",
-        "exampleJp": "これは本です。",
-        "exampleVn": "Đây là cuốn sách."
+        "point": "Ngữ pháp 1",
+        "formula": "",
+        "jpExplain": "",
+        "vnExplain": "Nhấn mạnh thời điểm diễn ra của một hành động nào đó.\nところ được xem như là một danh từ.",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
+      },
+      {
+        "id": "46-2",
+        "point": "Hướng dẩn & Giải thích",
+        "formula": "Hướng dẩn & Giải thích\nBiểu thị một việc gì đó đang diễn ra.\n\t\t\t\t\tThường được dùng kèm với いま.",
+        "jpExplain": "",
+        "vnExplain": "",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
+      },
+      {
+        "id": "46-3",
+        "point": "Ngữ pháp 3",
+        "formula": "",
+        "jpExplain": "",
+        "vnExplain": "Biểu thị một hành động, một việc gì đó xảy ra chưa lâu theo cảm nhận của người nói.\nVたところ：Sự việc thực sự vừa mới xảy ra.\n\t\t\t\t\t\tVたばかり：Người nói cảm giác sự việc vừa mới xảy ra, không liên quan tới thời gian thực tế xảy ra của sự việc.\nThường được dùng kết hợp với cấu trúc:\n\t\t\t\tVたばかりなのに、～　Cho dù vừa mới V nhưng mà ~\n\t\t\t\tVたばかりなので、～　Vì vừa mới V nên ~",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
       }
     ],
     "phrases": [

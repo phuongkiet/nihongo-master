@@ -5,33 +5,198 @@
     "titleVn": "Cho phép, Cấm đoán & Trạng thái hiện tại",
     "vocabulary": [
       {
-        "jp": "本",
-        "kana": "ほん",
-        "romaji": "hon",
-        "vn": "Sách"
+        "jp": "おきます",
+        "kana": "おきます",
+        "romaji": "okimasu",
+        "vn": "đặt, để"
       },
       {
-        "jp": "車",
-        "kana": "くるま",
-        "romaji": "kuruma",
-        "vn": "Xe hơi, ô tô"
+        "jp": "つくります",
+        "kana": "つくります",
+        "romaji": "tsukurimasu",
+        "vn": "làm, chế tạo, sản xuất"
       },
       {
-        "jp": "水",
-        "kana": "みず",
-        "romaji": "mizu",
-        "vn": "Nước"
+        "jp": "うります",
+        "kana": "うります",
+        "romaji": "urimasu",
+        "vn": "bán"
+      },
+      {
+        "jp": "しります",
+        "kana": "しります",
+        "romaji": "shirimasu",
+        "vn": "biết"
+      },
+      {
+        "jp": "すみます",
+        "kana": "すみます",
+        "romaji": "sumimasu",
+        "vn": "sống, ở"
+      },
+      {
+        "jp": "けんきゅうします",
+        "kana": "けんきゅうします",
+        "romaji": "kenkyūshimasu",
+        "vn": "nghiên cứu"
+      },
+      {
+        "jp": "しりょう",
+        "kana": "しりょう",
+        "romaji": "shiryō",
+        "vn": "tài liệu, tư liệu"
+      },
+      {
+        "jp": "カタログ",
+        "kana": "カタログ",
+        "romaji": "katarogu",
+        "vn": "ca-ta-lô"
+      },
+      {
+        "jp": "じこくひょう",
+        "kana": "じこくひょう",
+        "romaji": "jikokuhyou",
+        "vn": "bảng giờ tàu chạy"
+      },
+      {
+        "jp": "ふく",
+        "kana": "ふく",
+        "romaji": "fuku",
+        "vn": "quần áo"
+      },
+      {
+        "jp": "せいひん",
+        "kana": "せいひん",
+        "romaji": "seihin",
+        "vn": "sản phẩm"
+      },
+      {
+        "jp": "でんしじしょ",
+        "kana": "でんしじしょ",
+        "romaji": "denshijisho",
+        "vn": "kim từ điển"
+      },
+      {
+        "jp": "けいざい",
+        "kana": "けいざい",
+        "romaji": "keizai",
+        "vn": "kinh tế"
+      },
+      {
+        "jp": "しやくしょ",
+        "kana": "しやくしょ",
+        "romaji": "shiyakusho",
+        "vn": "tòa thị chính"
+      },
+      {
+        "jp": "こうこう",
+        "kana": "こうこう",
+        "romaji": "kōkō",
+        "vn": "trường trung học phổ thông, trường cấp 3"
+      },
+      {
+        "jp": "はいしゃ",
+        "kana": "はいしゃ",
+        "romaji": "haisha",
+        "vn": "nha sĩ"
+      },
+      {
+        "jp": "どくしん",
+        "kana": "どくしん",
+        "romaji": "dokushin",
+        "vn": "độc thân"
+      },
+      {
+        "jp": "すみません",
+        "kana": "すみません",
+        "romaji": "sumimasen",
+        "vn": "xin lỗi"
+      },
+      {
+        "jp": "皆（みな）さん",
+        "kana": "みな（みな）さん",
+        "romaji": "mina(mina)san",
+        "vn": "Mọi người"
+      },
+      {
+        "jp": "思（おも）い出（だ）します",
+        "kana": "思（おも）いで（だ）します",
+        "romaji": "思(omo)ide(da)shimasu",
+        "vn": "Nhớ lại, hồi tưởng lại"
+      },
+      {
+        "jp": "いらっしゃいます",
+        "kana": "いらっしゃいます",
+        "romaji": "irasshaimasu",
+        "vn": "Có (cách nói tôn kính của います)"
+      },
+      {
+        "jp": "日本橋（にっぽんばし）",
+        "kana": "にほんばし（にっぽんばし）",
+        "romaji": "nihombashi(nipponbashi)",
+        "vn": "Khu Nipponbashi (ở Osaka)"
       }
     ],
     "grammar": [
       {
         "id": "15-1",
-        "point": "Grammar Point Lesson 15",
-        "formula": "Formula 15",
-        "jpExplain": "Explanation in Japanese for lesson 15.",
-        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 15.",
-        "exampleJp": "これは本です。",
-        "exampleVn": "Đây là cuốn sách."
+        "point": "Ngữ pháp 1",
+        "formula": "",
+        "jpExplain": "",
+        "vnExplain": "Vても　いいです：làm ~ cũng được.\nVても　かまいません：làm ~ cũng không sao.",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
+      },
+      {
+        "id": "15-2",
+        "point": "Ngữ pháp 2",
+        "formula": "",
+        "jpExplain": "",
+        "vnExplain": "Vてはいけません：Không được phép ~, cấm không được ~\nVては　だめです：không được ~",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
+      },
+      {
+        "id": "15-3",
+        "point": "～Vています。",
+        "formula": "～Vています。",
+        "jpExplain": "",
+        "vnExplain": "～Vています：trạng thái ~/hành động lặp đi lặp lại",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
+      },
+      {
+        "id": "15-4",
+        "point": "N(địa điểm)に V。",
+        "formula": "N(địa điểm)に V。",
+        "jpExplain": "",
+        "vnExplain": "Trợ từ に biểu thị địa điểm của chủ ngữ có mặt sau khi thực hiện hành động V.",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
+      },
+      {
+        "id": "15-5",
+        "point": "N1に N2を V",
+        "formula": "N1に N2を V",
+        "jpExplain": "",
+        "vnExplain": "Trợ từ に biểu thị địa điểm N1 có mặt của N2 sau khi thực hiện hành động V.",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
       }
     ],
     "phrases": [
@@ -48,33 +213,426 @@
     "titleVn": "Kết hợp câu & Trình tự hành động",
     "vocabulary": [
       {
-        "jp": "本",
-        "kana": "ほん",
-        "romaji": "hon",
-        "vn": "Sách"
+        "jp": "のります[でんしゃに～]",
+        "kana": "のります[でんしゃに～]",
+        "romaji": "norimasu[denshani~]",
+        "vn": "đi, lên [tàu]"
       },
       {
-        "jp": "車",
-        "kana": "くるま",
-        "romaji": "kuruma",
-        "vn": "Xe hơi, ô tô"
+        "jp": "おります[でんしゃを～]",
+        "kana": "おります[でんしゃを～]",
+        "romaji": "orimasu[denshao~]",
+        "vn": "xuống [tàu]"
       },
       {
-        "jp": "水",
-        "kana": "みず",
-        "romaji": "mizu",
-        "vn": "Nước"
+        "jp": "のりかえます",
+        "kana": "のりかえます",
+        "romaji": "norikaemasu",
+        "vn": "chuyển, đổi (tàu)"
+      },
+      {
+        "jp": "あびます[シャワーを～]",
+        "kana": "あびます[シャワーを～]",
+        "romaji": "abimasu[shawāo~]",
+        "vn": "tắm [vòi hoa sen]"
+      },
+      {
+        "jp": "いれます",
+        "kana": "いれます",
+        "romaji": "iremasu",
+        "vn": "cho vào, bỏ vào"
+      },
+      {
+        "jp": "だします",
+        "kana": "だします",
+        "romaji": "dashimasu",
+        "vn": "lấy ra, đưa ra, gửi"
+      },
+      {
+        "jp": "おろします[おかねを～]",
+        "kana": "おろします[おかねを～]",
+        "romaji": "oroshimasu[okaneo~]",
+        "vn": "rút [tiền]"
+      },
+      {
+        "jp": "はいります[だいがくに～]",
+        "kana": "はいります[だいがくに～]",
+        "romaji": "hairimasu[daigakuni~]",
+        "vn": "vào, nhập học [đại học]"
+      },
+      {
+        "jp": "でます[だいがくを～]",
+        "kana": "でます[だいがくを～]",
+        "romaji": "demasu[daigakuo~]",
+        "vn": "ra, tốt nghiệp [đại học]"
+      },
+      {
+        "jp": "おします",
+        "kana": "おします",
+        "romaji": "oshimasu",
+        "vn": "bấm, ấn (nút)"
+      },
+      {
+        "jp": "のみます",
+        "kana": "のみます",
+        "romaji": "nomimasu",
+        "vn": "uống (bia, rượu)"
+      },
+      {
+        "jp": "はじめます",
+        "kana": "はじめます",
+        "romaji": "hajimemasu",
+        "vn": "bắt đầu"
+      },
+      {
+        "jp": "けんがくします",
+        "kana": "けんがくします",
+        "romaji": "kengakushimasu",
+        "vn": "tham quan kiến tập"
+      },
+      {
+        "jp": "でんわします",
+        "kana": "でんわします",
+        "romaji": "denwashimasu",
+        "vn": "gọi điện thoại"
+      },
+      {
+        "jp": "わかい",
+        "kana": "わかい",
+        "romaji": "wakai",
+        "vn": "trẻ"
+      },
+      {
+        "jp": "ながい",
+        "kana": "ながい",
+        "romaji": "nagai",
+        "vn": "dài"
+      },
+      {
+        "jp": "みじかい",
+        "kana": "みじかい",
+        "romaji": "mijikai",
+        "vn": "ngắn"
+      },
+      {
+        "jp": "あかるい",
+        "kana": "あかるい",
+        "romaji": "akarui",
+        "vn": "sáng"
+      },
+      {
+        "jp": "くらい",
+        "kana": "くらい",
+        "romaji": "kurai",
+        "vn": "tối"
+      },
+      {
+        "jp": "からだ",
+        "kana": "からだ",
+        "romaji": "karada",
+        "vn": "người, cơ thể"
+      },
+      {
+        "jp": "あたま",
+        "kana": "あたま",
+        "romaji": "atama",
+        "vn": "đầu"
+      },
+      {
+        "jp": "かみ",
+        "kana": "かみ",
+        "romaji": "kami",
+        "vn": "tóc"
+      },
+      {
+        "jp": "かお",
+        "kana": "かお",
+        "romaji": "kao",
+        "vn": "mặt"
+      },
+      {
+        "jp": "め",
+        "kana": "め",
+        "romaji": "me",
+        "vn": "mắt"
+      },
+      {
+        "jp": "みみ",
+        "kana": "みみ",
+        "romaji": "mimi",
+        "vn": "tai"
+      },
+      {
+        "jp": "はな",
+        "kana": "はな",
+        "romaji": "hana",
+        "vn": "mũi"
+      },
+      {
+        "jp": "くち",
+        "kana": "くち",
+        "romaji": "kuchi",
+        "vn": "miệng"
+      },
+      {
+        "jp": "は",
+        "kana": "は",
+        "romaji": "wa",
+        "vn": "răng"
+      },
+      {
+        "jp": "おなか",
+        "kana": "おなか",
+        "romaji": "onaka",
+        "vn": "bụng"
+      },
+      {
+        "jp": "あし",
+        "kana": "あし",
+        "romaji": "ashi",
+        "vn": "chân"
+      },
+      {
+        "jp": "せ",
+        "kana": "せ",
+        "romaji": "se",
+        "vn": "chiều cao (cơ thể)"
+      },
+      {
+        "jp": "サービス",
+        "kana": "サービス",
+        "romaji": "sābisu",
+        "vn": "dịch vụ"
+      },
+      {
+        "jp": "ジョギング",
+        "kana": "ジョギング",
+        "romaji": "jogingu",
+        "vn": "việc chạy bộ (~をします: chạy bộ)"
+      },
+      {
+        "jp": "シャワー",
+        "kana": "シャワー",
+        "romaji": "shawā",
+        "vn": "vòi hoa sen"
+      },
+      {
+        "jp": "みどり",
+        "kana": "みどり",
+        "romaji": "midori",
+        "vn": "màu xanh lá cây"
+      },
+      {
+        "jp": "[お]てら",
+        "kana": "[お]てら",
+        "romaji": "[o]tera",
+        "vn": "chùa"
+      },
+      {
+        "jp": "じんじゃ",
+        "kana": "じんじゃ",
+        "romaji": "jinja",
+        "vn": "đền thờ đạo thần"
+      },
+      {
+        "jp": "一（いち）ばん",
+        "kana": "いち（いち）ばん",
+        "romaji": "ichi(ichi)ban",
+        "vn": "số ―"
+      },
+      {
+        "jp": "どうやって",
+        "kana": "どうやって",
+        "romaji": "dōyatte",
+        "vn": "làm thế nào~"
+      },
+      {
+        "jp": "どの～",
+        "kana": "どの～",
+        "romaji": "dono~",
+        "vn": "cái nào~ (dùng với trường hợp từ ba thứ trở lên)"
+      },
+      {
+        "jp": "どれ",
+        "kana": "どれ",
+        "romaji": "dore",
+        "vn": "cái nào~ (dùng với trường hợp ba cái hoặc nhiều hơn)"
+      },
+      {
+        "jp": "すごいですね。",
+        "kana": "すごいですね。",
+        "romaji": "sugoidesune.",
+        "vn": "Giỏi quá nhỉ / Tuyệt vời quá nhỉ"
+      },
+      {
+        "jp": "[いいえ、]まだまだです。",
+        "kana": "[いいえ、]まだまだです。",
+        "romaji": "[īe,]madamadadesu.",
+        "vn": "[Không,] vẫn còn kém lắm / Vẫn chưa đâu"
+      },
+      {
+        "jp": "お引（ひ）き出（だ）しですか。",
+        "kana": "お引（ひ）きで（だ）しですか。",
+        "romaji": "o引(hi)kide(da)shidesuka.",
+        "vn": "Bạn rút tiền à?"
+      },
+      {
+        "jp": "まず",
+        "kana": "まず",
+        "romaji": "mazu",
+        "vn": "Trước tiên, trước hết"
+      },
+      {
+        "jp": "次（つぎ）に",
+        "kana": "つぎ（つぎ）に",
+        "romaji": "tsugi(tsugi)ni",
+        "vn": "Tiếp theo"
+      },
+      {
+        "jp": "キャッシュカード",
+        "kana": "キャッシュカード",
+        "romaji": "kyasshukādo",
+        "vn": "Thẻ ngân hàng, thẻ ATM"
+      },
+      {
+        "jp": "暗証（あんしょう）番号（ばんごう）",
+        "kana": "あんしょう（あんしょう）ばんごう（ばんごう）",
+        "romaji": "anshō(anshō)bangō(bangou)",
+        "vn": "Mã PIN, mật khẩu"
+      },
+      {
+        "jp": "金額（きんがく）",
+        "kana": "きんがく（きんがく）",
+        "romaji": "kingaku(kingaku)",
+        "vn": "Số tiền"
+      },
+      {
+        "jp": "確認（かくにん）",
+        "kana": "かくにん（かくにん）",
+        "romaji": "kakunin(kakunin)",
+        "vn": "Sự xác nhận"
+      },
+      {
+        "jp": "ボタン",
+        "kana": "ボタン",
+        "romaji": "botan",
+        "vn": "Nút bấm"
+      },
+      {
+        "jp": "ＪＲ",
+        "kana": "ＪＲ",
+        "romaji": "ＪＲ",
+        "vn": "Công ty đường sắt Nhật Bản"
+      },
+      {
+        "jp": "雪祭（ゆきまつ）り",
+        "kana": "ゆきさい（ゆきまつ）り",
+        "romaji": "yukisai(yukimatsu)ri",
+        "vn": "Lễ hội tuyết"
+      },
+      {
+        "jp": "バンドン",
+        "kana": "バンドン",
+        "romaji": "bandon",
+        "vn": "Thành phố Bandung (Indonesia)"
+      },
+      {
+        "jp": "フランケン",
+        "kana": "フランケン",
+        "romaji": "furanken",
+        "vn": "Vùng Franken (Đức)"
+      },
+      {
+        "jp": "ベラクルス",
+        "kana": "ベラクルス",
+        "romaji": "berakurusu",
+        "vn": "Thành phố Veracruz (Mexico)"
+      },
+      {
+        "jp": "梅田（うめだ）",
+        "kana": "うめだ（うめだ）",
+        "romaji": "umeda(umeda)",
+        "vn": "Quận Umeda (ở Osaka)"
+      },
+      {
+        "jp": "大学（だいがく）前（まえ）",
+        "kana": "だいがく（だいがく）まえ（まえ）",
+        "romaji": "daigaku(daigaku)mae(mae)",
+        "vn": "Tên trạm xe buýt giả định (Trước cổng trường đại học)"
       }
     ],
     "grammar": [
       {
         "id": "16-1",
-        "point": "Grammar Point Lesson 16",
-        "formula": "Formula 16",
-        "jpExplain": "Explanation in Japanese for lesson 16.",
-        "vnExplain": "Giải thích ngữ pháp Tiếng Việt cho bài 16.",
-        "exampleJp": "これは本です。",
-        "exampleVn": "Đây là cuốn sách."
+        "point": "Ngữ pháp 1",
+        "formula": "",
+        "jpExplain": "",
+        "vnExplain": "～に　乗(の)ります：Lên xe(tàu) ~\n～を　降(お)ります：Xuống xe(tàu) ~\n～から～に　乗(の)り換(か)えます：Đổi xe(tàu) từ ~ sang ~",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
+      },
+      {
+        "id": "16-2",
+        "point": "Ngữ pháp 2",
+        "formula": "",
+        "jpExplain": "",
+        "vnExplain": "Dùng để tạo một câu ghép.\nĐối với V: Dùng Vてđể liệt kê thứ tự các hành động.\nĐối với N: Không chỉ dùng đối với câu có cùng một chủ đề mà còn có thể dùng để nối các câu chứa những chủ đề khác nhau.\nĐối với A: Chỉ dùng nối các tính từ tương đồng về mặt ngữ nghĩa.",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
+      },
+      {
+        "id": "16-3",
+        "point": "~ は　V1てから、V2.",
+        "formula": "~ は　V1てから、V2.",
+        "jpExplain": "",
+        "vnExplain": "",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
+      },
+      {
+        "id": "16-4",
+        "point": "Tổng thể は　chi tiết　が　～",
+        "formula": "Tổng thể は　chi tiết　が　～",
+        "jpExplain": "",
+        "vnExplain": "",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
+      },
+      {
+        "id": "16-5",
+        "point": "～は　どうやって　～か。",
+        "formula": "～は　どうやって　～か。",
+        "jpExplain": "",
+        "vnExplain": "どうやって：Bằng cách nào?",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
+      },
+      {
+        "id": "16-6",
+        "point": "A:　～は　どれですか。",
+        "formula": "A:　～は　どれですか。\nA:　～は　どれですか。\nどのN\nどのN\nB:　～は　Nです。\nB:　～は　Nです。",
+        "jpExplain": "",
+        "vnExplain": "Xác định đối tượng nào đó trong nhóm gồm 3 đối tượng trở lên.",
+        "exampleJp": "",
+        "exampleVn": "",
+        "exerciseQuestion": "",
+        "exerciseAnswer": "",
+        "exerciseHint": ""
       }
     ],
     "phrases": [
